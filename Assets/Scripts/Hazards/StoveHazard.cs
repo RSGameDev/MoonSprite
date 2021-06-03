@@ -17,7 +17,9 @@ public class StoveHazard : MonoBehaviour
 
     private string stove = "StoveTopOn";
     private string knife = "Knife";
+    private string kettle = "Kettle";
     private int knifeDmg = 20;
+    private int kettleDmg = 50;
 
     // Start is called before the first frame update
     void Awake()
@@ -33,9 +35,15 @@ public class StoveHazard : MonoBehaviour
         {
             player = other.gameObject;
             DamageOn = true;
+            
             if (gameObject.name == knife)
             {
                 InstantDamage(knifeDmg);
+            }
+            else if (gameObject.name == kettle)
+            {
+                InstantDamage(kettleDmg);
+                Destroy(gameObject);
             }
         }
     }
