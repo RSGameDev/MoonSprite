@@ -3,21 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="827d344f-7157-40ec-956c-a6e5df82fcf5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/IceSprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/IceSprite.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Hazard/StoveTop.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Hazard/StoveTop.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Hazard/StoveTop.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Hazard/StoveTop.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Hazard/StoveTopOn.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Hazard/StoveTopOn.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hazards/StoveHazard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Hazards/StoveHazard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Hazard/PlankHotSprite.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Hazard/PlankHotSprite.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Richard hazards.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Richard hazards.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +27,7 @@
       <option value="$PROJECT_DIR$/Assets/Health.cs" />
       <option value="$PROJECT_DIR$/Assets/HUD.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Hazards/StoveHazard.cs" />
+      <option value="$PROJECT_DIR$/Assets/PlatformMovement.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tJED1HKqpdcuElUf7PqDD2T6WE" />
@@ -85,6 +78,7 @@
       <workItem from="1622750210853" duration="1130000" />
       <workItem from="1622752507597" duration="2069000" />
       <workItem from="1622758868976" duration="446000" />
+      <workItem from="1622760672239" duration="1411000" />
     </task>
     <servers />
   </component>
