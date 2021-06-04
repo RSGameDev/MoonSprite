@@ -1447,12 +1447,12 @@ MonoBehaviour:
   speed: 3.8
   coyoteDuration: 0.05
   maxFallSpeed: -5.75
-  jumpForce: 0.89
-  jumpHoldForce: 0.5
+  jumpForce: 1.5
+  jumpHoldForce: 1
   jumpHoldDuration: 0.1
-  footOffset: 0
+  footOffset: 0.3
   headClearance: 0.5
-  groundDistance: 0.77
+  groundDistance: 0.4
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

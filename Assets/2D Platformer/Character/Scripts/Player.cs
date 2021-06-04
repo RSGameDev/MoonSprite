@@ -65,15 +65,17 @@ public class Player : MonoBehaviour
         RaycastHit2D leftCheck = Physics2D.Raycast(new Vector2(transform.position.x -footOffset, transform.position.y), Vector2.down, groundDistance, groundLayer);
         RaycastHit2D rightCheck = Physics2D.Raycast(new Vector2(transform.position.x + footOffset, transform.position.y), Vector2.down, groundDistance, groundLayer);
 
-        Debug.DrawRay(transform.position, Vector3.down * groundDistance, Color.red);
+        Debug.DrawRay(new Vector3(transform.position.x - footOffset, transform.position.y, transform.position.z), Vector3.down * groundDistance, Color.red);
+        Debug.DrawRay(new Vector3(transform.position.x + footOffset, transform.position.y, transform.position.z), Vector3.down * groundDistance, Color.green);
 
-        if( leftCheck || rightCheck)
+        if ( leftCheck || rightCheck)
         {
             isOnGround = true;
         }
 
-        RaycastHit2D headCheck = Physics2D.Raycast(new Vector2(0f, playerHeight), Vector2.up, headClearance, groundLayer);
-
+        RaycastHit2D headCheck = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y + playerHeight), Vector2.up, headClearance, groundLayer);
+        Debug.DrawRay(new Vector3(transform.position.x, transform.position.y + playerHeight, transform.position.z), Vector3.up * headClearance, Color.blue);
+        
         if (headCheck)
         {
             isHeadBlocked = true;
@@ -96,6 +98,11 @@ public class Player : MonoBehaviour
     }
     private void AirMovement()
     {
+        if (Input.GetButtonUp("Jump"))
+        {
+            isJumping = false;
+        }
+
         if(Input.GetButton("Jump") && !isJumping && (isOnGround || coyoteTime > Time.time))
         {
             isOnGround = false;
@@ -113,7 +120,7 @@ public class Player : MonoBehaviour
                 rigidBody.AddForce(new Vector2(0f, jumpHoldForce), ForceMode2D.Impulse);
             }
 
-            if(jumpTime <= Time.time)
+            if(jumpTime <= Time.time || Input.GetButtonUp("Jump"))
             {
                 isJumping = false;
             }
