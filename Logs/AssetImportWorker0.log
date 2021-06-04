@@ -1,432 +1,362 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 32680 MB
+OS: 'Windows 10 Home; OS build 19042.1023; Version 2009; 64bit' Language: 'en' Physical Memory: 8044 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Game Dev\Unity Editors\5.6.1f\Editor\2021.1.7f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Game Dev/Tranzfuser 2021/MoonSprite
+C:/Users/TheTa/Documents/GitHub/MoonSprite
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60403
-Successfully changed project path to: D:/Game Dev/Tranzfuser 2021/MoonSprite
-D:/Game Dev/Tranzfuser 2021/MoonSprite
+54886
+Successfully changed project path to: C:/Users/TheTa/Documents/GitHub/MoonSprite
+C:/Users/TheTa/Documents/GitHub/MoonSprite
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 84.77 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 292.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
-[Subsystems] Discovering subsystems at path D:/Game Dev/Unity Editors/5.6.1f/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/TheTa/Documents/GitHub/MoonSprite/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
     Vendor:   NVIDIA
-    VRAM:     8011 MB
-    Driver:   27.21.14.6647
+    VRAM:     3962 MB
+    Driver:   26.21.14.4253
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = 'D:/Game Dev/Unity Editors/5.6.1f/Editor/2021.1.7f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Game Dev/Unity Editors/5.6.1f/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Game Dev/Unity Editors/5.6.1f/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Game Dev/Unity Editors/5.6.1f/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Game Dev/Unity Editors/5.6.1f/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: D:/Game Dev/Unity Editors/5.6.1f/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: D:/Game Dev/Unity Editors/5.6.1f/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Register platform support module: D:/Game Dev/Unity Editors/5.6.1f/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.001624 seconds.
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003897 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 89.41 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 116.29 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.279 seconds
+- Completed reload, in  3.991 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001718 seconds.
+Registered in 0.010686 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 89.03 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 111.68 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.892 seconds
+- Completed reload, in  1.361 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4045 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.2 MB.
-System memory in use after: 166.9 MB.
+Unloading 4123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.8 MB.
+System memory in use after: 164.0 MB.
 
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4492.
-Total: 2.820100 ms (FindLiveObjects: 0.296200 ms CreateObjectMapping: 0.099200 ms MarkObjects: 1.649300 ms  DeleteObjects: 0.774700 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4581.
+Total: 3.135300 ms (FindLiveObjects: 0.420800 ms CreateObjectMapping: 0.278900 ms MarkObjects: 2.357200 ms  DeleteObjects: 0.077100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/GrassThinSprite.png
-  artifactKey: Guid(c2cf177bc3efad8478d7a232f3a0d5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GrassThinSprite.png using Guid(c2cf177bc3efad8478d7a232f3a0d5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f04d253b8693fb238500724704d68eb') in 0.078129 seconds 
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(3fec14d4f78d8d64ca1d61e5cbcfb862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(3fec14d4f78d8d64ca1d61e5cbcfb862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b1fb29c542680b2b2531cd094c1204') in 0.057313 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.170186 seconds.
-  path: Assets/GrassThinSprite.png
+  Time since last request: 0.000466 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3b9f17ff219922461d349995487975') in 0.008759 seconds 
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.1 MB.
+System memory in use after: 76.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4581.
+Total: 2.946100 ms (FindLiveObjects: 0.294500 ms CreateObjectMapping: 0.211700 ms MarkObjects: 2.423900 ms  DeleteObjects: 0.015200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.575612 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(5297af5a5567f224bbaed12ad724394a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(5297af5a5567f224bbaed12ad724394a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ddeee27f99aaa20dfea128391ecaa5b') in 0.008344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.746018 seconds.
+  path: Assets/Scripts/Player
+  artifactKey: Guid(50f9929c1e778c746b3fec8c921d1860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player using Guid(50f9929c1e778c746b3fec8c921d1860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7037188b09a4dba12ca6bb016f5a82ba') in 0.018017 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003057 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.037 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4001 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.4 MB.
+System memory in use after: 155.6 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 4584.
+Total: 2.336600 ms (FindLiveObjects: 0.336600 ms CreateObjectMapping: 0.210500 ms MarkObjects: 1.775500 ms  DeleteObjects: 0.012800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 168.025204 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(0cfd62ff20c6b3945922f000c228f955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(0cfd62ff20c6b3945922f000c228f955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498fe756e6d8aba1780e7e6e99dbf39c') in 0.016226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.779704 seconds.
+  path: Assets/Scenes/Richard hazards.unity
+  artifactKey: Guid(cd37d59c2ca34134d834bee18b68d6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Richard hazards.unity using Guid(cd37d59c2ca34134d834bee18b68d6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c87fe9ef7793f8e82145ed77c7814c') in 0.023297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.116949 seconds.
+  path: Assets/Scenes/CentralScene.unity
+  artifactKey: Guid(f93ab038e8fe46a43b9b1d16a2fe0efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CentralScene.unity using Guid(f93ab038e8fe46a43b9b1d16a2fe0efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2397d581dcf1bdcc19d5a1ccc9415d80') in 0.011085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.358890 seconds.
+  path: Assets/Prefab
+  artifactKey: Guid(79c118861c23c8a4cb1266fc859ade53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab using Guid(79c118861c23c8a4cb1266fc859ade53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e5d668244db359bd391b411543e3e6') in 0.013410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.192606 seconds.
+  path: Assets/Prefab/Player
+  artifactKey: Guid(ca35469452e51ef4e9175fdd832e479d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Player using Guid(ca35469452e51ef4e9175fdd832e479d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174574e6d7cd45d3c541971d27c05127') in 0.003242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.072158 seconds.
+  path: Assets/Prefab/Player/Player.prefab
+  artifactKey: Guid(7181d0f3686bace4197257e5569b52a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Player/Player.prefab using Guid(7181d0f3686bace4197257e5569b52a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a8d6c28d85adc121f385137d6370d6') in 0.177847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.842364 seconds.
+  path: Assets/Prefab/Environment
+  artifactKey: Guid(46dd0a709fb44a94d9640cad98379f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment using Guid(46dd0a709fb44a94d9640cad98379f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d1948ab853985c065525be50457462') in 0.007294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051911 seconds.
+  path: Assets/Prefab/Environment/Grass.prefab
+  artifactKey: Guid(db40ae4c5fd25f240b63f57995b5e7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/Grass.prefab using Guid(db40ae4c5fd25f240b63f57995b5e7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663d45eb8063ab575475f269a4059d69') in 0.015937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 132.519966 seconds.
+  path: Assets/Prefab/Hazard
+  artifactKey: Guid(7969065630cac2d4d9e8c759328a0913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Hazard using Guid(7969065630cac2d4d9e8c759328a0913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbe65a594cc14e9f912c4b2c74b65fd') in 0.009340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064288 seconds.
+  path: Assets/Prefab/Hazard/Kettle.prefab
+  artifactKey: Guid(52339b7fd2e7ecb4d91432b320ac38f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Hazard/Kettle.prefab using Guid(52339b7fd2e7ecb4d91432b320ac38f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a414027ac987112ca8aaec734b19ee0e') in 0.020688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Prefab/Hazard/Knife.prefab
+  artifactKey: Guid(306fd30935f12c244a633376849ee524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Hazard/Knife.prefab using Guid(306fd30935f12c244a633376849ee524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424313d1a8b0300fe702d3d6b244e587') in 0.027360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Prefab/Hazard/StoveTop.prefab
+  artifactKey: Guid(789af8b2f2f095645920e7cbe80659aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Hazard/StoveTop.prefab using Guid(789af8b2f2f095645920e7cbe80659aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2458bf3b4731d46ea283c68361e472e') in 0.024595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Prefab/Hazard/Platform.prefab
+  artifactKey: Guid(2f69ba0d24a69bd46a76f17c84edbf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Hazard/Platform.prefab using Guid(2f69ba0d24a69bd46a76f17c84edbf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6824bd22fdd754b9ccae4c584bae96f') in 0.021865 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002860 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.976 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4001 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.9 MB.
+System memory in use after: 162.1 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 4632.
+Total: 2.622000 ms (FindLiveObjects: 0.296300 ms CreateObjectMapping: 0.167100 ms MarkObjects: 2.099800 ms  DeleteObjects: 0.058100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.878739 seconds.
+  path: Assets/Sprite
+  artifactKey: Guid(51efc834d80b89d41b5e78e8f52174a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite using Guid(51efc834d80b89d41b5e78e8f52174a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e34f91baef03eb2fdcf3786ef484de') in 0.013968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.342188 seconds.
+  path: Assets/Sprite/Environment
+  artifactKey: Guid(9e2e1320a06875b4fa575ffc8ad507fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Environment using Guid(9e2e1320a06875b4fa575ffc8ad507fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915e4043423f5f7b1389c42eef71e202') in 0.004428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064353 seconds.
+  path: Assets/Sprite/Environment/Grass.png
+  artifactKey: Guid(af6cab6f66a577a459ed0541546b0fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Environment/Grass.png using Guid(af6cab6f66a577a459ed0541546b0fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be82471d9b226bc7dd625a350810306') in 0.095313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.707924 seconds.
+  path: Assets/Sprite/Hazard
+  artifactKey: Guid(cbee7a47bc1cb404c835f0d298d97e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Hazard using Guid(cbee7a47bc1cb404c835f0d298d97e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea967f5fd8520fabdd539ffa6430346') in 0.002999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.102267 seconds.
+  path: Assets/Sprite/Hazard/BombSprite.png
+  artifactKey: Guid(ee50960c66d28b54aa0672ac06400603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Hazard/BombSprite.png using Guid(ee50960c66d28b54aa0672ac06400603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4afb35f277aa0d515eeb892e134aa38f') in 0.025321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Sprite/Hazard/PlatformSprite.png
   artifactKey: Guid(c2cf177bc3efad8478d7a232f3a0d5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GrassThinSprite.png using Guid(c2cf177bc3efad8478d7a232f3a0d5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abcdda9f122febba58ca50c9cbdaec97') in 0.050855 seconds 
+Start importing Assets/Sprite/Hazard/PlatformSprite.png using Guid(c2cf177bc3efad8478d7a232f3a0d5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f691ee4a39ad7607b9f429197e7cfcbc') in 0.023272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Sprite/Hazard/IceSprite.png
+  artifactKey: Guid(932edaee2c888bc42bc827f3bbb4245a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Hazard/IceSprite.png using Guid(932edaee2c888bc42bc827f3bbb4245a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faae88fbbd14888e91e10c45ceccc3ef') in 0.021398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Sprite/Hazard/PlankSprite.png
+  artifactKey: Guid(dddd0119c16511c4fb23eec242424864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Hazard/PlankSprite.png using Guid(dddd0119c16511c4fb23eec242424864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb3d2986c8113eb346d71d160c68387') in 0.021326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.809373 seconds.
+  path: Assets/Sprite/Player
+  artifactKey: Guid(21d3b3d0049244b4586516da7bd89033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Player using Guid(21d3b3d0049244b4586516da7bd89033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f98b9028501549bef22ff46eed78953') in 0.004555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.085189 seconds.
+  path: Assets/Sprite/Player/Body.png
+  artifactKey: Guid(03ed6ff986f6a4442bb86857a65ab908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Player/Body.png using Guid(03ed6ff986f6a4442bb86857a65ab908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bda505bfda12538fc8cb8c6b00d1c7') in 0.015878 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001876 seconds.
+Registered in 0.002926 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.768 seconds
+- Completed reload, in  0.908 seconds
 Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3956 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.2 MB.
-System memory in use after: 166.9 MB.
-
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 4531.
-Total: 2.963000 ms (FindLiveObjects: 0.290200 ms CreateObjectMapping: 0.096200 ms MarkObjects: 1.704700 ms  DeleteObjects: 0.870800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001950 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.756 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3955 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.2 MB.
-System memory in use after: 167.0 MB.
-
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 4534.
-Total: 2.816000 ms (FindLiveObjects: 0.286200 ms CreateObjectMapping: 0.097600 ms MarkObjects: 1.611800 ms  DeleteObjects: 0.818000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002010 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.806 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3955 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.2 MB.
-System memory in use after: 167.0 MB.
-
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 4537.
-Total: 2.930700 ms (FindLiveObjects: 0.305700 ms CreateObjectMapping: 0.098600 ms MarkObjects: 1.662100 ms  DeleteObjects: 0.863300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001827 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.760 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3955 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.2 MB.
-System memory in use after: 167.0 MB.
-
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 4540.
-Total: 3.000100 ms (FindLiveObjects: 0.303700 ms CreateObjectMapping: 0.097900 ms MarkObjects: 1.680000 ms  DeleteObjects: 0.917400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001883 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.742 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3955 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.3 MB.
-System memory in use after: 167.0 MB.
-
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 4543.
-Total: 2.999600 ms (FindLiveObjects: 0.336500 ms CreateObjectMapping: 0.099600 ms MarkObjects: 1.681500 ms  DeleteObjects: 0.881000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002132 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.759 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3955 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.3 MB.
-System memory in use after: 167.0 MB.
-
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 4546.
-Total: 2.955400 ms (FindLiveObjects: 0.317300 ms CreateObjectMapping: 0.098500 ms MarkObjects: 1.631300 ms  DeleteObjects: 0.907200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001844 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.750 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3955 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.2 MB.
-System memory in use after: 167.0 MB.
-
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 4549.
-Total: 3.059600 ms (FindLiveObjects: 0.294400 ms CreateObjectMapping: 0.098400 ms MarkObjects: 1.784500 ms  DeleteObjects: 0.881500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001882 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.757 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3955 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.3 MB.
-System memory in use after: 167.0 MB.
-
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 4552.
-Total: 3.242900 ms (FindLiveObjects: 0.293500 ms CreateObjectMapping: 0.096500 ms MarkObjects: 1.957900 ms  DeleteObjects: 0.893800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001791 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.732 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3955 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.3 MB.
-System memory in use after: 167.1 MB.
+Unloading 4007 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.0 MB.
+System memory in use after: 165.2 MB.
 
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 4555.
-Total: 3.264000 ms (FindLiveObjects: 0.286900 ms CreateObjectMapping: 0.099300 ms MarkObjects: 1.943600 ms  DeleteObjects: 0.933000 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 4728.
+Total: 2.669000 ms (FindLiveObjects: 0.418800 ms CreateObjectMapping: 0.176000 ms MarkObjects: 2.061100 ms  DeleteObjects: 0.012500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.239092 seconds.
+  path: Assets/Scripts/HUD
+  artifactKey: Guid(5c2344bdd57c62b43b152cdd95483867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUD using Guid(5c2344bdd57c62b43b152cdd95483867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6672561fe327df5e36819c417e9b8560') in 0.013791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.318359 seconds.
+  path: Assets/Scripts/Hazards
+  artifactKey: Guid(446e97b7f1c96164fb6f6ab5c994f9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hazards using Guid(446e97b7f1c96164fb6f6ab5c994f9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7c9dcd7462eedb521a811a5407d466') in 0.007246 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004381 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.319 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4001 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.8 MB.
+System memory in use after: 165.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 4731.
+Total: 4.169300 ms (FindLiveObjects: 0.570500 ms CreateObjectMapping: 0.259000 ms MarkObjects: 3.318700 ms  DeleteObjects: 0.020000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001896 seconds.
+Registered in 0.002921 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.751 seconds
+- Completed reload, in  0.932 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.83 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3955 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.3 MB.
-System memory in use after: 167.1 MB.
+Unloading 4001 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.8 MB.
+System memory in use after: 165.0 MB.
 
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 4558.
-Total: 2.964100 ms (FindLiveObjects: 0.329200 ms CreateObjectMapping: 0.099500 ms MarkObjects: 1.636800 ms  DeleteObjects: 0.897200 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 4734.
+Total: 2.710600 ms (FindLiveObjects: 0.349000 ms CreateObjectMapping: 0.161100 ms MarkObjects: 2.185600 ms  DeleteObjects: 0.014200 ms)
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002133 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.802 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3955 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.3 MB.
-System memory in use after: 167.1 MB.
-
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 4561.
-Total: 3.129900 ms (FindLiveObjects: 0.325800 ms CreateObjectMapping: 0.099100 ms MarkObjects: 1.657600 ms  DeleteObjects: 1.046400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002073 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.800 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3955 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.3 MB.
-System memory in use after: 167.1 MB.
-
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 4564.
-Total: 3.053700 ms (FindLiveObjects: 0.341300 ms CreateObjectMapping: 0.100700 ms MarkObjects: 1.697900 ms  DeleteObjects: 0.912600 ms)
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
