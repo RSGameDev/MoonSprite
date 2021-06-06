@@ -1,30 +1,29 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+using PlayerNS;
 using TMPro;
 using UnityEngine;
 
-public class HUD : MonoBehaviour
+namespace HUD
 {
-    public GameObject playerHealth;
-    private TextMeshProUGUI playerHealthText;
-
-    public Health playerHealthScript;
-    
-    // Start is called before the first frame update
-    void Awake()
+    public class HUD : MonoBehaviour
     {
-        playerHealthText = playerHealth.GetComponent<TextMeshProUGUI>();
-    }
+        public GameObject playerHealth;
+        private TextMeshProUGUI _playerHealthText;
 
-    private void Start()
-    {
-        playerHealthText.SetText("100");
-    }
+        // Start is called before the first frame update
+        private void Awake()
+        {
+            _playerHealthText = playerHealth.GetComponent<TextMeshProUGUI>();
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        playerHealthText.SetText(playerHealthScript.health.ToString("0"));
+        private void Start()
+        {
+            _playerHealthText.SetText(Health.health.ToString());
+        }
+
+        // Update is called once per frame
+        private void Update()
+        {
+            _playerHealthText.SetText(Health.health.ToString());
+        }
     }
 }

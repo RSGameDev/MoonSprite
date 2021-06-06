@@ -1,20 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Health : MonoBehaviour
+namespace PlayerNS
 {
-    public float health = 100;
-    
-    // Start is called before the first frame update
-    void Start()
+    public class Health : MonoBehaviour
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public static int health = 3;
     }
 }

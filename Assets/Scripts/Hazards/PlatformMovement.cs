@@ -1,47 +1,47 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class PlatformMovement : MonoBehaviour
+namespace Hazards
 {
-    public GameObject[] platforms;
-    private Vector3[] positions;
+    public class PlatformMovement : MonoBehaviour
+    {
+        public GameObject[] platforms;
+        private Vector3[] _positions;
 
-    public float speed = 1.0f;
+        public float speed = 1.0f;
 
-    private bool isTowards = true;
+        private bool _isTowards = true;
     
-    private void Awake()
-    {
-        positions = new Vector3[platforms.Length];
-        positions[0] = platforms[0].transform.position;
-        positions[1] = platforms[1].transform.position;
-    }
-
-    private void Update()
-    {
-        if (isTowards)
+        private void Awake()
         {
-            // Move our position a step closer to the target.
-            float step =  speed * Time.deltaTime; // calculate distance to move
-            transform.position = Vector3.MoveTowards(transform.position, positions[1], step);
-
-            // Check if the position of the cube and sphere are approximately equal.
-            if (Vector3.Distance(transform.position, positions[1]) < 0.001f)
-            {
-                isTowards = false;
-            } 
+            _positions = new Vector3[platforms.Length];
+            _positions[0] = platforms[0].transform.position;
+            _positions[1] = platforms[1].transform.position;
         }
-        else
-        {
-            float step =  speed * Time.deltaTime; // calculate distance to move
-            transform.position = Vector3.MoveTowards(transform.position, positions[0], step);
 
-            // Check if the position of the cube and sphere are approximately equal.
-            if (Vector3.Distance(transform.position, positions[0]) < 0.001f)
+        private void Update()
+        {
+            if (_isTowards)
             {
-                isTowards = true;
+                // Move our position a step closer to the target.
+                float step =  speed * Time.deltaTime; // calculate distance to move
+                transform.position = Vector3.MoveTowards(transform.position, _positions[1], step);
+
+                // Check if the position of the cube and sphere are approximately equal.
+                if (Vector3.Distance(transform.position, _positions[1]) < 0.001f)
+                {
+                    _isTowards = false;
+                } 
+            }
+            else
+            {
+                float step =  speed * Time.deltaTime; // calculate distance to move
+                transform.position = Vector3.MoveTowards(transform.position, _positions[0], step);
+
+                // Check if the position of the cube and sphere are approximately equal.
+                if (Vector3.Distance(transform.position, _positions[0]) < 0.001f)
+                {
+                    _isTowards = true;
+                }
             }
         }
     }

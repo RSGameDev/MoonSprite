@@ -2,14 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="827d344f-7157-40ec-956c-a6e5df82fcf5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Hazard/Kettle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Hazard/Kettle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Hazard/Knife.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Hazard/Knife.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Hazard/StoveTop.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Hazard/StoveTop.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Richard hazards.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Richard hazards.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HUD/HUD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HUD/HUD.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hazards/PlatformMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Hazards/PlatformMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hazards/StoveHazard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hazards/StoveHazard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hazards/SwitchOn.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hazards/SwitchOn.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe11.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe13.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe9.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +37,94 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hazards/Knife.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hazards/Kettle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Hazards/Stove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/153C624F-4E72-438E-BF26-AAC81CAD6111/7c/29169f2c/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/TesttestCodeReviewDemo.cs" />
@@ -26,8 +132,19 @@
       <option value="$PROJECT_DIR$/Assets/StoveHazard.cs" />
       <option value="$PROJECT_DIR$/Assets/Health.cs" />
       <option value="$PROJECT_DIR$/Assets/HUD.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Hazards/StoveHazard.cs" />
       <option value="$PROJECT_DIR$/Assets/PlatformMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Hazards/StoveHazard.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Hazards/Behaviour.cs" />
+      <option value="$PROJECT_DIR$/Assets/OnOffCycle.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Utility/OnOffCycle.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Hazards/SwitchOn.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Hazards/Hazard.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Hazards/Kettle.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Hazards/Knife.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Hazards/PlatformMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Hazards/Stove.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/HUD/HUD.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tJED1HKqpdcuElUf7PqDD2T6WE" />
@@ -36,27 +153,29 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34995976" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="9088">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="9088" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="9088">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="9088" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -79,6 +198,9 @@
       <workItem from="1622752507597" duration="2069000" />
       <workItem from="1622758868976" duration="446000" />
       <workItem from="1622760672239" duration="1411000" />
+      <workItem from="1622938204443" duration="1936000" />
+      <workItem from="1622982145338" duration="2905000" />
+      <workItem from="1622988933193" duration="7962000" />
     </task>
     <servers />
   </component>
