@@ -9,7 +9,7 @@ namespace Utility
         private float _timer;
         private bool _isActive;
 
-        // Update is called once per frame
+        // Update is called once per frame //
         private void Update()
         {
             _timer += Time.deltaTime;
