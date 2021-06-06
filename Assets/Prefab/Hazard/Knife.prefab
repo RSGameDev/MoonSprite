@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2697811812722752812}
   - component: {fileID: 2697811812722752815}
-  - component: {fileID: 2697811812722752814}
   - component: {fileID: 2697811812722752801}
   - component: {fileID: 2697811812722752800}
+  - component: {fileID: 2098330836}
   m_Layer: 0
   m_Name: Knife
   m_TagString: Untagged
@@ -86,19 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2697811812722752814
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2697811812722752803}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b528e5d73f2d6de43acd3e1da1b225a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DamageOverTime: 0
 --- !u!61 &2697811812722752801
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -144,3 +131,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2098330836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2697811812722752803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7fe80665e48ab4b82e211e09c2c380, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hazardName: knife
+  damageValue: 2
