@@ -5,6 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(BoxCollider2D))]
+[RequireComponent(typeof(AttackScript))]
 public class Player : MonoBehaviour
 {
     [Header("Movement Properties")]
@@ -27,12 +28,17 @@ public class Player : MonoBehaviour
     [SerializeField] private bool isOnGround;
     [SerializeField] private bool isJumping;
 
+    [Header("Trace Debug")]
+    [SerializeField] private bool showTrace = true;
+    [SerializeField] private Color leftFootTraceColor = Color.red;
+    [SerializeField] private Color rightFootTraceColor = Color.blue;
     //Crouch Functionality
     //[SerializeField] private bool isHeadBlocked;
     //private float playerHeight;
 
     private Rigidbody2D rigidBody;
     private BoxCollider2D bodyCollider;
+    private AttackScript attackScript;
    
 
     private int direction = 1;
@@ -44,6 +50,8 @@ public class Player : MonoBehaviour
     {
         rigidBody = GetComponent<Rigidbody2D>();
         bodyCollider = GetComponent<BoxCollider2D>();
+
+        attackScript = GetComponent<AttackScript>();
         
         // Crouch Funtionality
        // playerHeight = bodyCollider.size.y;
@@ -57,6 +65,8 @@ public class Player : MonoBehaviour
         GroundMovement();
 
         AirMovement();
+
+        attackScript.CheckAttack(direction);
     }
 
     private void PhysicsCheck()
@@ -68,8 +78,12 @@ public class Player : MonoBehaviour
         RaycastHit2D rightCheck = Physics2D.Raycast(new Vector2(transform.position.x + footOffset, transform.position.y), Vector2.down, groundDistance, groundLayer);
 
         //Debug rays
-        Debug.DrawRay(new Vector3(transform.position.x - footOffset, transform.position.y, transform.position.z), Vector3.down * groundDistance, Color.red);
-        Debug.DrawRay(new Vector3(transform.position.x + footOffset, transform.position.y, transform.position.z), Vector3.down * groundDistance, Color.green);
+        if (showTrace)
+        {
+            Debug.DrawRay(new Vector3(transform.position.x - footOffset, transform.position.y, transform.position.z), Vector3.down * groundDistance, leftFootTraceColor);
+            Debug.DrawRay(new Vector3(transform.position.x + footOffset, transform.position.y, transform.position.z), Vector3.down * groundDistance, rightFootTraceColor);
+        }
+       
 
         if ( leftCheck || rightCheck)
         {

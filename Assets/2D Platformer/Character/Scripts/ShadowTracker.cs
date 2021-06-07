@@ -5,23 +5,27 @@ using UnityEngine;
 public class ShadowTracker : MonoBehaviour
 {
     [Header("Script Properties")]
-    public LayerMask groundLayer;    
-    public GameObject shadowObject;
+    [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private GameObject shadowObject;
 
     [Header("Shadow Properties")]
-    public float minScale = 0.1f;
-    public float maxScale = 1f;
-    public float maxDistance = 10f;
+    [SerializeField] private float minScale = 0.1f;
+    [SerializeField] private float maxScale = 1f;
+    [SerializeField] private float maxDistance = 10f;
 
     [Header("Scale Properties (0 for default)")]
-    public float xRatio;
-    public float yRatio;
-    public float zRatio;
+    [SerializeField] private float xRatio;
+    [SerializeField] private float yRatio;
+    [SerializeField] private float zRatio;
 
     [Header("Debug Values")]
-    public float scaleFactor;
-    public float distance;
-    public Vector3 impactPoint; 
+    [SerializeField] private float scaleFactor;
+    [SerializeField] private float distance;
+    [SerializeField] private Vector3 impactPoint; 
+
+    [Header("Trace Debug")]
+    [SerializeField] private bool showTrace = true;
+    [SerializeField] private Color traceColour = Color.black;
 
     // Update is called once per frame
     void Update()
@@ -34,8 +38,10 @@ public class ShadowTracker : MonoBehaviour
     {
         //Get distance to ground
         RaycastHit2D distanceRay = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), Vector2.down, maxDistance, groundLayer);
-
-        Debug.DrawRay(new Vector3(transform.position.x, transform.position.y, transform.position.z), Vector3.down * maxDistance, Color.black);
+        if (showTrace)
+        {
+            Debug.DrawRay(new Vector3(transform.position.x, transform.position.y, transform.position.z), Vector3.down * distance, traceColour);
+        }        
 
         distance = distanceRay.distance;
         impactPoint = distanceRay.point;
