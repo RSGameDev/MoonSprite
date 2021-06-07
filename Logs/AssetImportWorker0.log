@@ -88,3 +88,31 @@ Received Import Request.
   path: Assets/Scripts/Hazards/PlatformMovement.cs
   artifactKey: Guid(8945308ad2b97d84f859ff3139347714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/Hazards/PlatformMovement.cs using Guid(8945308ad2b97d84f859ff3139347714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f7549d12e28da1217f239649ab0bf96') in 0.019909 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002146 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Game Dev\Tranzfuser 2021\MoonSprite\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.765 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4038 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.1 MB.
+System memory in use after: 164.9 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 4583.
+Total: 2.920300 ms (FindLiveObjects: 0.299300 ms CreateObjectMapping: 0.098900 ms MarkObjects: 1.730300 ms  DeleteObjects: 0.790800 ms)
+
