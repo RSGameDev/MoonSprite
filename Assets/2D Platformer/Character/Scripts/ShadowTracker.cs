@@ -37,14 +37,14 @@ public class ShadowTracker : MonoBehaviour
     private void GetRayData()
     {
         //Get distance to ground
-        RaycastHit2D distanceRay = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), Vector2.down, maxDistance, groundLayer);
+        RaycastHit2D distanceRayLeft = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), Vector2.down, maxDistance, groundLayer);
         if (showTrace)
         {
             Debug.DrawRay(new Vector3(transform.position.x, transform.position.y, transform.position.z), Vector3.down * distance, traceColour);
         }        
 
-        distance = distanceRay.distance;
-        impactPoint = distanceRay.point;
+        distance = distanceRayLeft.distance;
+        impactPoint = distanceRayLeft.point;
     }
     private void UpdateShadow()
     {
@@ -60,11 +60,11 @@ public class ShadowTracker : MonoBehaviour
 
        
 
-        shadowObject.transform.localScale = CalculateNewScale();
+        shadowObject.transform.localScale = CalculateNewScale(shadowObject);
 
     }
 
-    private Vector3 CalculateNewScale()
+    private Vector3 CalculateNewScale(GameObject shadowObject)
     {
          Vector3 currentScale;
 
@@ -78,7 +78,7 @@ public class ShadowTracker : MonoBehaviour
         currentScale.y = scaleFactor * yRatio;
         currentScale.z = scaleFactor * zRatio;
 
-        if (xRatio == 0) currentScale.x = shadowObject.transform.localScale.x;
+        if (xRatio == 0) currentScale.x = shadowObject.transform.localScale.x ;
         if (yRatio == 0) currentScale.y = shadowObject.transform.localScale.y;
         if (zRatio == 0) currentScale.z = shadowObject.transform.localScale.z;
 
