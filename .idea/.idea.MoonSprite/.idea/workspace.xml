@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="827d344f-7157-40ec-956c-a6e5df82fcf5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Player.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CentralScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CentralScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Hazard/Kettle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Hazard/Kettle.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Richard hazards.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Richard hazards.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hazards/Kettle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Hazards/Kettle.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +47,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Hazards/SwitchOn.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Hazards/Hazard.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Hazards/Kettle.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Hazards/Knife.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Hazards/PlatformMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Hazards/Stove.cs" />
@@ -56,6 +54,7 @@
       <option value="$PROJECT_DIR$/Assets/Respawn.cs" />
       <option value="$PROJECT_DIR$/Assets/RespawnPoint.cs" />
       <option value="$PROJECT_DIR$/Assets/DeathZone.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Hazards/Kettle.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tJED1HKqpdcuElUf7PqDD2T6WE" />

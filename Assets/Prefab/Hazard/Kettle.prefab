@@ -4921,7 +4921,7 @@ Transform:
   m_GameObject: {fileID: 7778722918668510420}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 56.1, y: 3.88, z: 0}
-  m_LocalScale: {x: 4.495121, y: 4.495121, z: 4.495121}
+  m_LocalScale: {x: 2.6335115, y: 2.6335115, z: 2.6335115}
   m_Children:
   - {fileID: 4782315699025388869}
   m_Father: {fileID: 0}
@@ -4994,7 +4994,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.39
+  m_Radius: 2.81
 --- !u!114 &976502537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5009,3 +5009,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hazardName: kettle
   damageValue: 3
+  _timer: 0
+  _timeOfExplosion: 3
