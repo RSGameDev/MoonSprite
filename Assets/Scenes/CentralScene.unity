@@ -1715,6 +1715,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3514188977443056521, guid: 48d53163290c16e4e98f31a04204ea9e, type: 3}
   m_PrefabInstance: {fileID: 414851010}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &563163430 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7642976143044301934, guid: 06a5616184bf6284496d7716d8594cba, type: 3}
+  m_PrefabInstance: {fileID: 1155640020}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &575984512
 GameObject:
   m_ObjectHideFlags: 0
@@ -2725,9 +2730,49 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4669827003945481411, guid: 06a5616184bf6284496d7716d8594cba, type: 3}
+      propertyPath: feet
+      value: 
+      objectReference: {fileID: 563163430}
+    - target: {fileID: 4669827003945481411, guid: 06a5616184bf6284496d7716d8594cba, type: 3}
+      propertyPath: jump
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 4669827003945481411, guid: 06a5616184bf6284496d7716d8594cba, type: 3}
+      propertyPath: speed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4669827003945481411, guid: 06a5616184bf6284496d7716d8594cba, type: 3}
+      propertyPath: speedM
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4669827003945481411, guid: 06a5616184bf6284496d7716d8594cba, type: 3}
+      propertyPath: speedMax
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4669827003945481411, guid: 06a5616184bf6284496d7716d8594cba, type: 3}
+      propertyPath: speedMin
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4669827003945481411, guid: 06a5616184bf6284496d7716d8594cba, type: 3}
+      propertyPath: checkRadius
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4669827003945481411, guid: 06a5616184bf6284496d7716d8594cba, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 128
+      objectReference: {fileID: 0}
+    - target: {fileID: 4669827003945481411, guid: 06a5616184bf6284496d7716d8594cba, type: 3}
+      propertyPath: accelerationPercent
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643845194504693944, guid: 06a5616184bf6284496d7716d8594cba, type: 3}
+      propertyPath: m_LinearDrag
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8643845194504693944, guid: 06a5616184bf6284496d7716d8594cba, type: 3}
       propertyPath: m_GravityScale
-      value: 9.14
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 8643845194504693945, guid: 06a5616184bf6284496d7716d8594cba, type: 3}
       propertyPath: m_Name
@@ -2744,6 +2789,10 @@ PrefabInstance:
     - target: {fileID: 8643845194504693948, guid: 06a5616184bf6284496d7716d8594cba, type: 3}
       propertyPath: jumpForce
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643845194504693948, guid: 06a5616184bf6284496d7716d8594cba, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8643845194504693948, guid: 06a5616184bf6284496d7716d8594cba, type: 3}
       propertyPath: footOffset
@@ -3637,7 +3686,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1439316718}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 57.76, y: 5.264757, z: 6.8835306}
+  m_LocalPosition: {x: 57.76, y: 4.96, z: 6.8835306}
   m_LocalScale: {x: 0.5420486, y: 0.5420486, z: 0.5420486}
   m_Children: []
   m_Father: {fileID: 1289129792}

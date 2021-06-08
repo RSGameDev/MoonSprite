@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5770565813976308552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7642976143044301934}
+  m_Layer: 6
+  m_Name: Feet
+  m_TagString: Untagged
+  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7642976143044301934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5770565813976308552}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.375, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8643845194504693950}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8643845194504693945
 GameObject:
   m_ObjectHideFlags: 0
@@ -12,7 +42,7 @@ GameObject:
   - component: {fileID: 8643845194504693951}
   - component: {fileID: 8643845194504693944}
   - component: {fileID: 8643845194504693949}
-  - component: {fileID: 8643845194504693948}
+  - component: {fileID: 4669827003945481411}
   m_Layer: 6
   m_Name: Player 1
   m_TagString: Untagged
@@ -30,7 +60,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.037, y: -0.046, z: 0}
   m_LocalScale: {x: -3, y: 3, z: 3}
-  m_Children: []
+  m_Children:
+  - {fileID: 7642976143044301934}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -124,7 +155,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.24, y: 0.24}
+    oldSize: {x: 0.75, y: 0.75}
     newSize: {x: 0.24, y: 0.24}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -133,7 +164,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.19, y: 0.23}
   m_EdgeRadius: 0.02
---- !u!114 &8643845194504693948
+--- !u!114 &4669827003945481411
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -142,21 +173,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8643845194504693945}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b5be8733eff2104aae528f1bfd23ffe, type: 3}
+  m_Script: {fileID: 11500000, guid: 5066fb7fcfbe2694bbf653d9d2395057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3.8
-  coyoteDuration: 0.05
-  maxFallSpeed: -5.75
-  jumpForce: 1.5
-  jumpHoldForce: 1
-  jumpHoldDuration: 0.1
-  footOffset: 0.3
-  headClearance: 0.5
-  groundDistance: 0.4
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 128
-  isOnGround: 1
-  isJumping: 0
-  isHeadBlocked: 0
+  speedM: 0
+  accelerationPercent: 0
+  jump: 0
