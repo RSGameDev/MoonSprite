@@ -9,7 +9,7 @@ public class DeathZone : MonoBehaviour
     public static GameObject _gameObjects;
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.GetComponent<Player>())
+        if (other.gameObject.tag == "Player")
         {
             Health.health--;
             other.gameObject.transform.position = _gameObjects.transform.GetChild(0).transform.position;

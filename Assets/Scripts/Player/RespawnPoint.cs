@@ -7,7 +7,11 @@ public class RespawnPoint : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
-        DeathZone._gameObjects = gameObject;
+        if (other.gameObject.tag == "Player")
+        {
+            DeathZone._gameObjects = gameObject;
+        }
+        
     }
 
     // Start is called before the first frame update
