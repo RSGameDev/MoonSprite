@@ -6,8 +6,8 @@ namespace Hazards
 {
     public class Kettle : Hazard
     {
-        private bool _isPlayerDetected;
-        [SerializeField] private float _timer;
+        public bool _isPlayerDetected;
+        public float timer;
         [SerializeField] private float _timeOfExplosion;
 
         private void OnTriggerEnter2D(Collider2D other)
@@ -23,7 +23,7 @@ namespace Hazards
             if (other.gameObject.CompareTag("Player"))
             {
                 _isPlayerDetected = false;
-                _timer = 0f;
+                timer = 0f;
             }
         }
 
@@ -31,8 +31,8 @@ namespace Hazards
         {
             if (_isPlayerDetected)
             {
-                _timer += Time.deltaTime;
-                if (_timer >= _timeOfExplosion)
+                timer += Time.deltaTime;
+                if (timer >= _timeOfExplosion)
                 {
                     Damage(damageValue);
                     Destroy(gameObject);

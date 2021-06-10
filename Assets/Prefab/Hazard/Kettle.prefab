@@ -25,13 +25,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4782315699025033573}
-  m_LocalRotation: {x: -0.49364662, y: 0.50627375, z: 0.49364653, w: 0.5062737}
-  m_LocalPosition: {x: 0.12, y: 0.48, z: 0}
+  m_LocalRotation: {x: -0.5245843, y: 0.47414276, z: 0.52458423, w: 0.47414273}
+  m_LocalPosition: {x: -1.7500038, y: 2.02, z: 0}
   m_LocalScale: {x: 0.18464462, y: 0.18464462, z: 0.18464462}
   m_Children: []
   m_Father: {fileID: 1441982262347300092}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -88.553, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: -95.783, y: 90, z: 0}
 --- !u!198 &4782315699039543299
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -4905,6 +4905,7 @@ GameObject:
   - component: {fileID: 3495135137293074339}
   - component: {fileID: 3408752336620630841}
   - component: {fileID: 976502537}
+  - component: {fileID: 1294327818972275310}
   m_Layer: 0
   m_Name: Kettle
   m_TagString: Untagged
@@ -4921,7 +4922,7 @@ Transform:
   m_GameObject: {fileID: 7778722918668510420}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 56.1, y: 3.88, z: 0}
-  m_LocalScale: {x: 2.6335115, y: 2.6335115, z: 2.6335115}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4782315699025388869}
   m_Father: {fileID: 0}
@@ -4967,8 +4968,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ee50960c66d28b54aa0672ac06400603, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: aa200a040bcd20e4c8f0a90a14babcc7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4994,7 +4995,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2.81
+  m_Radius: 4
 --- !u!114 &976502537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5009,5 +5010,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hazardName: kettle
   damageValue: 3
-  _timer: 0
+  _isPlayerDetected: 0
+  timer: 0
   _timeOfExplosion: 3
+--- !u!114 &1294327818972275310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7778722918668510420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03cf5218723f87b40abbecb4554741b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteColour: {r: 1, g: 1, b: 1, a: 1}
