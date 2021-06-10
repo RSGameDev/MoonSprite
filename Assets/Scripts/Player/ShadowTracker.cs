@@ -12,6 +12,7 @@ public class ShadowTracker : MonoBehaviour
     [SerializeField] private float minScale = 0.1f;
     [SerializeField] private float maxScale = 1f;
     [SerializeField] private float maxDistance = 10f;
+    [SerializeField] private Vector3 offset;
 
     [Header("Scale Properties (0 for default)")]
     [SerializeField] private float xRatio;
@@ -48,7 +49,7 @@ public class ShadowTracker : MonoBehaviour
     }
     private void UpdateShadow()
     {
-        shadowObject.transform.position = impactPoint;
+        shadowObject.transform.position = impactPoint + offset;
 
         if(distance > maxDistance)
         {
