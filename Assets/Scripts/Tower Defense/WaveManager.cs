@@ -27,23 +27,24 @@ public class WaveManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (waveIndex >= Waves.Count)
+        if (waveIndex >= Waves.Count) // Are there any waves left
         {
-            return;
+            return; // GAME FINISHED
         }
+
         if (waveFinished)
         {
-            HandleWave();
+            HandleWave(); // Move onto the next wave
         }
         else
         {
-            HandleEnemy();
+            HandleEnemy(); // Spawn enemy if time is up
         }
     }
 
     private void HandleWave()
     {
-        if(waveTime <= Time.time)
+        if(waveTime <= Time.time) // Move onto next wave once timer is up
         {
             waveIndex++;
             enemyIndex = 0;
@@ -53,26 +54,27 @@ public class WaveManager : MonoBehaviour
 
     private void HandleEnemy()
     {
-        if (enemyTime < Time.time)
+        if (enemyTime < Time.time) // When cooldown is up spawn enemy
         {
-            EnemyData enemyToSpawn = Waves[waveIndex].enemies[enemyIndex];
-            GameObject SpawnedObject = Instantiate(enemyPrefab, routes[0].routePath[0].transform.position, Quaternion.identity);
+            EnemyData enemyToSpawn = Waves[waveIndex].enemies[enemyIndex]; // Get Enemy data
+            GameObject SpawnedObject = Instantiate(enemyPrefab, routes[0].routePath[0].transform.position, Quaternion.identity); //Spawn enemy
 
-            SpawnedObject.GetComponent<Enemy>().SetupEnemy(enemyToSpawn, convertTo2DVectorList(routes[0].routePath));
-            enemyTime = Time.time + Waves[waveIndex].spawnCooldown;
+            SpawnedObject.GetComponent<Enemy>().SetupEnemy(enemyToSpawn, convertTo2DVectorList(routes[0].routePath)); //Update enemy with data
+            enemyTime = Time.time + Waves[waveIndex].spawnCooldown; // Update timer
             enemyIndex++;
          
 
-            if (enemyIndex >= Waves[waveIndex].enemies.Count)
+            if (enemyIndex >= Waves[waveIndex].enemies.Count) //Are all enemys spawned
             {
                 waveFinished = true;
+                waveTime = Time.time + WaveCoolDown;
             }
         
         }
 
     }
 
-    private List<Vector2> convertTo2DVectorList(List<GameObject> objectList)
+    private List<Vector2> convertTo2DVectorList(List<GameObject> objectList) // Convert Vector 3 game object transforms into Vector 2 list
     {
         var newList = new List<Vector2>();
 

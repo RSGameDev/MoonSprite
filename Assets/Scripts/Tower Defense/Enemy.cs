@@ -24,7 +24,7 @@ public class Enemy : MonoBehaviour
 
     private bool setup = false;
 
-    public void SetupEnemy(EnemyData data, List<Vector2> inRoute)
+    public void SetupEnemy(EnemyData data, List<Vector2> inRoute) // Set the enemy up so all data is stored in this
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = data.sprite;
@@ -40,24 +40,23 @@ public class Enemy : MonoBehaviour
     private void Update()
     {
         
-        if (!setup) return;
-        if (routeIndex >= route.Count)
+
+        if (routeIndex >= route.Count) // Are we done? stop all computation
         {
             return;
         }
 
-        if (nextRoute)
+        if (nextRoute) //Have I reached the next path point
         {
             routeIndex++;
             if (routeIndex >= route.Count)
             {
-               // nextRoute = false;
                 // REACHED END
                 //Destroy(this);
             }
             else
             {               
-                nextIndexDistance = Vector2.Distance(route[routeIndex - 1], route[routeIndex]);
+                nextIndexDistance = Vector2.Distance(route[routeIndex - 1], route[routeIndex]); // Get the distance between this and the next node
                 nextRoute = false;
                 lerpValue = 0;
             }
@@ -65,20 +64,20 @@ public class Enemy : MonoBehaviour
         }
         else
         {
-            //Debug.LogError("HERE");
+
             HandleMovement();
         }
     }
 
     private void HandleMovement()
     {
-        if(lerpValue >= 1 - deadZone)
+        if(lerpValue >= 1 - deadZone) // Are we there yet?
         {
             nextRoute = true;
         }
         else
         {
-            CalculateLerp();
+            CalculateLerp(); // Work out the lerp value so the enemy always moves a the same speed
             
             Vector2 position = Vector2.Lerp(route[routeIndex - 1], route[routeIndex], lerpValue);
             transform.position = position;

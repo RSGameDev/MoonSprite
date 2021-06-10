@@ -559,6 +559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Waves:
   - {fileID: 11400000, guid: c7fac9be582fb9e45aa7a420fa398c3f, type: 2}
+  - {fileID: 11400000, guid: 57fb9917e9b32a140aac406df0172ad5, type: 2}
   WaveCoolDown: 5
   enemyPrefab: {fileID: 3175687583034954726, guid: fdc17cb24529b234fa13472393810672, type: 3}
   routes:
