@@ -12,13 +12,14 @@ public class PlayerMovement : MonoBehaviour
     public float jump;
 
     //speed varaible that allows for smoother acceleration
-    private float speed;
+    [HideInInspector]
+    public float speed;
    
     //bool variable which is used for flipping the player to the correct direction.
     private bool facingLeft = false;
 
-
-    private bool isGrounded;
+    [HideInInspector]
+    public bool isGrounded;
     public Transform feet;
     public float checkRadius;
     public LayerMask groundLayer;
@@ -72,6 +73,7 @@ public class PlayerMovement : MonoBehaviour
         input = Input.GetAxis("Vertical");
         if (input>0.2f&&isGrounded)
         {
+            GetComponent<CharacterAnimUpdater>().Jump();
             rb.velocity = new Vector2(rb.velocity.x, jump);
         }
     }
