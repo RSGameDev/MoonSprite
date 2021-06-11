@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/2D Platformer/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/Scenes/Pre Game/Splash Screen.unity
+    guid: 14002166a332f344a9a0553c6ede4717
+  - enabled: 1
+    path: Assets/Scenes/Pre Game/Main Menu Screen.unity
+    guid: 1b7907e395939a141b69fda8523cfc50
+  - enabled: 1
+    path: Assets/Scenes/Pre Game/Option Screen.unity
+    guid: 70d036997c415d54fa87c796919e8ec5
+  - enabled: 1
+    path: Assets/Scenes/CentralScene.unity
+    guid: f93ab038e8fe46a43b9b1d16a2fe0efe
   m_configObjects: {}
