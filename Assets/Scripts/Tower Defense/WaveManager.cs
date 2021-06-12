@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class WaveManager : MonoBehaviour
 {
-    public List<WaveData> Waves;
+
+    public TowerDefenseManager tdManager;
+
     public float WaveCoolDown = 5f;
 
     private int waveIndex = 0;
@@ -15,8 +17,9 @@ public class WaveManager : MonoBehaviour
     private float enemyTime = 0;
 
     public GameObject enemyPrefab;
-
+    public List<WaveData> Waves;
     public List<Routes> routes;
+
 
     // Start is called before the first frame update
     void Start()
@@ -59,7 +62,7 @@ public class WaveManager : MonoBehaviour
             EnemyData enemyToSpawn = Waves[waveIndex].enemies[enemyIndex]; // Get Enemy data
             GameObject SpawnedObject = Instantiate(enemyPrefab, routes[0].routePath[0].transform.position, Quaternion.identity); //Spawn enemy
 
-            SpawnedObject.GetComponent<Enemy>().SetupEnemy(enemyToSpawn, convertTo2DVectorList(routes[0].routePath)); //Update enemy with data
+            SpawnedObject.GetComponent<Enemy>().SetupEnemy(enemyToSpawn, convertTo2DVectorList(routes[0].routePath), tdManager); //Update enemy with data
             enemyTime = Time.time + Waves[waveIndex].spawnCooldown; // Update timer
             enemyIndex++;
          
