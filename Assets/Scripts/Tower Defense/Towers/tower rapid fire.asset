@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a6fcdfbb55e8e146b491477ac56ea7a, type: 3}
+  m_Name: tower rapid fire
+  m_EditorClassIdentifier: 
+  towerName: rapid fire
+  towerImage: {fileID: 21300000, guid: 39f3a00c6a6c66f4dbd20d21c4eab387, type: 3}
+  projectileImage: {fileID: 21300000, guid: 94c3dad542cb3e24287956b8eca0c45f, type: 3}
+  health: 10
+  damage: 1
