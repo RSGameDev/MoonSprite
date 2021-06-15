@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="827d344f-7157-40ec-956c-a6e5df82fcf5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Richard hazards.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Richard hazards.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer/TemplateAssets/Palets/Ground Tiles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer/TemplateAssets/Palets/Ground Tiles.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRP-HighQuality.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRP-HighQuality.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +30,10 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/TowerDeploy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hazards/Knife.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/153C624F-4E72-438E-BF26-AAC81CAD6111/7c/29169f2c/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hazards/Kettle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Core/Variables/VariablesSaver.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -56,6 +61,16 @@
       <option value="$PROJECT_DIR$/Assets/DeathZone.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Hazards/Kettle.cs" />
       <option value="$PROJECT_DIR$/Assets/SceneController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Hazards/TowerDefence/TowerManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/PlayerTowerLevel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Hazards/TowerDefence/Towers.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/TowerManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Projectile.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/TowerCreate.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/PlayerTowerLevel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/TowerDeploy.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/Towers.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/Projectile.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tJED1HKqpdcuElUf7PqDD2T6WE" />
@@ -70,6 +85,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
@@ -117,6 +133,11 @@
       <workItem from="1623086743820" duration="4964000" />
       <workItem from="1623443482241" duration="618000" />
       <workItem from="1623444121670" duration="6883000" />
+      <workItem from="1623684484262" duration="159000" />
+      <workItem from="1623684680310" duration="142000" />
+      <workItem from="1623706113133" duration="2610000" />
+      <workItem from="1623752547929" duration="6709000" />
+      <workItem from="1623784198345" duration="7590000" />
     </task>
     <servers />
   </component>
