@@ -10,7 +10,7 @@ namespace Hazards
 
         protected virtual void Damage(int damage)
         {
-            Health.health -= damage;
+            FindObjectOfType<Health>().Hurt();
         }
     }
 }
