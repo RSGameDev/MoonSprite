@@ -10,5 +10,8 @@ namespace Tower_Defense.Towers
         public Sprite projectileImage;
         public int health;
         public int damage;
+        public float range;
+        public float fireRate;
+        public int price;
     }
 }
