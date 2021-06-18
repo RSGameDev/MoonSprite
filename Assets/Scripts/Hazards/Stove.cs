@@ -23,7 +23,7 @@ namespace Hazards
             if (_timer >= .8f)
             {
                 _timer = 0;
-                Health.health -= damage;
+                FindObjectOfType<Health>().Hurt();
             }
         }
 

@@ -8,7 +8,8 @@ public class Enemy : MonoBehaviour
     private SpriteRenderer spriteRenderer;
 
     private float speed;
-    private float health;
+    private int health;
+    private float size;
 
     public List<Vector2> route;
     public int routeIndex = 0;
@@ -32,7 +33,9 @@ public class Enemy : MonoBehaviour
         route = inRoute;
         speed = data.speed;
         health = data.health;
+        size = data.size;
 
+        transform.localScale = new Vector3(size, size, 1);
         transform.position = route[0];
         setup = true;
 
@@ -98,5 +101,14 @@ public class Enemy : MonoBehaviour
     {
         Debug.Log("PLAYER DAMAGED");
         tdManager.DamagePlayer(-1);
+    }
+    
+    public void Hurt(int damage = 1)
+    {
+        health -= damage;
+        if (health <= 0)
+        {
+            Destroy(this.gameObject);
+        }
     }
 }

@@ -5,6 +5,7 @@ using UnityEngine;
 public class CoinCollector : MonoBehaviour
 {
     private GameManager gm;
+    public GameObject sound;
 
     private void Awake()
     {
@@ -15,6 +16,7 @@ public class CoinCollector : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             gm.coins++;
+            Instantiate(sound, transform.position, Quaternion.identity);
             Destroy(this.gameObject);
         }
     }
