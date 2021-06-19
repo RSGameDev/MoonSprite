@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 955401a32a02c3c4c87ab02da05edf29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tower: {fileID: 11400000, guid: 28b867835ccc65b459c603731f2bb4aa, type: 2}
+  tower: {fileID: 0}
   towerImage: {fileID: 0}
   projectileImage: {fileID: 0}
   health: 0

@@ -13,10 +13,8 @@ namespace Tower_Defense.Towers
         public int damage;
 
         public GameObject bullets;
-        private GameObject enemy;
+        private GameObject _enemy;
 
-    
-    
         private void Start()
         {
             towerImage = tower.towerImage;
@@ -28,9 +26,9 @@ namespace Tower_Defense.Towers
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            enemy = other.gameObject;
+            _enemy = other.gameObject;
             var newBullet = Instantiate(bullets, transform.position, quaternion.identity);
-            newBullet.GetComponent<Projectile>().AssignTarget(enemy);
+            newBullet.GetComponent<Projectile>().AssignTarget(_enemy);
             newBullet.GetComponent<Projectile>().AssignProjectile(projectileImage);
         }
 
