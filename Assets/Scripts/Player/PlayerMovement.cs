@@ -23,6 +23,11 @@ public class PlayerMovement : MonoBehaviour
     public Transform feet;
     public float checkRadius;
     public LayerMask groundLayer;
+    private bool readyToLand;
+
+    //AudioSource Management;
+    public AudioSource[] audioSources;
+
 
     void Start()
     {
@@ -73,8 +78,19 @@ public class PlayerMovement : MonoBehaviour
         input = Input.GetAxis("Vertical");
         if (input>0.2f&&isGrounded)
         {
+            audioSources[1].Play();
             GetComponent<CharacterAnimUpdater>().Jump();
             rb.velocity = new Vector2(rb.velocity.x, jump);
+        }
+        
+        if (!isGrounded)
+        {
+            readyToLand = true;
+        }
+        if (readyToLand && isGrounded)
+        {
+            audioSources[2].Play();
+            readyToLand = false;
         }
     }
 

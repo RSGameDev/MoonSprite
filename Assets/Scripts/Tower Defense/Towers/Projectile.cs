@@ -1,4 +1,5 @@
 using UnityEngine;
+using PipLib;
 
 namespace Tower_Defense.Towers
 {
@@ -6,6 +7,7 @@ namespace Tower_Defense.Towers
     {
         private float speed = 10.0f;
         private Vector2 enemyPos;
+        private Rigidbody2D rb;
 
         public Sprite projectileImage;
     
@@ -13,27 +15,42 @@ namespace Tower_Defense.Towers
         void Start()
         {
             GetComponent<SpriteRenderer>().sprite = projectileImage;
+            rb = GetComponent<Rigidbody2D>();
         }
 
         // Update is called once per frame
         void Update()
         {
             float step = speed * Time.deltaTime;
-            transform.position = Vector2.MoveTowards(transform.position, enemyPos, step);
-            if ((Vector2)transform.position == enemyPos)
+            rb.velocity = transform.up * speed;
+            
+            Enemy[] enemies = FindObjectsOfType<Enemy>();
+            for (int i = 0; i < enemies.Length; i++)
             {
-                Destroy(gameObject);
+                if (Vector2.Distance(enemies[i].transform.position, transform.position)<0.4f)
+                {
+                    enemies[i].Hurt();
+                    Destroy(gameObject);
+                }
             }
         }
 
         public void AssignTarget(GameObject enemy)
         {
-            enemyPos = new Vector2(enemy.transform.position.x, enemy.transform.position.y);
+            transform.eulerAngles = new Vector3(0, 0, Util.PointToward(enemy, this.gameObject));
+            
         }
     
         public void AssignProjectile(Sprite projectile)
         {
             projectileImage = projectile; 
         }
+
+        private void OnBecameInvisible()
+        {
+            Destroy(gameObject);
+        }
     }
+
+   
 }

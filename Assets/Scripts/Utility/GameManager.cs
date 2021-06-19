@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using PipLib.Stage;
 
 public class GameManager : MonoBehaviour
 {
@@ -18,7 +19,7 @@ public class GameManager : MonoBehaviour
         else if (instance != this)
         {
             Debug.Log("GameManager Instance Presence, Destroying Copy.");
-            Destroy(this);
+            Destroy(this.gameObject);
         }
     }
 
@@ -28,5 +29,11 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void ResetScene()
+    {
+        coins = 0;
+        SceneControls.Restart();
     }
 }
