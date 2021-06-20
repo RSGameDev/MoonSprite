@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a06c6ba42dc731418490d4b74264519, type: 3}
   m_Name: Speedy
   m_EditorClassIdentifier: 
-  speed: 7.5
+  speed: 3.75
   health: 2
   sprite: {fileID: -8366988449928606121, guid: 195c9faefea841f4fb0d32a922a7866f, type: 3}
   size: 0.5
