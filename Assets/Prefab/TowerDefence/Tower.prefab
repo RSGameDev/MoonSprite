@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7753494444183357511}
   - component: {fileID: 7753494444183357510}
   - component: {fileID: 782115371}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37,7 +37,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 12.81, y: 4.96}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &7753494444183357497
 MonoBehaviour:
@@ -57,6 +57,8 @@ MonoBehaviour:
   health: 0
   damage: 0
   bullets: {fileID: 111604899939266598, guid: 387befed8c107fc49b91fd377aa3a18b, type: 3}
+  enemies: []
+  closetEnemy: {fileID: 0}
 --- !u!222 &7753494444183357511
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -105,7 +107,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
