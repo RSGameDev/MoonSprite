@@ -1,6 +1,9 @@
+using System;
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using Object = UnityEngine.Object;
 
 namespace Managers
@@ -11,6 +14,8 @@ namespace Managers
 
         public GameObject splashScreenDisplay;
         public GameObject titleScreenDisplay;
+        public Text titleScreenText;
+        public GameObject mainMenuScreen;
         public GameObject optionsScreenDisplay;
         public GameObject settings;
         public GameObject credits;
@@ -33,6 +38,7 @@ namespace Managers
         private void Start()
         {
             titleScreenDisplay.SetActive(false);
+            mainMenuScreen.SetActive(false);
             optionsScreenDisplay.SetActive(false);
             StartCoroutine(SplashScreenDelay());
         }
@@ -44,6 +50,15 @@ namespace Managers
             titleScreenDisplay.SetActive(true);
         }
 
+        private void Update()
+        {
+            if (Input.anyKeyDown)
+            {
+                titleScreenText.enabled = false;
+                mainMenuScreen.SetActive(true);
+            }
+        }
+
         public void LoadLevel(Object scene)
         {
             SceneManager.LoadScene(scene.name);
@@ -53,13 +68,13 @@ namespace Managers
         {
             if (gameObject == optionsScreenDisplay)
             {
-                titleScreenDisplay.SetActive(false);
+                mainMenuScreen.SetActive(false);
                 optionsScreenDisplay.SetActive(true);
             }
 
-            if (gameObject == titleScreenDisplay)
+            if (gameObject == mainMenuScreen)
             {
-                titleScreenDisplay.SetActive(true);
+                mainMenuScreen.SetActive(true);
                 optionsScreenDisplay.SetActive(false);
             }
         }

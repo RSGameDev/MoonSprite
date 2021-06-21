@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3705764392920348677
+--- !u!1 &1000615034653833344
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3318416787085169571}
-  - component: {fileID: 4015237885075464610}
+  - component: {fileID: 1189514875997360934}
+  - component: {fileID: 664173826147819815}
   m_Layer: 0
   m_Name: Scene Manager
   m_TagString: Untagged
@@ -17,13 +17,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3318416787085169571
+--- !u!4 &1189514875997360934
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3705764392920348677}
+  m_GameObject: {fileID: 1000615034653833344}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -31,13 +31,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4015237885075464610
+--- !u!114 &664173826147819815
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3705764392920348677}
+  m_GameObject: {fileID: 1000615034653833344}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3a468228db4aa34f989dd6de5e7d22f, type: 3}
@@ -45,6 +45,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   splashScreenDisplay: {fileID: 0}
   titleScreenDisplay: {fileID: 0}
+  text: {fileID: 0}
+  mainMenuScreen: {fileID: 0}
   optionsScreenDisplay: {fileID: 0}
   settings: {fileID: 0}
   credits: {fileID: 0}
