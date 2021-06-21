@@ -17,3 +17,6 @@ MonoBehaviour:
   projectileImage: {fileID: 21300000, guid: 94c3dad542cb3e24287956b8eca0c45f, type: 3}
   health: 10
   damage: 4
+  range: 0
+  fireRate: 2
+  price: 0

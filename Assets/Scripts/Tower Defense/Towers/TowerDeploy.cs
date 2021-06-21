@@ -62,13 +62,5 @@ namespace Tower_Defense.Towers
                 newBullet.GetComponent<Projectile>().AssignProjectile(projectileImage);
             }
         }
-        //private void OnTriggerEnter2D(Collider2D other)
-        //{
-        //    enemy = other.gameObject;
-        //    var newBullet = Instantiate(bullets, transform.position, quaternion.identity);
-        //    newBullet.GetComponent<Projectile>().AssignTarget(enemy);
-        //    newBullet.GetComponent<Projectile>().AssignProjectile(projectileImage);
-        //}
-
     }
 }
