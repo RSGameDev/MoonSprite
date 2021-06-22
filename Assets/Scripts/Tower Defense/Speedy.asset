@@ -13,6 +13,16 @@ MonoBehaviour:
   m_Name: Speedy
   m_EditorClassIdentifier: 
   speed: 3.75
-  health: 2
-  sprite: {fileID: -8366988449928606121, guid: 195c9faefea841f4fb0d32a922a7866f, type: 3}
-  size: 0.5
+  health: 50
+  sprite: {fileID: 21300000, guid: 626d843829762734ab636ed4901ff863, type: 3}
+  size: 0.7
+  sprites:
+  - {fileID: 21300000, guid: f4e8af2988229324394831723c01bb02, type: 3}
+  - {fileID: 21300000, guid: 7b0fd3c177a2fc24290d5a9654249642, type: 3}
+  - {fileID: 21300000, guid: dbbf332d84832054ba4bbb334f81b043, type: 3}
+  - {fileID: 21300000, guid: b356ca35ed9f3a64bbe421516934b617, type: 3}
+  - {fileID: 21300000, guid: ba62c69f9b41fbb438da19ac95af65dd, type: 3}
+  - {fileID: 21300000, guid: 4d6702d6175e8404298d2373a6c93ebc, type: 3}
+  - {fileID: 21300000, guid: cad4aa67340215f41ad216b50e00f4c4, type: 3}
+  - {fileID: 21300000, guid: 1a948fc7c72154e4a93ea66c1b8d7022, type: 3}
+  - {fileID: 21300000, guid: 9ea1a8a6f30eafc4ba524c936562f064, type: 3}

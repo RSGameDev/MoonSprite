@@ -13,6 +13,16 @@ MonoBehaviour:
   m_Name: Regular
   m_EditorClassIdentifier: 
   speed: 1.75
-  health: 3
-  sprite: {fileID: 21300000, guid: d06a6118a6db9fe4b9873de0c30e334c, type: 3}
-  size: 1.5
+  health: 100
+  sprite: {fileID: 21300000, guid: 0d6b2bbdb89a13448b8773ab0ff4a086, type: 3}
+  size: 1
+  sprites:
+  - {fileID: 21300000, guid: 3c3b204f402ffb4448687e642080e7f8, type: 3}
+  - {fileID: 21300000, guid: 06f08d4456c79fe4ebf4054fb286861c, type: 3}
+  - {fileID: 21300000, guid: 495379e5a3a6fba42ac1d75b4e85ba9e, type: 3}
+  - {fileID: 21300000, guid: e206ce4441cf9f340a56e6036221174e, type: 3}
+  - {fileID: 21300000, guid: 213178f8b37a37348bbd4bae46a7989e, type: 3}
+  - {fileID: 21300000, guid: fecec5e6b11e2344782ff34217e9eb34, type: 3}
+  - {fileID: 21300000, guid: 4ddd9d33f9c23c3409c6a4f4bb2f28b4, type: 3}
+  - {fileID: 21300000, guid: 8140df8a1baba7d488a15137c36d3e25, type: 3}
+  - {fileID: 21300000, guid: 00b738391af501849b51430dc463a058, type: 3}

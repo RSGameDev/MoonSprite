@@ -54,12 +54,13 @@ namespace Tower_Defense.Towers
                     }
                 }
             }
-            if (t >=tower.fireRate&&closetEnemy!=null)
+            if (t >=tower.fireRate&&closetEnemy!=null && Vector2.Distance(transform.position, closetEnemy.transform.position)<tower.range)
             {
                 t = 0;
                 var newBullet = Instantiate(bullets, transform.position, quaternion.identity);
                 newBullet.GetComponent<Projectile>().AssignTarget(closetEnemy);
                 newBullet.GetComponent<Projectile>().AssignProjectile(projectileImage);
+                newBullet.GetComponent<Projectile>().damage = damage;
             }
         }
     }
