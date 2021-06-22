@@ -9,4 +9,6 @@ public class EnemyData : ScriptableObject
     public int health;
     public Sprite sprite;
     public float size;
+
+    public Sprite[] sprites;
 }

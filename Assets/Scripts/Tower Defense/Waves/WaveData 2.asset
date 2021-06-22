@@ -10,12 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae0ba95de914a624a86ea2162e716d4b, type: 3}
-  m_Name: WaveData 1
+  m_Name: WaveData 2
   m_EditorClassIdentifier: 
   enemies:
+  - {fileID: 11400000, guid: 6b7225fe1da2a1a4bb59829a772d7888, type: 2}
+  - {fileID: 11400000, guid: 6b7225fe1da2a1a4bb59829a772d7888, type: 2}
   - {fileID: 11400000, guid: 43d5c3ec16771d64187f5343c0edefda, type: 2}
+  - {fileID: 11400000, guid: 6b7225fe1da2a1a4bb59829a772d7888, type: 2}
   - {fileID: 11400000, guid: 43d5c3ec16771d64187f5343c0edefda, type: 2}
+  - {fileID: 11400000, guid: 6b7225fe1da2a1a4bb59829a772d7888, type: 2}
   - {fileID: 11400000, guid: 43d5c3ec16771d64187f5343c0edefda, type: 2}
-  - {fileID: 11400000, guid: 43d5c3ec16771d64187f5343c0edefda, type: 2}
-  - {fileID: 11400000, guid: 43d5c3ec16771d64187f5343c0edefda, type: 2}
+  - {fileID: 11400000, guid: 6b7225fe1da2a1a4bb59829a772d7888, type: 2}
   spawnCooldown: 1

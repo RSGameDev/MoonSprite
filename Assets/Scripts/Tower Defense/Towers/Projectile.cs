@@ -8,6 +8,7 @@ namespace Tower_Defense.Towers
         private float speed = 10.0f;
         private Vector2 enemyPos;
         private Rigidbody2D rb;
+        public int damage;
 
         public Sprite projectileImage;
     
@@ -29,7 +30,7 @@ namespace Tower_Defense.Towers
             {
                 if (Vector2.Distance(enemies[i].transform.position, transform.position)<0.4f)
                 {
-                    enemies[i].Hurt();
+                    enemies[i].Hurt(damage);
                     Destroy(gameObject);
                 }
             }

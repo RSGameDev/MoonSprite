@@ -25,15 +25,23 @@ public class Enemy : MonoBehaviour
     private bool setup = false;
     private TowerDefenseManager tdManager;
 
+    private float t;
+    private Sprite[] sprites;
+    private int spriteIndex;
+    private float rand_speedMod;
+    
+
     public void SetupEnemy(EnemyData data, List<Vector2> inRoute, TowerDefenseManager inTdManager) // Set the enemy up so all data is stored in this
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = data.sprite;
 
+        rand_speedMod = Random.Range(-.3f, .7f);
         route = inRoute;
-        speed = data.speed;
+        speed = data.speed + rand_speedMod;
         health = data.health;
-        size = data.size;
+        size = data.size + (rand_speedMod/5);
+        sprites = data.sprites;
 
         transform.localScale = new Vector3(size, size, 1);
         transform.position = route[0];
@@ -44,7 +52,23 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
+        if (t>0.16f)
+        {
+            
+            if (spriteIndex < sprites.Length)
+            {
+                spriteRenderer.sprite = sprites[spriteIndex];
+                spriteIndex++;
+            }
+            else { spriteIndex = 0; }
+            t = 0;
+            
 
+        }
+        else
+        {
+            t += Time.deltaTime;
+        }
 
         //if (routeIndex >= route.Count) // Are we done? stop all computation
         //{
@@ -86,6 +110,15 @@ public class Enemy : MonoBehaviour
             CalculateLerp(); // Work out the lerp value so the enemy always moves a the same speed
             
             Vector2 position = Vector2.Lerp(route[routeIndex - 1], route[routeIndex], lerpValue);
+            if (position.x < transform.position.x)
+            {
+                GetComponent<SpriteRenderer>().flipX = true;
+            }
+            else 
+            {
+                
+                GetComponent<SpriteRenderer>().flipX = false; 
+            }
             transform.position = position;
         }
     }
