@@ -8,6 +8,7 @@ public class WaveManager : MonoBehaviour
     public TowerDefenseManager tdManager;
 
     public float WaveCoolDown = 5f;
+    public float initialCoolDown = 5f;
 
     private int waveIndex = 0;
     private int enemyIndex = 0;
@@ -24,7 +25,7 @@ public class WaveManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        enemyTime += initialCoolDown;
     }
 
     // Update is called once per frame

@@ -7,9 +7,11 @@ public class Enemy : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer;
 
-    private float speed;
+    [HideInInspector]
+    public float speed;
     private int health;
     private float size;
+    private float startingspeed;
 
     public List<Vector2> route;
     public int routeIndex = 0;
@@ -29,16 +31,35 @@ public class Enemy : MonoBehaviour
     private Sprite[] sprites;
     private int spriteIndex;
     private float rand_speedMod;
+
+
+    //Polish for getting hurt
+    public Color hurtColor;
+    private Color startColor;
+    private bool hurt;
+    private float thurt;
+
+    //Polish for player getting hurt
+    public GameObject smallPoof;
+    private Animator camShake;
+
+    public GameObject coin;
+    private int coinAmount;
     
 
     public void SetupEnemy(EnemyData data, List<Vector2> inRoute, TowerDefenseManager inTdManager) // Set the enemy up so all data is stored in this
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = data.sprite;
+        startColor = spriteRenderer.color;
+
+        camShake = FindObjectOfType<CameShakeStop>().gameObject.GetComponent<Animator>();
 
         rand_speedMod = Random.Range(-.3f, .7f);
+        coinAmount = Random.Range(1, 4);
         route = inRoute;
         speed = data.speed + rand_speedMod;
+        startingspeed = speed;
         health = data.health;
         size = data.size + (rand_speedMod/5);
         sprites = data.sprites;
@@ -52,7 +73,7 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
-        if (t>0.16f)
+        if (t>(0.16f/speed))
         {
             
             if (spriteIndex < sprites.Length)
@@ -70,6 +91,26 @@ public class Enemy : MonoBehaviour
             t += Time.deltaTime;
         }
 
+        if (speed<startingspeed)
+        {
+            speed += Time.deltaTime/2;
+        }
+
+        if (hurt)
+        {
+            if (spriteRenderer.color != hurtColor)
+            {
+                spriteRenderer.color = hurtColor;
+            }
+            thurt += Time.deltaTime;
+            if (thurt >.3f)
+            {
+                thurt = 0;
+                spriteRenderer.color = startColor;
+                hurt = false;
+            }
+        }
+
         //if (routeIndex >= route.Count) // Are we done? stop all computation
         //{
         //    DamagePlayer();
@@ -81,6 +122,9 @@ public class Enemy : MonoBehaviour
             routeIndex++;
             if (routeIndex >= route.Count)
             {
+                var poof = Instantiate(smallPoof, transform.position, Quaternion.identity);
+                poof.GetComponent<ParticleSystem>().startColor = hurtColor;
+                camShake.SetBool("Shake", true);
                 DamagePlayer();
                 Destroy(gameObject);
             }
@@ -138,9 +182,19 @@ public class Enemy : MonoBehaviour
     
     public void Hurt(int damage = 1)
     {
+        if (damage != 0)
+        {
+            hurt = true;
+        }
+        
         health -= damage;
         if (health <= 0)
         {
+            for (int i = 0; i < coinAmount; i++)
+            {
+                Instantiate(coin, transform.position, Quaternion.identity);
+            }
+            
             Destroy(this.gameObject);
         }
     }

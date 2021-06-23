@@ -11,6 +11,7 @@ namespace Tower_Defense.UI
         private void Awake()
         {
             _playerTowerLevel = FindObjectsOfType<PlayerTowerLevel>();
+            tower.priceRunTime = tower.price;
         }
 
         private void OnMouseDown()

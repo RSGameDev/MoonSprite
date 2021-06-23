@@ -145,6 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9569779f03249347938bd1af2c8fe4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0
   route:
   - {x: -4.21, y: 1.51}
   - {x: -4.21, y: 1.51}
@@ -160,3 +161,4 @@ MonoBehaviour:
   nextRoute: 1
   lerpValue: 0
   frameIncrement: 0
+  hurtColor: {r: 1, g: 0, b: 0, a: 1}
