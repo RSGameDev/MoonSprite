@@ -42,6 +42,9 @@ public class Enemy : MonoBehaviour
     //Polish for player getting hurt
     public GameObject smallPoof;
     private Animator camShake;
+
+    public GameObject coin;
+    private int coinAmount;
     
 
     public void SetupEnemy(EnemyData data, List<Vector2> inRoute, TowerDefenseManager inTdManager) // Set the enemy up so all data is stored in this
@@ -53,6 +56,7 @@ public class Enemy : MonoBehaviour
         camShake = FindObjectOfType<CameShakeStop>().gameObject.GetComponent<Animator>();
 
         rand_speedMod = Random.Range(-.3f, .7f);
+        coinAmount = Random.Range(1, 4);
         route = inRoute;
         speed = data.speed + rand_speedMod;
         startingspeed = speed;
@@ -186,6 +190,10 @@ public class Enemy : MonoBehaviour
         health -= damage;
         if (health <= 0)
         {
+            for (int i = 0; i < coinAmount; i++)
+            {
+                Instantiate(coin, transform.position, Quaternion.identity);
+            }
             
             Destroy(this.gameObject);
         }

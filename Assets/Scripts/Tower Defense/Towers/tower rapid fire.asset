@@ -19,5 +19,6 @@ MonoBehaviour:
   damage: 25
   range: 2
   fireRate: 0.9
-  price: 0
+  price: 20
   projectile: {fileID: 111604899939266598, guid: 387befed8c107fc49b91fd377aa3a18b, type: 3}
+  priceRunTime: 20

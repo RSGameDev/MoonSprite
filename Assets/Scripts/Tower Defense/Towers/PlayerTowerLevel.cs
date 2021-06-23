@@ -10,6 +10,7 @@ namespace Tower_Defense.Towers
         [SerializeField] Towers _tower;
 
         public Grid grid;
+        private int priceIncreaser;
 
         private void Start()
         {
@@ -34,8 +35,16 @@ namespace Tower_Defense.Towers
 
         private void CreateTower(Vector3 gridPosition)
         {
-            var newTower = Instantiate(towerGO, gridPosition, Quaternion.identity);
-            newTower.GetComponent<TowerDeploy>().tower = _tower;
+            var counter = FindObjectOfType<TD_CoinCounter>();
+            if (counter.coins>=_tower.priceRunTime)
+            {
+                counter.coins -= _tower.priceRunTime;
+                _tower.priceRunTime += 10 + priceIncreaser;
+                priceIncreaser += 5;
+                var newTower = Instantiate(towerGO, gridPosition, Quaternion.identity);
+                newTower.GetComponent<TowerDeploy>().tower = _tower;
+            }
+            
         }
 
         public void SelectedTower(Towers towerSelected)

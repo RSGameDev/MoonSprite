@@ -14,5 +14,8 @@ namespace Tower_Defense.Towers
         public float fireRate;
         public int price;
         public GameObject projectile;
+
+        [HideInInspector]
+        public int priceRunTime;
     }
 }

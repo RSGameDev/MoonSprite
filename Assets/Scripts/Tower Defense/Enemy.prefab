@@ -105,6 +105,7 @@ MonoBehaviour:
   frameIncrement: 0
   hurtColor: {r: 1, g: 0.44716978, b: 0.44716978, a: 1}
   smallPoof: {fileID: 4104332059895189718, guid: 00a9f63a6edbed24c87f3c819662e0cf, type: 3}
+  coin: {fileID: 5246456195828646538, guid: 42f416870a194f340a902a55a3cc5e63, type: 3}
 --- !u!1 &5809891550570813146
 GameObject:
   m_ObjectHideFlags: 0
