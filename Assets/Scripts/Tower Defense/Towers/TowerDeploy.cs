@@ -26,6 +26,7 @@ namespace Tower_Defense.Towers
             projectileImage = tower.projectileImage;
             health = tower.health;
             damage = tower.damage;
+            bullets = tower.projectile;
         }
 
 

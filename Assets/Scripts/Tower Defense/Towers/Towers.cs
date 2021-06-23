@@ -13,5 +13,6 @@ namespace Tower_Defense.Towers
         public float range;
         public float fireRate;
         public int price;
+        public GameObject projectile;
     }
 }

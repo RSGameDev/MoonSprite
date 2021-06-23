@@ -8,9 +8,12 @@ namespace Tower_Defense.Towers
         private float speed = 10.0f;
         private Vector2 enemyPos;
         private Rigidbody2D rb;
+        [HideInInspector]
         public int damage;
+        public bool isSlowing;
 
         public Sprite projectileImage;
+        public GameObject particlePoof;
     
         // Start is called before the first frame update
         void Start()
@@ -30,6 +33,14 @@ namespace Tower_Defense.Towers
             {
                 if (Vector2.Distance(enemies[i].transform.position, transform.position)<0.4f)
                 {
+                    if (isSlowing && enemies[i].speed>1f)
+                    {
+                        enemies[i].speed += -.1f;
+                    }
+                    if (!isSlowing)
+                    {
+                        Instantiate(particlePoof, transform.position, Quaternion.identity);
+                    }
                     enemies[i].Hurt(damage);
                     Destroy(gameObject);
                 }
