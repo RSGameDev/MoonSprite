@@ -11,10 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pre Game/Main Menu Screen.unity
     guid: 1b7907e395939a141b69fda8523cfc50
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/CentralPlatformer.unity
     guid: f93ab038e8fe46a43b9b1d16a2fe0efe
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Platformer/Dev/CentralPlatformer RS GameOver.unity
     guid: bdec06103283606438657ec43c4312d3
   - enabled: 1

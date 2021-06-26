@@ -27,17 +27,12 @@ public class GameManager : MonoBehaviour
     
     public int coins;
 
-    //private void Start()
-    //{
-    //    SceneController._instance.InitCurrentScene();
-    //}
-
     void Update()
     {
-        //if (Input.GetButtonDown("Fire1"))
-        //{
-        //    SceneControls.NextLevel();
-        //}
+        if (Input.GetButtonDown("Fire1"))
+        {
+            SceneControls.NextLevel();
+        }
     }
 
     public void ResetScene()

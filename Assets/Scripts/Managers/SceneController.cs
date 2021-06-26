@@ -25,7 +25,7 @@ namespace Managers
 
         [SerializeField] private float _splashScreenDelay;
 
-        private static GameObject gameOverScreen;
+        private static GameObject _gameOverScreen;
         private bool _isKeyToEnter;
         private bool _referenceGameOverDisplay;
 
@@ -60,12 +60,11 @@ namespace Managers
 
         private void Update()
         {
-            print(gameOverScreen);
             if (_currentScene.name != preGameScene.name && !_referenceGameOverDisplay)
             {
                 InitCurrentScene();
-                gameOverScreen = GameObject.FindWithTag("Game Over Display");
-                gameOverScreen.SetActive(false);
+                _gameOverScreen = GameObject.FindWithTag("Game Over Display");
+                _gameOverScreen.SetActive(false);
             }
             
             if (_isKeyToEnter)
@@ -83,7 +82,7 @@ namespace Managers
         public void GameOverScreen()
         {
             _isKeyToEnter = true;
-            gameOverScreen.SetActive(true);
+            _gameOverScreen.SetActive(true);
         }
 
         private void HitAnyKeyDisplayTransition(Scene scene)
@@ -99,7 +98,7 @@ namespace Managers
                 else
                 {
                     _isKeyToEnter = false;
-                    gameOverScreen.SetActive(false);
+                    _gameOverScreen.SetActive(false);
                     SceneManager.LoadScene(_currentScene.name);
                     _referenceGameOverDisplay = false;
                     Time.timeScale = 1f;

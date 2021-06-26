@@ -5,59 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="827d344f-7157-40ec-956c-a6e5df82fcf5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/UI/Game Over Screen.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/UI/Game Over Screen.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/UI/Platformer Canvas.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/UI/Platformer Canvas.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Platformer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Platformer/Dev.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Platformer/Dev/CentralPlatformer RS GameOver.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Platformer/Dev/CentralPlatformer RS GameOver.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Platformer/Dev/Richard hazards.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Platformer/Dev/Richard hazards.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Tower Defence/Dev.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Tower Defence/Dev/Tower Defense Richard Test.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Tower Defence/Dev/Tower Defense Richard Test.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/Environment.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/Environment/Grass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/Environment/Grass.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/Hazard.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/Hazard/BombSprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/Hazard/BombSprite.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/Hazard/IceSprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/Hazard/IceSprite.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/Hazard/PlankSprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/Hazard/PlankSprite.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/Hazard/PlatformSprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/Hazard/PlatformSprite.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/UI/UIPanel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/UI/UIPanel.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/UI/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/UI/HUD.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/UI/HUD.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/UI/HUD.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/UI/HUD.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/UI/HUD.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CentralPlatformer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CentralPlatformer.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Platformer/Dev/CentralPlatformer RS GameOver.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Platformer/Dev/CentralPlatformer RS GameOver.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Pre Game/Main Menu Screen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Pre Game/Main Menu Screen.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Richard hazards.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Richard hazards.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tower Defence/Tower Defense Richard Test.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tower Defence/Tower Defense Richard Test.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/SceneController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/SceneController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Environment/Grass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Environment/Grass.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Hazard/BombSprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Hazard/BombSprite.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Hazard/IceSprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Hazard/IceSprite.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Hazard/PlankSprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Hazard/PlankSprite.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Hazard/PlatformSprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Hazard/PlatformSprite.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,8 +81,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Tower Defense/UI/TowerButton.cs" />
       <option value="$PROJECT_DIR$/Assets/Click.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Utility/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/SceneController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Utility/GameManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tJED1HKqpdcuElUf7PqDD2T6WE" />
@@ -209,7 +165,7 @@
       <workItem from="1624576316710" duration="1492000" />
       <workItem from="1624620410339" duration="4330000" />
       <workItem from="1624655865427" duration="5751000" />
-      <workItem from="1624707210235" duration="1145000" />
+      <workItem from="1624707210235" duration="2102000" />
     </task>
     <servers />
   </component>
