@@ -1,3 +1,4 @@
+using Managers;
 using UnityEngine;
 
 namespace PlayerNS
@@ -13,7 +14,8 @@ namespace PlayerNS
             if (health <= 0)
             {
                 health = 3;
-                FindObjectOfType<GameManager>().ResetScene();
+                PlayerDeath();
+                //FindObjectOfType<GameManager>().ResetScene();
             }
             if (anim.GetFloat("ShakeTime")>=0)
             {
@@ -23,6 +25,12 @@ namespace PlayerNS
             }
         }
 
+        void PlayerDeath()
+        {
+            Time.timeScale = 0f;
+            SceneController._instance.GameOverScreen();
+        }
+        
         public void Hurt()
         {
             health--;

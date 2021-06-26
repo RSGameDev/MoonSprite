@@ -1,11 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="827d344f-7157-40ec-956c-a6e5df82fcf5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/UI/Game Over Screen.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/UI/Game Over Screen.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/UI/Platformer Canvas.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/UI/Platformer Canvas.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Platformer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Platformer/Dev.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Platformer/Dev/CentralPlatformer RS GameOver.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Platformer/Dev/CentralPlatformer RS GameOver.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Platformer/Dev/Richard hazards.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Platformer/Dev/Richard hazards.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Tower Defence/Dev.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Tower Defence/Dev/Tower Defense Richard Test.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Tower Defence/Dev/Tower Defense Richard Test.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/Environment.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/Environment/Grass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/Environment/Grass.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/Hazard.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/Hazard/BombSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/Hazard/BombSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/Hazard/IceSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/Hazard/IceSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/Hazard/PlankSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/Hazard/PlankSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/Hazard/PlatformSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/Hazard/PlatformSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/UI/UIPanel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite/Platformer/Placeholder/UI/UIPanel.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Managers/Scene Manager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Managers/Scene Manager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/UI/HUD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/UI/HUD.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/UI/HUD.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/UI/HUD.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Pre Game/Main Menu Screen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Pre Game/Main Menu Screen.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Richard hazards.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Richard hazards.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tower Defence/Tower Defense Richard Test.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tower Defence/Tower Defense Richard Test.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/SceneController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/SceneController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Environment/Grass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Environment/Grass.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Hazard/BombSprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Hazard/BombSprite.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Hazard/IceSprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Hazard/IceSprite.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Hazard/PlankSprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Hazard/PlankSprite.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Hazard/PlatformSprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Hazard/PlatformSprite.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +82,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/TowerDeploy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hazards/Knife.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/153C624F-4E72-438E-BF26-AAC81CAD6111/7c/29169f2c/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/153C624F-4E72-438E-BF26-AAC81CAD6111/7c/29169f2c/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hazards/Kettle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Core/Variables/VariablesSaver.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -48,7 +100,6 @@
       <option value="$PROJECT_DIR$/Assets/OnOffCycle.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utility/OnOffCycle.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Hazards/SwitchOn.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Hazards/Hazard.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Hazards/Knife.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Hazards/PlatformMovement.cs" />
@@ -72,6 +123,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/PlayerTowerLevel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/TowerDeploy.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Tower Defense/UI/TowerButton.cs" />
+      <option value="$PROJECT_DIR$/Assets/Click.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Utility/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/SceneController.cs" />
     </changedPaths>
   </component>
@@ -82,14 +136,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34995976" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -151,6 +206,10 @@
       <workItem from="1624273558414" duration="7498000" />
       <workItem from="1624294593430" duration="3088000" />
       <workItem from="1624310096891" duration="2451000" />
+      <workItem from="1624576316710" duration="1492000" />
+      <workItem from="1624620410339" duration="4330000" />
+      <workItem from="1624655865427" duration="5751000" />
+      <workItem from="1624707210235" duration="1145000" />
     </task>
     <servers />
   </component>
