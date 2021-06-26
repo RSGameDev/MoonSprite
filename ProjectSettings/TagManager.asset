@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Mouse
+  - Game Over Display
   layers:
   - Default
   - TransparentFX
