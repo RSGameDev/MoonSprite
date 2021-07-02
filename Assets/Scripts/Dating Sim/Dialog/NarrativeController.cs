@@ -96,7 +96,6 @@ public class NarrativeController : MonoBehaviour
         {
             _progression++;
 
-            //multiple choice One stage
             if (_progression == _dialogueSize)
             {
                 mainDisplay.SetActive(false);
