@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: beb7a9808aa196a45b0d5cf132218ca7, type: 3}
-  m_Name: TextDataB
+  m_Name: HumanTextData1
   m_EditorClassIdentifier: 
-  content: i like that
-  character: {fileID: 0}
+  content: The buildings are quite the site here right?
+  character: {fileID: 11400000, guid: b3cc0192596013d4eab72f8aaa89bb7b, type: 2}

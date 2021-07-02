@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beb7a9808aa196a45b0d5cf132218ca7, type: 3}
   m_Name: TextDataA
   m_EditorClassIdentifier: 
-  content: Take his word for it.
+  content: I have time so, why not.
   character: {fileID: 0}

@@ -11,4 +11,5 @@ public class CutSceneManager : MonoBehaviour
     public CharacterData[] characterData;
     public TextData[] textData;
     public TextData[] multipleChoice;
+    public int[] cutManagerLink;
 }
