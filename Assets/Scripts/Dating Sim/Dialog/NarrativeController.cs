@@ -21,6 +21,7 @@ public class NarrativeController : MonoBehaviour
     private int _cutsceneIndex = 0;
     private int _characterDataIndex = 0;
     private int _dialogueIndex = 0;
+    private int _dialogueSize = 0;
     private int _multipleChoiceIndex = 0;
 
     private int _progression = 0;
@@ -32,8 +33,8 @@ public class NarrativeController : MonoBehaviour
         _slime = _cutscenes[_cutsceneIndex].characterData[_characterDataIndex].slime;
         header.text = _cutscenes[_cutsceneIndex].characterData[_characterDataIndex].name;
         dialogPrinter.PrintText(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].content);
+        _dialogueSize = _cutscenes[_cutsceneIndex].textData.Length;
         _dialogueIndex++;
-        _progression++;
     }
 
     private void Update()
@@ -64,9 +65,11 @@ public class NarrativeController : MonoBehaviour
                 _dialogueIndex = 0;
                 _multipleChoiceIndex = 0;
                 _characterDataIndex = 1;
+                _progression = -1;
                 _isChoosing = false;
                 background.sprite = _cutscenes[_cutsceneIndex].background;
                 dialogPrinter.PrintText(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].content);
+                _dialogueSize = _cutscenes[_cutsceneIndex].textData.Length;
             }
 
             if (Input.GetKeyDown(KeyCode.B))
@@ -78,9 +81,11 @@ public class NarrativeController : MonoBehaviour
                 _dialogueIndex = 0;
                 _multipleChoiceIndex = 0;
                 _characterDataIndex = 1;
+                _progression = -1;
                 _isChoosing = false;
                 background.sprite = _cutscenes[_cutsceneIndex].background;
                 dialogPrinter.PrintText(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].content);
+                _dialogueSize = _cutscenes[_cutsceneIndex].textData.Length;
             }
         }
     }
@@ -92,20 +97,7 @@ public class NarrativeController : MonoBehaviour
             _progression++;
 
             //multiple choice One stage
-            if (_progression == 5)
-            {
-                mainDisplay.SetActive(false);
-                choiceOne.SetActive(true);
-                choiceTwo.SetActive(true);
-                dialogPrinter.StopPrinting();
-                dialogPrinter.PrintStandard(_cutscenes[_cutsceneIndex].multipleChoice[_multipleChoiceIndex].content, "A");
-                _multipleChoiceIndex++;
-                dialogPrinter.PrintStandard(_cutscenes[_cutsceneIndex].multipleChoice[_multipleChoiceIndex].content, "B");
-
-                _isChoosing = true;
-            }
-            //multiple choice Two stage
-            if (_progression == 10)
+            if (_progression == _dialogueSize)
             {
                 mainDisplay.SetActive(false);
                 choiceOne.SetActive(true);
