@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: beb7a9808aa196a45b0d5cf132218ca7, type: 3}
-  m_Name: HumanOneTextData
+  m_Name: TextDataB
   m_EditorClassIdentifier: 
-  content: Hello, how are we
-  character: {fileID: 11400000, guid: 46045efdc52941747b45a9eee08918da, type: 2}
+  content: How did you come into this technology you speak of?
+  character: {fileID: 0}

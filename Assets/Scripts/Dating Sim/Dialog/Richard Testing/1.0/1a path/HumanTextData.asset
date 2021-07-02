@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: beb7a9808aa196a45b0d5cf132218ca7, type: 3}
-  m_Name: HumanOneTextDataChoiceA
+  m_Name: HumanTextData
   m_EditorClassIdentifier: 
-  content: nice day
-  character: {fileID: 11400000, guid: 46045efdc52941747b45a9eee08918da, type: 2}
+  content: Perculiar what is occuring of late here.
+  character: {fileID: 11400000, guid: 71fbf14fa6074ec43ba7a8b8e0817bb3, type: 2}

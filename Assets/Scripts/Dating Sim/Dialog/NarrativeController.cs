@@ -10,18 +10,19 @@ public class NarrativeController : MonoBehaviour
     [SerializeField] private List<CutSceneManager> _cutscenes;
 
     public GameObject mainDisplay;
-    public GameObject choiceOne;
-    public GameObject choiceTwo;
+    public GameObject[] choiceOption;
     public GameObject slimeGameObject;
     public DialogPrinter dialogPrinter;
     public TextMeshProUGUI header;
     [SerializeField] private Image background;
-    
+
+    private int textDataSize;
+    private int multipleChoiceSize;
+
     private bool _slime;
     private int _cutsceneIndex = 0;
     private int _characterDataIndex = 0;
     private int _dialogueIndex = 0;
-    private int _dialogueSize = 0;
     private int _multipleChoiceIndex = 0;
 
     private int _progression = 0;
@@ -29,11 +30,12 @@ public class NarrativeController : MonoBehaviour
 
     private void Start()
     {
+        textDataSize = _cutscenes[_cutsceneIndex].textData.Length;
+        multipleChoiceSize = _cutscenes[_cutsceneIndex].multipleChoice.Length;
         background.sprite = _cutscenes[_cutsceneIndex].background;
         _slime = _cutscenes[_cutsceneIndex].characterData[_characterDataIndex].slime;
         header.text = _cutscenes[_cutsceneIndex].characterData[_characterDataIndex].name;
         dialogPrinter.PrintText(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].content);
-        _dialogueSize = _cutscenes[_cutsceneIndex].textData.Length;
         _dialogueIndex++;
     }
 
@@ -49,7 +51,8 @@ public class NarrativeController : MonoBehaviour
     private void SlimeEnabled()
     {
         slimeGameObject.SetActive(_slime);
-        slimeGameObject.GetComponent<RawImage>().color = _cutscenes[_cutsceneIndex].characterData[_characterDataIndex].slimeColour;
+        slimeGameObject.GetComponent<RawImage>().color =
+            _cutscenes[_cutsceneIndex].characterData[_characterDataIndex].slimeColour;
     }
 
     private void MultipleChoice()
@@ -59,9 +62,12 @@ public class NarrativeController : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.A))
             {
                 mainDisplay.SetActive(true);
-                choiceOne.SetActive(false);
-                choiceTwo.SetActive(false);
-                _cutsceneIndex = 1;
+                for (int i = 0; i <= multipleChoiceSize; i++)
+                {
+                    choiceOption[i].SetActive(false);
+                }
+
+                _cutsceneIndex = _cutscenes[_cutsceneIndex].cutManagerLink[0];
                 _dialogueIndex = 0;
                 _multipleChoiceIndex = 0;
                 _characterDataIndex = 1;
@@ -69,15 +75,19 @@ public class NarrativeController : MonoBehaviour
                 _isChoosing = false;
                 background.sprite = _cutscenes[_cutsceneIndex].background;
                 dialogPrinter.PrintText(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].content);
-                _dialogueSize = _cutscenes[_cutsceneIndex].textData.Length;
+                textDataSize = _cutscenes[_cutsceneIndex].textData.Length;
+                multipleChoiceSize = _cutscenes[_cutsceneIndex].multipleChoice.Length;
             }
 
             if (Input.GetKeyDown(KeyCode.B))
             {
                 mainDisplay.SetActive(true);
-                choiceOne.SetActive(false);
-                choiceTwo.SetActive(false);
-                _cutsceneIndex = 2;
+                for (int i = 0; i <= multipleChoiceSize; i++)
+                {
+                    choiceOption[i].SetActive(false);
+                }
+
+                _cutsceneIndex = _cutscenes[_cutsceneIndex].cutManagerLink[1];
                 _dialogueIndex = 0;
                 _multipleChoiceIndex = 0;
                 _characterDataIndex = 1;
@@ -85,7 +95,28 @@ public class NarrativeController : MonoBehaviour
                 _isChoosing = false;
                 background.sprite = _cutscenes[_cutsceneIndex].background;
                 dialogPrinter.PrintText(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].content);
-                _dialogueSize = _cutscenes[_cutsceneIndex].textData.Length;
+                textDataSize = _cutscenes[_cutsceneIndex].textData.Length;
+                multipleChoiceSize = _cutscenes[_cutsceneIndex].multipleChoice.Length;
+            }
+
+            if (Input.GetKeyDown(KeyCode.C))
+            {
+                mainDisplay.SetActive(true);
+                for (int i = 0; i <= multipleChoiceSize; i++)
+                {
+                    choiceOption[i].SetActive(false);
+                }
+
+                _cutsceneIndex = _cutscenes[_cutsceneIndex].cutManagerLink[2];
+                _dialogueIndex = 0;
+                _multipleChoiceIndex = 0;
+                _characterDataIndex = 1;
+                _progression = -1;
+                _isChoosing = false;
+                background.sprite = _cutscenes[_cutsceneIndex].background;
+                dialogPrinter.PrintText(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].content);
+                textDataSize = _cutscenes[_cutsceneIndex].textData.Length;
+                multipleChoiceSize = _cutscenes[_cutsceneIndex].multipleChoice.Length;
             }
         }
     }
@@ -96,15 +127,40 @@ public class NarrativeController : MonoBehaviour
         {
             _progression++;
 
-            if (_progression == _dialogueSize)
+            if (_progression == textDataSize)
             {
                 mainDisplay.SetActive(false);
-                choiceOne.SetActive(true);
-                choiceTwo.SetActive(true);
+                for (int i = 0; i < multipleChoiceSize; i++)
+                {
+                    choiceOption[i].SetActive(true);
+                }
+
                 dialogPrinter.StopPrinting();
-                dialogPrinter.PrintStandard(_cutscenes[_cutsceneIndex].multipleChoice[_multipleChoiceIndex].content, "A");
-                _multipleChoiceIndex++;
-                dialogPrinter.PrintStandard(_cutscenes[_cutsceneIndex].multipleChoice[_multipleChoiceIndex].content, "B");
+
+                switch (multipleChoiceSize)
+                {
+                    case 1:
+                        dialogPrinter.PrintStandard(
+                            _cutscenes[_cutsceneIndex].multipleChoice[_multipleChoiceIndex].content, "A");
+                        break;
+                    case 2:
+                        dialogPrinter.PrintStandard(
+                            _cutscenes[_cutsceneIndex].multipleChoice[_multipleChoiceIndex].content, "A");
+                        _multipleChoiceIndex++;
+                        dialogPrinter.PrintStandard(
+                            _cutscenes[_cutsceneIndex].multipleChoice[_multipleChoiceIndex].content, "B");
+                        break;
+                    case 3:
+                        dialogPrinter.PrintStandard(
+                            _cutscenes[_cutsceneIndex].multipleChoice[_multipleChoiceIndex].content, "A");
+                        _multipleChoiceIndex++;
+                        dialogPrinter.PrintStandard(
+                            _cutscenes[_cutsceneIndex].multipleChoice[_multipleChoiceIndex].content, "B");
+                        _multipleChoiceIndex++;
+                        dialogPrinter.PrintStandard(
+                            _cutscenes[_cutsceneIndex].multipleChoice[_multipleChoiceIndex].content, "C");
+                        break;
+                }
 
                 _isChoosing = true;
             }

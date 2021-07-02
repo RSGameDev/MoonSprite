@@ -10,6 +10,7 @@ public class DialogPrinter : MonoBehaviour
     public TextMeshProUGUI mainTextBox;
     public TextMeshProUGUI choiceOneTextBox;
     public TextMeshProUGUI choiceTwoTextBox;
+    public TextMeshProUGUI choiceThreeTextBox;
 
     private Coroutine lastRoutine = null;
 
@@ -56,6 +57,9 @@ public class DialogPrinter : MonoBehaviour
                 break;
             case "B":
                 choiceTwoTextBox.text = text;
+                break;
+            case "C":
+                choiceThreeTextBox.text = text;
                 break;
         }
     }

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beb7a9808aa196a45b0d5cf132218ca7, type: 3}
   m_Name: AlienOneTextData
   m_EditorClassIdentifier: 
-  content: not to bad thanks
+  content: Good Morning.
   character: {fileID: 11400000, guid: ee5df56b5e36ba547876885b08f1ed6c, type: 2}
