@@ -22,12 +22,18 @@ namespace Managers
         public GameObject credits;
         private Scene _currentScene;
         public Object preGameScene;
+        public Object firstLevel;
+        public Object secondLevel;
+        public Object firstCutScene;
+        public Object secondCutScene;
+        public int sceneTransitionCount = 0;
 
         [SerializeField] private float _splashScreenDelay;
 
         private static GameObject _gameOverScreen;
         private bool _isKeyToEnter;
         private bool _referenceGameOverDisplay;
+        private bool _isFirstTransitionCompleted;
 
         private void Awake()
         {
@@ -66,11 +72,37 @@ namespace Managers
                 _gameOverScreen = GameObject.FindWithTag("Game Over Display");
                 _gameOverScreen.SetActive(false);
             }
-            
+
             if (_isKeyToEnter)
             {
                 HitAnyKeyDisplayTransition(_currentScene);
             }
+            
+            // L for Level/LevelChange/LevelSkip
+            if (Input.GetKeyDown(KeyCode.L))
+            {
+                _currentScene = SceneManager.GetActiveScene();
+                if (_currentScene.name == firstLevel.name && !_isFirstTransitionCompleted)
+                {
+                    _isFirstTransitionCompleted = true;
+                    LevelTransition();
+                }
+            }
+        }
+
+        public void LevelTransition()
+        {
+            switch (sceneTransitionCount)
+            {
+                case 0:
+                    LoadLevel(firstCutScene);
+                    break;
+                case 1:
+                    LoadLevel(secondCutScene);
+                    break;
+            }
+
+            sceneTransitionCount++;
         }
 
         public void InitCurrentScene()
@@ -78,7 +110,7 @@ namespace Managers
             _currentScene = SceneManager.GetActiveScene();
             _referenceGameOverDisplay = true;
         }
-        
+
         public void GameOverScreen()
         {
             _isKeyToEnter = true;
@@ -110,7 +142,7 @@ namespace Managers
         {
             SceneManager.LoadScene(scene.name);
         }
-        
+
         public void MenuScreenDisplay(GameObject gameObject)
         {
             if (gameObject == optionsScreenDisplay)

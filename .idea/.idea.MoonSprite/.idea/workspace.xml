@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="827d344f-7157-40ec-956c-a6e5df82fcf5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/NarrativeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/NarrativeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Pre Game/Main Menu Screen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Pre Game/Main Menu Screen.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/SceneController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/SceneController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +40,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/ScreenInterlude.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/TowerDeploy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hazards/Knife.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/153C624F-4E72-438E-BF26-AAC81CAD6111/7c/29169f2c/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
@@ -78,14 +86,15 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Tower Defense/UI/TowerButton.cs" />
       <option value="$PROJECT_DIR$/Assets/Click.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/SceneController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Utility/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/TileInfo.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/PlayerTowerLevel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/NarrativeController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/DialogPrinter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dating Sim/CutSceneManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/NarrativeController.cs" />
+      <option value="$PROJECT_DIR$/Assets/ScreenInterlude.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/SceneController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Utility/GameManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tJED1HKqpdcuElUf7PqDD2T6WE" />
@@ -180,6 +189,7 @@
       <workItem from="1625145644716" duration="3943000" />
       <workItem from="1625153703057" duration="1082000" />
       <workItem from="1625209387353" duration="2475000" />
+      <workItem from="1625232071003" duration="3136000" />
     </task>
     <servers />
   </component>

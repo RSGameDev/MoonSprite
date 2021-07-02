@@ -3796,9 +3796,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1948294428177424802}
     - target: {fileID: 664173826147819815, guid: bc2d7353e7effa340abe42b0b0a0e85e, type: 3}
+      propertyPath: firstLevel
+      value: 
+      objectReference: {fileID: 102900000, guid: f93ab038e8fe46a43b9b1d16a2fe0efe, type: 3}
+    - target: {fileID: 664173826147819815, guid: bc2d7353e7effa340abe42b0b0a0e85e, type: 3}
+      propertyPath: secondLevel
+      value: 
+      objectReference: {fileID: 102900000, guid: edf987867f3a2164f911d3d97f14ee90, type: 3}
+    - target: {fileID: 664173826147819815, guid: bc2d7353e7effa340abe42b0b0a0e85e, type: 3}
       propertyPath: preGameScene
       value: 
       objectReference: {fileID: 102900000, guid: 1b7907e395939a141b69fda8523cfc50, type: 3}
+    - target: {fileID: 664173826147819815, guid: bc2d7353e7effa340abe42b0b0a0e85e, type: 3}
+      propertyPath: firstCutScene
+      value: 
+      objectReference: {fileID: 102900000, guid: e22bfa355838a5240bc54f074c368764, type: 3}
     - target: {fileID: 664173826147819815, guid: bc2d7353e7effa340abe42b0b0a0e85e, type: 3}
       propertyPath: mainMenuScreen
       value: 
