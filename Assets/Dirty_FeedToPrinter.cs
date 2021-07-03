@@ -16,18 +16,18 @@ public class Dirty_FeedToPrinter : MonoBehaviour
 
     void Start()
     {
-        if (data.character != null)
-        {
-            header.SetActive(true);
-            headerName.text = data.character.name;
+        //if (data.character != null)
+        //{
+        //    header.SetActive(true);
+        //    headerName.text = data.character.name;
 
-            if (data.character.slime)
-            {
-                slime_object.SetActive(true);
-                slime_object.GetComponent<RawImage>().color = data.character.slimeColour;
-            }
-        }
-        printer.PrintText(data.content);
+        //    if (data.character.slime)
+        //    {
+        //        slime_object.SetActive(true);
+        //        slime_object.GetComponent<RawImage>().color = data.character.slimeColour;
+        //    }
+        //}
+        //printer.PrintText(data.content);
     }
 
     

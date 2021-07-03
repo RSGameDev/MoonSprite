@@ -6,6 +6,6 @@ using UnityEngine;
 public class CharacterData : ScriptableObject
 {
     public bool slime;
-    public string name;
+    public string characterName;
     public Color slimeColour;
 }

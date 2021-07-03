@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: AlienOne
   m_EditorClassIdentifier: 
   slime: 1
-  name: Alien One
+  characterName: Alien 1
   slimeColour: {r: 0.28773582, g: 1, b: 0.36928892, a: 1}
