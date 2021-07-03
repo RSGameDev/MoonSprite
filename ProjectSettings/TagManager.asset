@@ -7,6 +7,8 @@ TagManager:
   - Enemy
   - Mouse
   - Game Over Display
+  - CleanUP
+  - Choice
   layers:
   - Default
   - TransparentFX

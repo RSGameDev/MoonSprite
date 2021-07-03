@@ -7,14 +7,15 @@ using UnityEngine.UI;
 
 public class NarrativeController : MonoBehaviour
 {
-    [SerializeField] private List<CutSceneManager> _cutscenes;
-
+    public CutSceneManager.Cutscene[] _cutscenes;
+    
     public GameObject mainDisplay;
     public GameObject[] choiceOption;
     public GameObject slimeGameObject;
     public DialogPrinter dialogPrinter;
     public TextMeshProUGUI header;
     [SerializeField] private Image background;
+    private CharacterData cd;
 
     private int textDataSize;
     private int multipleChoiceSize;
@@ -27,160 +28,125 @@ public class NarrativeController : MonoBehaviour
 
     private int _progression = 0;
     private bool _isChoosing;
+    public int _brennDisposition, _mayneDisposition,_zipDisposition;
 
     private void Start()
     {
-        textDataSize = _cutscenes[_cutsceneIndex].textData.Length;
-        multipleChoiceSize = _cutscenes[_cutsceneIndex].multipleChoice.Length;
-        background.sprite = _cutscenes[_cutsceneIndex].background;
-        _slime = _cutscenes[_cutsceneIndex].characterData[_characterDataIndex].slime;
-        header.text = _cutscenes[_cutsceneIndex].characterData[_characterDataIndex].name;
-        dialogPrinter.PrintText(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].content);
-        _dialogueIndex++;
+        UpdateHeader(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].character);
+        ParseDialogue(_cutsceneIndex, _dialogueIndex);
+
     }
 
-    private void Update()
+    public void Update()
     {
-        SlimeEnabled();
-
-        MultipleChoice();
-
-        PlayerInput();
+       
+        PlayCutscene(_cutsceneIndex);
     }
 
-    private void SlimeEnabled()
+    //This funciton is responsible for going through and making sure the header and character being presented is accurate. If the same character speaks twice there's no need to re-set the header.
+    public void UpdateHeader(CharacterData _cd = null)
     {
-        slimeGameObject.SetActive(_slime);
-        slimeGameObject.GetComponent<RawImage>().color =
-            _cutscenes[_cutsceneIndex].characterData[_characterDataIndex].slimeColour;
-    }
 
-    private void MultipleChoice()
-    {
-        if (_isChoosing)
+        if (cd!=_cd)
         {
-            if (Input.GetKeyDown(KeyCode.A))
+            cd = _cd;
+            if (cd == null)
             {
-                mainDisplay.SetActive(true);
-                for (int i = 0; i <= multipleChoiceSize; i++)
-                {
-                    choiceOption[i].SetActive(false);
-                }
-
-                _cutsceneIndex = _cutscenes[_cutsceneIndex].cutManagerLink[0];
-                _dialogueIndex = 0;
-                _multipleChoiceIndex = 0;
-                _characterDataIndex = 1;
-                _progression = -1;
-                _isChoosing = false;
-                background.sprite = _cutscenes[_cutsceneIndex].background;
-                dialogPrinter.PrintText(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].content);
-                textDataSize = _cutscenes[_cutsceneIndex].textData.Length;
-                multipleChoiceSize = _cutscenes[_cutsceneIndex].multipleChoice.Length;
-            }
-
-            if (Input.GetKeyDown(KeyCode.B))
-            {
-                mainDisplay.SetActive(true);
-                for (int i = 0; i <= multipleChoiceSize; i++)
-                {
-                    choiceOption[i].SetActive(false);
-                }
-
-                _cutsceneIndex = _cutscenes[_cutsceneIndex].cutManagerLink[1];
-                _dialogueIndex = 0;
-                _multipleChoiceIndex = 0;
-                _characterDataIndex = 1;
-                _progression = -1;
-                _isChoosing = false;
-                background.sprite = _cutscenes[_cutsceneIndex].background;
-                dialogPrinter.PrintText(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].content);
-                textDataSize = _cutscenes[_cutsceneIndex].textData.Length;
-                multipleChoiceSize = _cutscenes[_cutsceneIndex].multipleChoice.Length;
-            }
-
-            if (Input.GetKeyDown(KeyCode.C))
-            {
-                mainDisplay.SetActive(true);
-                for (int i = 0; i <= multipleChoiceSize; i++)
-                {
-                    choiceOption[i].SetActive(false);
-                }
-
-                _cutsceneIndex = _cutscenes[_cutsceneIndex].cutManagerLink[2];
-                _dialogueIndex = 0;
-                _multipleChoiceIndex = 0;
-                _characterDataIndex = 1;
-                _progression = -1;
-                _isChoosing = false;
-                background.sprite = _cutscenes[_cutsceneIndex].background;
-                dialogPrinter.PrintText(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].content);
-                textDataSize = _cutscenes[_cutsceneIndex].textData.Length;
-                multipleChoiceSize = _cutscenes[_cutsceneIndex].multipleChoice.Length;
-            }
-        }
-    }
-
-    private void PlayerInput()
-    {
-        if (Input.anyKeyDown && !_isChoosing)
-        {
-            _progression++;
-
-            if (_progression == textDataSize)
-            {
-                mainDisplay.SetActive(false);
-                for (int i = 0; i < multipleChoiceSize; i++)
-                {
-                    choiceOption[i].SetActive(true);
-                }
-
-                dialogPrinter.StopPrinting();
-
-                switch (multipleChoiceSize)
-                {
-                    case 1:
-                        dialogPrinter.PrintStandard(
-                            _cutscenes[_cutsceneIndex].multipleChoice[_multipleChoiceIndex].content, "A");
-                        break;
-                    case 2:
-                        dialogPrinter.PrintStandard(
-                            _cutscenes[_cutsceneIndex].multipleChoice[_multipleChoiceIndex].content, "A");
-                        _multipleChoiceIndex++;
-                        dialogPrinter.PrintStandard(
-                            _cutscenes[_cutsceneIndex].multipleChoice[_multipleChoiceIndex].content, "B");
-                        break;
-                    case 3:
-                        dialogPrinter.PrintStandard(
-                            _cutscenes[_cutsceneIndex].multipleChoice[_multipleChoiceIndex].content, "A");
-                        _multipleChoiceIndex++;
-                        dialogPrinter.PrintStandard(
-                            _cutscenes[_cutsceneIndex].multipleChoice[_multipleChoiceIndex].content, "B");
-                        _multipleChoiceIndex++;
-                        dialogPrinter.PrintStandard(
-                            _cutscenes[_cutsceneIndex].multipleChoice[_multipleChoiceIndex].content, "C");
-                        break;
-                }
-
-                _isChoosing = true;
+                header.gameObject.transform.parent.gameObject.SetActive(false);
+                slimeGameObject.SetActive(false);
             }
             else
             {
-                dialogPrinter.StopPrinting();
-                if (_characterDataIndex == 0)
-                {
-                    _characterDataIndex++;
-                }
-                else
-                {
-                    _characterDataIndex--;
-                }
-
-                _slime = _cutscenes[_cutsceneIndex].characterData[_characterDataIndex].slime;
-                header.text = _cutscenes[_cutsceneIndex].characterData[_characterDataIndex].name;
-                dialogPrinter.PrintText(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].content);
-                _dialogueIndex++;
+                header.gameObject.transform.parent.gameObject.SetActive(true);
+                slimeGameObject.SetActive(cd.slime);
+                slimeGameObject.GetComponent<RawImage>().color = cd.slimeColour;
+                header.text = cd.characterName;
             }
         }
+            
     }
+    
+    //This manages the currently active Cutscene, taking a click input from the player to proceed. If they've reached the end of the scene it will pop up the appropriate choice from the two prefab variants.
+    private void PlayCutscene(int i)
+    {
+        if (Input.GetButtonDown("Fire1") && !dialogPrinter.isRunning()&&!_isChoosing)
+        {
+            if (_dialogueIndex < _cutscenes[_cutsceneIndex].textData.Length)
+            {
+                if (dialogPrinter.mainTextBox.text != "")
+                {
+                    dialogPrinter.StopPrinting();
+                }
+                ParseDialogue(i, _dialogueIndex);
+            }
+            else
+            {
+                
+                _isChoosing = true;
+                SetUpOptions(_cutscenes[_cutsceneIndex].multipleChoice, _cutscenes[_cutsceneIndex].cutManagerLink);
+                mainDisplay.SetActive(false);
+            }
+            
+        }
+        
+    }
+
+    //This sets up and updates the options given to the player for making choices and makes sure they're able to navigate to the correct link. 
+    //Not that #0 element connects to the second option, #1 element connects to the first and #2 connects to the third option. This will be patched out later.
+    private void SetUpOptions(TextData.data[] optionText, int[] locations)
+    {
+        var options = Instantiate(choiceOption[_cutscenes[_cutsceneIndex].numberOfOptions - 2], transform.position, Quaternion.identity);
+        options.transform.parent = transform;
+        options.transform.localScale = new Vector3(100, 100, 1);
+        GameObject[] choices = GameObject.FindGameObjectsWithTag("Choice");
+        for (int i = 0; i < choices.Length; i++)
+        {
+            choices[i].GetComponentInChildren<TextMeshProUGUI>().text = optionText[i].content;
+            choices[i].GetComponentInChildren<SceneRelocator>().sceneID = locations[i];
+
+        }
+    }
+
+    //This function parses the correct dialogue along with making sure the header and character dispositions are properly handled. 
+    private void ParseDialogue(int i, int y)
+    {
+        DispotionsParse();
+        UpdateHeader(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].character);
+        dialogPrinter.PrintText(_cutscenes[i].textData[y].content);
+        _dialogueIndex++;
+    }
+
+    //This updates character dispositions if disposition is properly set up via the inspector, otherwise it ignores it.
+    private void DispotionsParse()
+    {
+        if (_cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition.Length ==3)
+        {
+            if (_cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[0] != 0 || _cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[1] != 0 || _cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[2] != 0)
+            {
+                _brennDisposition += _cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[0];
+                _mayneDisposition += _cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[1];
+                _zipDisposition += _cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[2];
+            }
+        }
+       
+    }
+
+    //This is a public function allowing other scripts (such as scene relocator) to set what scene needs to come next. 
+    public void SetCutScene(int i)
+    {
+        dialogPrinter.StopPrinting();
+        _dialogueIndex = 0;
+        _cutsceneIndex = i;
+        GameObject[] cleanup = GameObject.FindGameObjectsWithTag("CleanUP");
+        for (int n = 0; n < cleanup.Length; n++)
+        {
+            Destroy(cleanup[n]);
+        }
+        mainDisplay.SetActive(true);
+        _isChoosing = false;
+
+        ParseDialogue(_cutsceneIndex, _dialogueIndex);
+    }
+
+    
 }

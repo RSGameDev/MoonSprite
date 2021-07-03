@@ -16,6 +16,14 @@ public class DialogPrinter : MonoBehaviour
 
     public int charIndex;
 
+    public bool isRunning()
+    {
+        if (charIndex < printableText.Length)
+        {
+            return true;
+        }
+        else { return false; }
+    }
     public void SetDialogPiece(string text)
     {
         printableText = text;
@@ -66,6 +74,7 @@ public class DialogPrinter : MonoBehaviour
 
     private IEnumerator PrintOverTime(string text, float delay)
     {
+        printableText = text;
         while (charIndex < text.Length)
         {
             mainTextBox.text += text[charIndex];
