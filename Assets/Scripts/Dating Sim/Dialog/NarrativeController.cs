@@ -39,6 +39,10 @@ public class NarrativeController : MonoBehaviour
 
     public void Update()
     {
+        if (background.sprite != _cutscenes[_cutsceneIndex].background)
+        {
+            background.sprite = _cutscenes[_cutsceneIndex].background;
+        }
        
         PlayCutscene(_cutsceneIndex);
     }
@@ -81,10 +85,16 @@ public class NarrativeController : MonoBehaviour
             }
             else
             {
-                
-                _isChoosing = true;
-                SetUpOptions(_cutscenes[_cutsceneIndex].multipleChoice, _cutscenes[_cutsceneIndex].cutManagerLink);
-                mainDisplay.SetActive(false);
+                if (_cutscenes[_cutsceneIndex].cutManagerLink.Length < 2)
+                {
+                    SetCutScene(_cutscenes[_cutsceneIndex].cutManagerLink[0]);
+                }
+                else
+                {
+                    _isChoosing = true;
+                    SetUpOptions(_cutscenes[_cutsceneIndex].multipleChoice, _cutscenes[_cutsceneIndex].cutManagerLink);
+                    mainDisplay.SetActive(false);
+                }
             }
             
         }
