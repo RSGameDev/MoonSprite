@@ -4,61 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="827d344f-7157-40ec-956c-a6e5df82fcf5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dating Sim/Dev/Dialog System Richard CutScene Testing.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dating Sim/Dev/Dialog System Richard CutScene Testing.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/CutSceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/CutSceneManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/DialogPrinter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/DialogPrinter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/NarrativeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/NarrativeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option a path.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option a path/AlienTwo.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option a path/AlienTwo.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option a path/AlienTwoTextData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option a path/AlienTwoTextData.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option a path/AlienTwoTextData1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option a path/AlienTwoTextData1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option a path/Choices 1.1a.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option a path/Choices 1.1a/TextDataA.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option a path/Choices 1.1a/TextDataA.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option a path/Choices 1.1a/TextDataB.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option a path/Choices 1.1a/TextDataB.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option a path/HumanOne.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option a path/HumanOne.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option a path/HumanOneTextDataChoiceA 1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option a path/HumanOneTextDataChoiceA 1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option a path/HumanOneTextDataChoiceA.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option a path/HumanOneTextDataChoiceA.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option b path.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option b path/AlienThree.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option b path/AlienThree.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option b path/AlienThreeTextData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option b path/AlienThreeTextData.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option b path/AlienThreeTextData1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option b path/AlienThreeTextData1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option b path/Choices 1.1b.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option b path/Choices 1.1b/TextDataA.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option b path/Choices 1.1b/TextDataA.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option b path/Choices 1.1b/TextDataB.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option b path/Choices 1.1b/TextDataB.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option b path/HumanOne.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option b path/HumanOne.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option b path/HumanOneTextDataChoiceB 1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option b path/HumanOneTextDataChoiceB 1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option b path/HumanOneTextDataChoiceB.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/1.1 option b path/HumanOneTextDataChoiceB.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/AlienOneTextData 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/AlienOneTextData 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/AlienOneTextData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/AlienOneTextData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/Choices 1.0/TextDataA.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/Choices 1.0/TextDataA.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/Choices 1.0/TextDataB.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/Choices 1.0/TextDataB.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/HumanOne.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/HumanOne.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/HumanOneTextData 1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/HumanOneTextData 1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/HumanOneTextData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/1.0/HumanOneTextData.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="827d344f-7157-40ec-956c-a6e5df82fcf5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,12 +30,18 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/ScreenInterlude.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Dating Sim/Dialog/NarrativeController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Dating Sim/Dialog/NarrativeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/TowerDeploy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hazards/Knife.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/153C624F-4E72-438E-BF26-AAC81CAD6111/7c/29169f2c/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Dirty_FeedToPrinter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Dating Sim/Dialog/NarrativeController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Dating Sim/Dialog/NarrativeController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Dating Sim/Dialog/NarrativeController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScreenInterlude.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Dating Sim/Dialog/NarrativeController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/153C624F-4E72-438E-BF26-AAC81CAD6111/7c/29169f2c/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hazards/Kettle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Core/Variables/VariablesSaver.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -139,6 +91,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/DialogPrinter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dating Sim/CutSceneManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/NarrativeController.cs" />
+      <option value="$PROJECT_DIR$/Assets/MouseCursor.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tJED1HKqpdcuElUf7PqDD2T6WE" />
@@ -235,6 +188,7 @@
       <workItem from="1625209387353" duration="2475000" />
       <workItem from="1625232071003" duration="3136000" />
       <workItem from="1625260459694" duration="6389000" />
+      <workItem from="1625409572195" duration="2252000" />
     </task>
     <servers />
   </component>
