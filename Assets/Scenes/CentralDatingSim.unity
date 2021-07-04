@@ -1031,7 +1031,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cutscenes:
   - state: 0 Intro
-    background: {fileID: 21300000, guid: f61507b9b396ccf418e194122a8f9539, type: 3}
+    background: {fileID: -6775831545823544474, guid: f61507b9b396ccf418e194122a8f9539, type: 3}
     WIP: 0
     textData:
     - content: Lily is nervous. Of course she is, wouldn't anyone her age be scared
@@ -1062,7 +1062,7 @@ MonoBehaviour:
       disposition: 
     cutManagerLink: 010000000200000001000000
   - state: '1 You watch it. '
-    background: {fileID: 21300000, guid: f61507b9b396ccf418e194122a8f9539, type: 3}
+    background: {fileID: -6775831545823544474, guid: f61507b9b396ccf418e194122a8f9539, type: 3}
     WIP: 0
     textData:
     - content: '"Whatever.." '
@@ -1075,7 +1075,7 @@ MonoBehaviour:
     multipleChoice: []
     cutManagerLink: 03000000
   - state: 2 Ignore Zip
-    background: {fileID: 21300000, guid: f61507b9b396ccf418e194122a8f9539, type: 3}
+    background: {fileID: -6775831545823544474, guid: f61507b9b396ccf418e194122a8f9539, type: 3}
     WIP: 0
     textData:
     - content: 'The small red alien boy walks away in a huff. '
@@ -1394,7 +1394,7 @@ MonoBehaviour:
       character: {fileID: 0}
       disposition: 000000000000000001000000
     multipleChoice: []
-    cutManagerLink: 00000000
+    cutManagerLink: 19000000
   - state: 17 Sit at the back
     background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
     WIP: 0
@@ -1576,7 +1576,7 @@ MonoBehaviour:
     - content: Let her finish
       character: {fileID: 0}
       disposition: 
-    cutManagerLink: 1b0000001a000000
+    cutManagerLink: 1a0000001b000000
   - state: 26 Interupt her and correct her about your name
     background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
     WIP: 0
@@ -1600,7 +1600,7 @@ MonoBehaviour:
     - content: Apologize
       character: {fileID: 0}
       disposition: 
-    cutManagerLink: 1d0000001c000000
+    cutManagerLink: 1c0000001d000000
   - state: 27 Let her finish
     background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
     WIP: 0
@@ -1643,7 +1643,7 @@ MonoBehaviour:
     - content: Tell her that you don't care
       character: {fileID: 0}
       disposition: 
-    cutManagerLink: 1e0000001d000000
+    cutManagerLink: 1d0000001e000000
   - state: 29 Apologize
     background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
     WIP: 0
@@ -1670,7 +1670,7 @@ MonoBehaviour:
     - content: Follow Brenn's Example and Daydream instead
       character: {fileID: 0}
       disposition: 
-    cutManagerLink: 200000001f000000
+    cutManagerLink: 1f00000020000000
   - state: 30 Tell her that you don't care
     background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
     WIP: 0
@@ -1697,7 +1697,7 @@ MonoBehaviour:
     - content: Follow Brenn's Example and Daydream instead
       character: {fileID: 0}
       disposition: 
-    cutManagerLink: 200000001f000000
+    cutManagerLink: 1f00000020000000
   - state: 31 Take notes
     background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
     WIP: 0
@@ -1730,10 +1730,10 @@ MonoBehaviour:
     - content: No, these are mine
       character: {fileID: 0}
       disposition: 
-    cutManagerLink: 2200000021000000
+    cutManagerLink: 2100000022000000
   - state: 32 Follow Brenn's Example and Daydream instead
     background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
-    WIP: 1
+    WIP: 0
     textData:
     - content: Lily day dreams about random things. For example, if dogs don't sweat,
         why do they have eyebrows? Since human eyebrows are meant to catch-
@@ -1746,24 +1746,400 @@ MonoBehaviour:
     cutManagerLink: 23000000
   - state: 33 Yeah, go ahead
     background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
-    WIP: 1
-    textData: []
+    WIP: 0
+    textData:
+    - content: Mayne Happily takes down her notes. He gives her a sticker as a prize,
+        it looks like a little green alien giving her a thumbs up while sticking
+        out his tongue.
+      character: {fileID: 0}
+      disposition: 
+    - content: ' "Well I''ll let you get to it then." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 000000000200000000000000
     multipleChoice: []
-    cutManagerLink: 
+    cutManagerLink: 23000000
   - state: 34 No, these are mine
     background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
-    WIP: 1
-    textData: []
+    WIP: 0
+    textData:
+    - content: '"Oh. Right.. sorry" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+    - content: He frowns a little.
+      character: {fileID: 0}
+      disposition: 00000000feffffff00000000
+    - content: '"Well, I''ll let you get to your break then."'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
     multipleChoice: []
-    cutManagerLink: 
+    cutManagerLink: 23000000
   - state: 35 Go to break time
     background: {fileID: 21300000, guid: e4c23c8d7cb69704d925ad6642e5ee9a, type: 3}
+    WIP: 1
+    textData:
+    - content: ' Lily steps out into the hallway overhearing the chatter from some
+        random students.'
+      character: {fileID: 0}
+      disposition: 
+    - content: '"Excited for prom?"'
+      character: {fileID: 11400000, guid: 8b1371ccd546a0448b7aa3cd9c2872c3, type: 2}
+      disposition: 
+    - content: '"Yeah, I can''t believe it''s only in 12 hours." '
+      character: {fileID: 11400000, guid: bef989cfdb7252a4c98a311f2be6d845, type: 2}
+      disposition: 
+    - content: '"Hehe, yeah. Hoping that Poky will say yes."'
+      character: {fileID: 11400000, guid: 8b1371ccd546a0448b7aa3cd9c2872c3, type: 2}
+      disposition: 
+    - content: '"You still haven''t gotten a response." '
+      character: {fileID: 11400000, guid: bef989cfdb7252a4c98a311f2be6d845, type: 2}
+      disposition: 
+    - content: ' "I was nervous to send the letter."'
+      character: {fileID: 11400000, guid: 8b1371ccd546a0448b7aa3cd9c2872c3, type: 2}
+      disposition: 
+    - content: '"You know the seniors will toss anyone out the airlock who doesn''t
+        have a date right?"'
+      character: {fileID: 11400000, guid: bef989cfdb7252a4c98a311f2be6d845, type: 2}
+      disposition: 
+    - content: '"Haha. That''s a funny prank since we''re immune to the vacuum of
+        space." '
+      character: {fileID: 11400000, guid: 8b1371ccd546a0448b7aa3cd9c2872c3, type: 2}
+      disposition: 
+    - content: '"...why did you say it like that? As if you were a background character
+        giving exposition to someone"'
+      character: {fileID: 11400000, guid: bef989cfdb7252a4c98a311f2be6d845, type: 2}
+      disposition: 
+    - content: ' "...I don''t know?" '
+      character: {fileID: 11400000, guid: 8b1371ccd546a0448b7aa3cd9c2872c3, type: 2}
+      disposition: 
+    - content: Lily feels a bit nervous, she wouldn't survive being thrown out into
+        the vaccum, so she better find a date to the prom.
+      character: {fileID: 0}
+      disposition: 
+    - content: Lily spots the three boys at their lockers. They're all human in appearance
+        so she might as well try and socialize and see if any of them are at least..
+        prom-ask-able.
+      character: {fileID: 0}
+      disposition: 
+    multipleChoice:
+    - content: Go to Zip's locker
+      character: {fileID: 0}
+      disposition: 
+    - content: Go to Mayne's locker
+      character: {fileID: 0}
+      disposition: 
+    - content: Go to Brenn's locker
+      character: {fileID: 0}
+      disposition: 
+    cutManagerLink: 000000002400000000000000
+  - state: 36 Go to Zip's Locker
+    background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 0
+    textData:
+    - content: 'Zip''s locker appears to be somewhat scuffed up, there''s a bunch
+        of stickers on the inside and a small mirror with a crack running down the
+        middle. '
+      character: {fileID: 0}
+      disposition: 
+    - content: '"What..?" '
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 
+    multipleChoice:
+    - content: I just wanted to say hi
+      character: {fileID: 0}
+      disposition: 
+    - content: What yourself you rude little goblin
+      character: {fileID: 0}
+      disposition: 
+    - content: Hey Zip, Why do some of you look like cute boys?
+      character: {fileID: 0}
+      disposition: 
+    cutManagerLink: 260000002500000027000000
+  - state: 37 I just wanted to say hi
+    background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 0
+    textData:
+    - content: '"Hi, I guess." '
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 
+    - content: Zip looks proceeds to put stuff from his locker into his bag haphazardly.
+      character: {fileID: 0}
+      disposition: 
+    - content: '"I meant it more in the sense of I want to get to know you better"'
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
+      disposition: 
+    - content: Zip rolls his eyes a little
+      character: {fileID: 0}
+      disposition: 0000000000000000ffffffff
+    - content: '"I''m Zip, I''m the youngest of my class, I break stuff for fun,
+        I don''t like teachers, or people who try to ask me stupid questions." '
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 
+    - content: Mayne approaches the locker
+      character: {fileID: 0}
+      disposition: 
+    multipleChoice: []
+    cutManagerLink: 29000000
+  - state: 38 What yourself you rude little goblin
+    background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 0
+    textData:
+    - content: Zip is taken aback for a moment but then chuckles.
+      character: {fileID: 0}
+      disposition: 
+    - content: '"Finally, someone with a little bit more grit."'
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 000000000000000001000000
+    - content: Zip haphazardly pops some stuff into his locker, and takes out what
+        appears to be a spray can, quickly stuffing it in his bag. His eyes narrow
+        and he whispers with a small smirk.
+      character: {fileID: 0}
+      disposition: 
+    - content: '"You''re on a bit of a roll new girl, want to hyper paint some school
+        property?" '
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 
+    multipleChoice:
+    - content: I have nothing better to do
+      character: {fileID: 0}
+      disposition: 
+    - content: No really my thing
+      character: {fileID: 0}
+      disposition: 
+    cutManagerLink: 2d00000028000000
+  - state: 39 Hey Zip, Why do some of you look like cute boys?
+    background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 0
+    textData:
+    - content: '"I am NOT cute!!" '
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 000000000000000001000000
+    - content: Zip seems as equally flustered as he does frustrated.
+      character: {fileID: 0}
+      disposition: 
+    - content: '"If you insist of putting your nose where it doesn''t belong. ."'
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 
+    - content: ' "The dean told me that as punishment I''m to wear a obfuscater collar-"'
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 
+    - content: '"To make the ''human'' more comfortable. I haven''t even seen this
+        human."'
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 
+    - content: '"I''m the human"'
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
+      disposition: 
+    - content: '"???"'
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 
+    - content: Zip is caught of guard. He huffs a little bit and seems embarrassed.
+      character: {fileID: 0}
+      disposition: 
+    - content: '"...sorry.. I guess." '
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 
+    - content: Mayne approaches the locker
+      character: {fileID: 0}
+      disposition: 
+    multipleChoice: []
+    cutManagerLink: 29000000
+  - state: 40 No really my thing
+    background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 0
+    textData:
+    - content: '"Huh, and here I thought you were cool new girl." '
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 
+    - content: 'Narrator: Mayne approaches the locker'
+      character: {fileID: 0}
+      disposition: 
+    multipleChoice: []
+    cutManagerLink: 29000000
+  - state: '41 Narrator: Mayne approaches the locker'
+    background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 0
+    textData:
+    - content: '"Hey, so I''m going to need my book back." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+    - content: '"I said I''d give it back later"'
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 
+    - content: '"You''ve said that fifteen times already though." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+    - content: Zip scoffs a bit.
+      character: {fileID: 0}
+      disposition: 
+    - content: '"So? I''m still planning to give it back. It''s not like-" '
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 
+    - content: '"You''ve lost it.. haven''t you?" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+    - content: '"No! I''ve not lost it. I''m just still using it." '
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 
+    - content: '"It''s taken you this long to read a book about human art..?" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+    - content: '"Art takes time."'
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 
+    - content: '"What''s your take on this Lily?" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+    multipleChoice:
+    - content: Zip, give him his book back
+      character: {fileID: 0}
+      disposition: 
+    - content: Mayne, give Zip some time. Human art takes time.
+      character: {fileID: 0}
+      disposition: 
+    - content: Not my problem. Don't drag me into it
+      character: {fileID: 0}
+      disposition: 
+    cutManagerLink: 2b0000002a0000002c000000
+  - state: 42 Zip, give him his book back
+    background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 1
+    textData:
+    - content: Zip grumbles.
+      character: {fileID: 0}
+      disposition: 0000000001000000ffffffff
+    - content: '"Fine.. you got me, I lost it. I was.. really focused on it, I was
+        reading it on the roof." '
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 
+    - content: '"I left for a moment to go to the bathroom and when I came back it
+        was gone." '
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 
+    - content: '"...I would have preferred the truth. Human stuff is a bit hard to
+        find." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+    - content: '"I know.. You don''t need to tell me. I feel bad enough about it."'
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 
+    - content: '"Thank you Lily for helping us resolve this." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+    - content: '"I need a little bit to have a conversation with Mayne. I''ll talk
+        to you later then."'
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 
+    - content: Lily Heads back to the lockers
+      character: {fileID: 0}
+      disposition: 
+    multipleChoice: []
+    cutManagerLink: 00000000
+  - state: 43 Mayne, give Zip some time. Human art takes time.
+    background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 1
+    textData:
+    - content: '"Fine, fine. But you better have my book next week" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 000000000000000001000000
+    - content: Manyne walks away, Zip looks back at Lily a little nervously.
+      character: {fileID: 11400000, guid: be3dcef6a9d0680408baa780630972bc, type: 2}
+      disposition: 
+    - content: '"I.. did lose the book, and I''m kind of embarrased about it. So
+        don''t tell him. but.. thanks for taking my side." '
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 
+    - content: '"I need a little moment to pack some stuff, I''ll talk to you in
+        a bit."'
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 
+    - content: Lily heads back to hang around the lockers once again.
+      character: {fileID: 0}
+      disposition: 
+    multipleChoice: []
+    cutManagerLink: 00000000
+  - state: 44 Not my problem. Don't drag me into it
+    background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 1
+    textData:
+    - content: 'Both boys frown a bit. '
+      character: {fileID: 0}
+      disposition: 00000000ffffffffffffffff
+    - content: '"I''ll get you the book tommorrow, ok dude?" '
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 
+    - content: '"... fine." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+    - content: Mayne leaves a little upset.
+      character: {fileID: 0}
+      disposition: 
+    - content: '"Look, I think I need a little bit of space for now." '
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 
+    - content: Lily goes back to hanging around the lockers
+      character: {fileID: 0}
+      disposition: 
+    multipleChoice: []
+    cutManagerLink: 00000000
+  - state: 45 I have nothing better to do
+    background: {fileID: -146066905628872698, guid: f61507b9b396ccf418e194122a8f9539, type: 3}
+    WIP: 1
+    textData:
+    - content: The two of them headed out to the roof of the school. Zip takes out
+        the spray can and starts to paint on the roof.
+      character: {fileID: 0}
+      disposition: 000000000000000001000000
+    - content: '"Keep an eye out" '
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 
+    - content: ' Lily turns to face the way they came and keeps watch for a bit. '
+      character: {fileID: 0}
+      disposition: 
+    - content: After a bit, she turns and sees that Zip has made quite the mural
+        of Mrs. Zpizzleplax shouting while alien UFO fly out from behind her and
+        the world around her explodes in mutli coloured lights.
+      character: {fileID: 0}
+      disposition: 
+    multipleChoice:
+    - content: That's Amazing
+      character: {fileID: 0}
+      disposition: 
+    - content: That's a little rude, don't you think?
+      character: {fileID: 0}
+      disposition: 
+    cutManagerLink: 0000000000000000
+  - state: Blank
+    background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
     textData: []
     multipleChoice: []
     cutManagerLink: 
   - state: Blank
-    background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
+    background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 1
+    textData: []
+    multipleChoice: []
+    cutManagerLink: 
+  - state: Blank
+    background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 1
+    textData: []
+    multipleChoice: []
+    cutManagerLink: 
+  - state: Blank
+    background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 1
+    textData: []
+    multipleChoice: []
+    cutManagerLink: 
+  - state: Blank
+    background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 1
+    textData: []
+    multipleChoice: []
+    cutManagerLink: 
+  - state: Blank
+    background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
     textData: []
     multipleChoice: []
