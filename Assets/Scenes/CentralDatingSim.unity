@@ -2107,14 +2107,14 @@ MonoBehaviour:
     - content: That's a little rude, don't you think?
       character: {fileID: 0}
       disposition: 
-    cutManagerLink: 0000000000000000
-  - state: Blank
+    cutManagerLink: 2d0000002e000000
+  - state: 45 That's Amazing
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
     textData: []
     multipleChoice: []
     cutManagerLink: 
-  - state: Blank
+  - state: 46 That's a little rude, don't you think?
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
     textData: []
