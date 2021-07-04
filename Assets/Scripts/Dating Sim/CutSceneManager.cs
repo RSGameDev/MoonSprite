@@ -8,13 +8,15 @@ public class CutSceneManager : MonoBehaviour
 {
     [Serializable]
     public struct Cutscene {
+        
         [SerializeField] private string state;
         [SerializeField] public Sprite background;
 
+        public bool WIP;
         public TextData.data[] textData;
         public TextData.data[] multipleChoice;
         public int[] cutManagerLink;
-        public int numberOfOptions;
+        
     }
     
 }

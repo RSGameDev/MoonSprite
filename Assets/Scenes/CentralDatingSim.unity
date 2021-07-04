@@ -763,7 +763,7 @@ MonoBehaviour:
   m_fontSizeMin: 30
   m_fontSizeMax: 50
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1032,9 +1032,10 @@ MonoBehaviour:
   _cutscenes:
   - state: 0 Intro
     background: {fileID: 21300000, guid: f61507b9b396ccf418e194122a8f9539, type: 3}
+    WIP: 0
     textData:
     - content: Lily is nervous. Of course she is, wouldn't anyone her age be scared
-        to join a new school. Esspecially after such a bizzare start.
+        to join a new school. Especially after such a bizzare start.
       character: {fileID: 0}
       disposition: 
     - content: Lily looks upon the space bus that had come to take her and takes
@@ -1060,9 +1061,9 @@ MonoBehaviour:
       character: {fileID: 0}
       disposition: 
     cutManagerLink: 010000000200000001000000
-    numberOfOptions: 3
   - state: '1 You watch it. '
     background: {fileID: 21300000, guid: f61507b9b396ccf418e194122a8f9539, type: 3}
+    WIP: 0
     textData:
     - content: '"Whatever.." '
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
@@ -1073,18 +1074,18 @@ MonoBehaviour:
       disposition: 
     multipleChoice: []
     cutManagerLink: 03000000
-    numberOfOptions: 0
   - state: 2 Ignore Zip
     background: {fileID: 21300000, guid: f61507b9b396ccf418e194122a8f9539, type: 3}
+    WIP: 0
     textData:
     - content: 'The small red alien boy walks away in a huff. '
       character: {fileID: 0}
       disposition: 0000000000000000ffffffff
     multipleChoice: []
     cutManagerLink: 03000000
-    numberOfOptions: 0
   - state: 3 Start Going To Class
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 0
     textData:
     - content: As Lily walks around, she tries to figure out which way is her class,
         there's a couple of signs pointing to "Human Student, This Way".
@@ -1121,9 +1122,9 @@ MonoBehaviour:
       character: {fileID: 0}
       disposition: 
     cutManagerLink: 050000000400000006000000
-    numberOfOptions: 3
   - state: 4 No, I'm just looking for my homeroom class
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 0
     textData:
     - content: '"Oh, I can help you with that. It''s the least I can do!"'
       character: {fileID: 11400000, guid: ed1fe02798e1ac245ab06e97d8f6c46d, type: 2}
@@ -1136,9 +1137,9 @@ MonoBehaviour:
       disposition: 
     multipleChoice: []
     cutManagerLink: 07000000
-    numberOfOptions: 0
   - state: 5 Well, I did just headbutt a brocoli headed idiot
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 0
     textData:
     - content: '"You better report this menac- oh. Uh.. sorry!"'
       character: {fileID: 11400000, guid: ed1fe02798e1ac245ab06e97d8f6c46d, type: 2}
@@ -1158,9 +1159,9 @@ MonoBehaviour:
       disposition: 
     multipleChoice: []
     cutManagerLink: 07000000
-    numberOfOptions: 0
   - state: 6 The only human pain I'm feeling is crushing lonelyness. Lol
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 0
     textData:
     - content: '"Oh. Uh.." '
       character: {fileID: 11400000, guid: ed1fe02798e1ac245ab06e97d8f6c46d, type: 2}
@@ -1170,9 +1171,9 @@ MonoBehaviour:
       disposition: 
     multipleChoice: []
     cutManagerLink: 07000000
-    numberOfOptions: 0
   - state: 7 Mayne Intro
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 0
     textData:
     - content: '"My name is Mayne by the way. Pleasure to meet you."'
       character: {fileID: 11400000, guid: ed1fe02798e1ac245ab06e97d8f6c46d, type: 2}
@@ -1208,9 +1209,9 @@ MonoBehaviour:
       character: {fileID: 0}
       disposition: 
     cutManagerLink: 09000000080000000a000000
-    numberOfOptions: 3
   - state: 8 Chocolate
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 0
     textData:
     - content: '"Egch. Really? That stuff is practically poison. You know that coco
         is used by your planet''s plants as a pesticide, right?" '
@@ -1226,10 +1227,10 @@ MonoBehaviour:
     - content: Lets just get to class, ok?
       character: {fileID: 0}
       disposition: 
-    cutManagerLink: 0b0000000c0000000d000000
-    numberOfOptions: 3
+    cutManagerLink: 0c0000000b0000000d000000
   - state: 9 Strawberry
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 0
     textData:
     - content: '"Really? I mean I guess that fits your idenity."'
       character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
@@ -1265,9 +1266,9 @@ MonoBehaviour:
       disposition: 
     multipleChoice: []
     cutManagerLink: 0e000000
-    numberOfOptions: 0
   - state: 10 Vanilla
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 0
     textData:
     - content: Mayne smiles.
       character: {fileID: 0}
@@ -1286,9 +1287,9 @@ MonoBehaviour:
       character: {fileID: 0}
       disposition: 
     cutManagerLink: 0d0000000b0000000f000000
-    numberOfOptions: 3
   - state: 11 How come you know about Earth icecream and flavours?
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 0
     textData:
     - content: '"Oh, my dads are intergalactic ambassadors. Some of my clones and
         I have had a chance to visit Earth on occasions as part of.. ''con-peer-aye-seas''?"'
@@ -1306,9 +1307,9 @@ MonoBehaviour:
       disposition: 
     multipleChoice: []
     cutManagerLink: 0e000000
-    numberOfOptions: 0
   - state: 12 Boo, chocolate is the best
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 0
     textData:
     - content: '"It''s so bitter, and spicy!"'
       character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
@@ -1325,9 +1326,9 @@ MonoBehaviour:
       disposition: 
     multipleChoice: []
     cutManagerLink: 0e000000
-    numberOfOptions: 0
   - state: 13 Lets just get to class, ok?
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 0
     textData:
     - content: '"Oh.. Ok then" '
       character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
@@ -1341,9 +1342,9 @@ MonoBehaviour:
       disposition: 
     multipleChoice: []
     cutManagerLink: 0e000000
-    numberOfOptions: 0
   - state: 14 Enter class and sit down
     background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
+    WIP: 0
     textData:
     - content: As Lily entered the classroom she feels the air cool against her skin,
         followed by the peering curious looks of her peers.
@@ -1358,19 +1359,19 @@ MonoBehaviour:
       character: {fileID: 0}
       disposition: 
     multipleChoice:
-    - content: 
+    - content: Sit at the front
       character: {fileID: 0}
       disposition: 
-    - content: 
+    - content: Sit at the back
       character: {fileID: 0}
       disposition: 
-    - content: 
+    - content: Wait to be seated
       character: {fileID: 0}
       disposition: 
-    cutManagerLink: 100000001100000012000000
-    numberOfOptions: 0
+    cutManagerLink: 110000001000000012000000
   - state: 15 I hope I'm not late for homeroom
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
+    WIP: 0
     textData:
     - content: '"Oh Gosh! Sorry. I''ll get a move on"'
       character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
@@ -1384,13 +1385,389 @@ MonoBehaviour:
       disposition: 
     multipleChoice: []
     cutManagerLink: 0e000000
-    numberOfOptions: 0
-  - state: Blank
+  - state: 16 Sit at the front
     background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
+    WIP: 0
+    textData:
+    - content: Zip plays it cool, pretending not to care. Though it's quite clear
+        he occasionally steals some glances in Lily's direction.
+      character: {fileID: 0}
+      disposition: 000000000000000001000000
+    multipleChoice: []
+    cutManagerLink: 00000000
+  - state: 17 Sit at the back
+    background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
+    WIP: 0
+    textData:
+    - content: As Lily sits at the back, the blue haired boy snaps out of his day
+        dream and looks at her.
+      character: {fileID: 0}
+      disposition: 
+    - content: '"oh.. hey.."'
+      character: {fileID: 11400000, guid: 82f6cc5e976dcf440b0a52db1ce91b48, type: 2}
+      disposition: 
+    - content: '"Hey. What''s your name?"'
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
+      disposition: 
+    - content: '"... Brenn"'
+      character: {fileID: 11400000, guid: 82f6cc5e976dcf440b0a52db1ce91b48, type: 2}
+      disposition: 
+    - content: '"I''m Lily"'
+      character: {fileID: 0}
+      disposition: 
+    multipleChoice:
+    - content: Start Class
+      character: {fileID: 0}
+      disposition: 
+    - content: How long have you been here?
+      character: {fileID: 0}
+      disposition: 
+    - content: Are you able to see from back here?
+      character: {fileID: 0}
+      disposition: 
+    cutManagerLink: 130000001900000014000000
+  - state: 18 Wait to be seated
+    background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
+    WIP: 0
+    textData:
+    - content: The automatic seating system detects Lily standing at the front of
+        the class, and decides to asign her to the back of the classroom.
+      character: {fileID: 0}
+      disposition: 
+    multipleChoice: []
+    cutManagerLink: 11000000
+  - state: 19 How long have you been here?
+    background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
+    WIP: 0
+    textData:
+    - content: '"...no..'
+      character: {fileID: 11400000, guid: c577a278cd062d44890983331b724603, type: 2}
+      disposition: 
+    - content: ' "ok..?" '
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
+      disposition: 
+    - content: Brenn's desk is very well organized, and his outfit is very clean.
+        His leg accidentally bumps into the desk as he changes his sitting position.
+      character: {fileID: 0}
+      disposition: 
+    - content: He notices and quickly re-adjusts his desk to be perfectly ogranized.
+      character: {fileID: 0}
+      disposition: 
+    multipleChoice:
+    - content: I like how you've ogranized your desk
+      character: {fileID: 0}
+      disposition: 
+    - content: Are you some sort of neat freak?
+      character: {fileID: 0}
+      disposition: 
+    - content: Start Class
+      character: {fileID: 0}
+      disposition: 
+    cutManagerLink: 160000001500000019000000
+  - state: 20 Are you able to see from back here?
+    background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
+    WIP: 0
+    textData:
+    - content: '"..yea."'
+      character: {fileID: 11400000, guid: c577a278cd062d44890983331b724603, type: 2}
+      disposition: 
+    - content: '"Ah.. ok then."'
+      character: {fileID: 0}
+      disposition: 
+    - content: Brenn's desk is very well organized, and his outfit is very clean.
+        His leg accidentally bumps into the desk as he changes his sitting position.
+      character: {fileID: 0}
+      disposition: 
+    - content: He notices and quickly re-adjusts his desk to be perfectly ogranized.
+      character: {fileID: 0}
+      disposition: 
+    multipleChoice:
+    - content: I like how you've ogranized your desk
+      character: {fileID: 0}
+      disposition: 
+    - content: Are you some sort of neat freak?
+      character: {fileID: 0}
+      disposition: 
+    - content: Start Class
+      character: {fileID: 0}
+      disposition: 
+    cutManagerLink: 160000001500000019000000
+  - state: 21 I like how you've ogranized your desk
+    background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
+    WIP: 0
+    textData:
+    - content: Brenn blushes a little bit.
+      character: {fileID: 0}
+      disposition: 
+    - content: '"T- thanks."'
+      character: {fileID: 0}
+      disposition: 
+    multipleChoice:
+    - content: Maybe you could help me organize my stuff
+      character: {fileID: 0}
+      disposition: 
+    - content: You don't talk much do you?
+      character: {fileID: 0}
+      disposition: 
+    - content: Start Class
+      character: {fileID: 0}
+      disposition: 
+    cutManagerLink: 180000001700000019000000
+  - state: 22 Are you some sort of neat freak?
+    background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
+    WIP: 0
+    textData:
+    - content: Brenn frowns a little annoyed.
+      character: {fileID: 0}
+      disposition: 
+    - content: ' "...i guess." '
+      character: {fileID: 11400000, guid: c577a278cd062d44890983331b724603, type: 2}
+      disposition: ffffffff0000000000000000
+    - content: 'Brenn doesn''t seem interested in talking after that. '
+      character: {fileID: 0}
+      disposition: 
+    multipleChoice: []
+    cutManagerLink: 19000000
+  - state: 23 Maybe you could help me organize my stuff
+    background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
+    WIP: 0
+    textData:
+    - content: '"..That''d be nice." '
+      character: {fileID: 11400000, guid: c577a278cd062d44890983331b724603, type: 2}
+      disposition: 010000000000000000000000
+    - content: '"..class is about to.. um. start.."'
+      character: {fileID: 11400000, guid: c577a278cd062d44890983331b724603, type: 2}
+      disposition: 
+    multipleChoice: []
+    cutManagerLink: 19000000
+  - state: 24 You don't talk much do you?
+    background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
+    WIP: 0
+    textData:
+    - content: Brenn frowns a little.
+      character: {fileID: 0}
+      disposition: 010000000000000000000000
+    - content: '"...i guess." '
+      character: {fileID: 11400000, guid: c577a278cd062d44890983331b724603, type: 2}
+      disposition: 
+    - content: Brenn doesn't seem interested in talking after that.
+      character: {fileID: 0}
+      disposition: 
+    multipleChoice: []
+    cutManagerLink: 19000000
+  - state: 25 Start Class
+    background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
+    WIP: 0
+    textData:
+    - content: The teacher enters the classroom, a sour expression on her face. A
+        small tag on her shirt reads 'Mrs. Zpizzleplax'. She opens her mouth and
+        her voice sounds like the stinging sound of tone deaf baby chicks.
+      character: {fileID: 0}
+      disposition: 
+    - content: '"Morning everyone! Today as you hopefully all saw we have a new student.
+        Tily. She''s a human, that means she comes from the primitive planet of Earth.
+        -"'
+      character: {fileID: 11400000, guid: 0b08e866bea2343428272f0aae46be6e, type: 2}
+      disposition: 
+    multipleChoice:
+    - content: Interupt her and correct her about your name
+      character: {fileID: 0}
+      disposition: 
+    - content: Let her finish
+      character: {fileID: 0}
+      disposition: 
+    cutManagerLink: 1b0000001a000000
+  - state: 26 Interupt her and correct her about your name
+    background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
+    WIP: 0
+    textData:
+    - content: '"My name is Lily" '
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
+      disposition: 
+    - content: '"That''s what I said." '
+      character: {fileID: 11400000, guid: 0b08e866bea2343428272f0aae46be6e, type: 2}
+      disposition: 
+    - content: '"No, you said Tily. I heard you." '
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
+      disposition: 
+    - content: '"Don''t talk back to me." '
+      character: {fileID: 0}
+      disposition: 
+    multipleChoice:
+    - content: Tell her that humans aren't primitive
+      character: {fileID: 0}
+      disposition: 
+    - content: Apologize
+      character: {fileID: 0}
+      disposition: 
+    cutManagerLink: 1d0000001c000000
+  - state: 27 Let her finish
+    background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
+    WIP: 0
+    textData:
+    - content: '"That means no one is allowed to make fun of her. Everyone say hello
+        to her."'
+      character: {fileID: 11400000, guid: 0b08e866bea2343428272f0aae46be6e, type: 2}
+      disposition: 
+    - content: '"Hello Tily"'
+      character: {fileID: 11400000, guid: 597c09b592fdc82438df7cb9d36561cf, type: 2}
+      disposition: 
+    - content: '"Now. Boot up your desks and start on..." '
+      character: {fileID: 11400000, guid: 0b08e866bea2343428272f0aae46be6e, type: 2}
+      disposition: 
+    multipleChoice:
+    - content: Take note
+      character: {fileID: 0}
+      disposition: 
+    - content: Follow Brenn's Example and Daydream instead
+      character: {fileID: 0}
+      disposition: 
+    cutManagerLink: 200000001f000000
+  - state: 28 Tell her that humans aren't primitive
+    background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
+    WIP: 0
+    textData:
+    - content: '"Humans aren''t primitive either. We have the internet.. and cars,
+        and some space ships.. well, rockets but we''re not primitive by any means.
+        Isn''t it kind of-"'
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
+      disposition: 
+    - content: '"According to the the Intergalactic Marines of Justice, your planet
+        is classified as a Type-1 Primitive Populous Planet. -"'
+      character: {fileID: 11400000, guid: 0b08e866bea2343428272f0aae46be6e, type: 2}
+      disposition: 
+    multipleChoice:
+    - content: Apologize
+      character: {fileID: 0}
+      disposition: 
+    - content: Tell her that you don't care
+      character: {fileID: 0}
+      disposition: 
+    cutManagerLink: 1e0000001d000000
+  - state: 29 Apologize
+    background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
+    WIP: 0
+    textData:
+    - content: '"It''s your first day here, I won''t send you to the dean. Just sit
+        down and listen to the lesson." '
+      character: {fileID: 11400000, guid: 0b08e866bea2343428272f0aae46be6e, type: 2}
+      disposition: 
+    - content: 'Zip appears to be quite impressed by how Lily stood in Mrs. Zpizzleplax''s
+        opposition. '
+      character: {fileID: 0}
+      disposition: 010000000000000001000000
+    - content: 'Brenn, the boy with blue hair at the back of the class appreciates
+        her apologizing. '
+      character: {fileID: 0}
+      disposition: 
+    - content: Mrs. Zpizzleplax then starts class.
+      character: {fileID: 0}
+      disposition: 
+    multipleChoice:
+    - content: Take notes
+      character: {fileID: 0}
+      disposition: 
+    - content: Follow Brenn's Example and Daydream instead
+      character: {fileID: 0}
+      disposition: 
+    cutManagerLink: 200000001f000000
+  - state: 30 Tell her that you don't care
+    background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
+    WIP: 0
+    textData:
+    - content: '"I don''t care." '
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
+      disposition: 
+    - content: '"It''s your first day here. Don''t make me send you to the dean.
+        So be quiet, and listen to the lesson." '
+      character: {fileID: 11400000, guid: 0b08e866bea2343428272f0aae46be6e, type: 2}
+      disposition: 
+    - content: 'Zip appears to be quite impressed by how Lily stood in Mrs. Zpizzleplax''s
+        opposition. '
+      character: {fileID: 0}
+      disposition: 000000000000000001000000
+    - content: ' However Brenn, the blue haired boy in the back of the class seems
+        to have found it a disruption of the class. '
+      character: {fileID: 0}
+      disposition: ffffffff0000000000000000
+    multipleChoice:
+    - content: Take notes
+      character: {fileID: 0}
+      disposition: 
+    - content: Follow Brenn's Example and Daydream instead
+      character: {fileID: 0}
+      disposition: 
+    cutManagerLink: 200000001f000000
+  - state: 31 Take notes
+    background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
+    WIP: 0
+    textData:
+    - content: Lily is unsure how some of the stuff she learned in today's class
+        will help her in human life, but she manages to learn the center of a Bronkle
+        is a Mangletong which is poisonous.
+      character: {fileID: 0}
+      disposition: 
+    - content: Zip seems a little judgy, thinking she's bit of a nerd for taking
+        notes.
+      character: {fileID: 0}
+      disposition: 
+    - content: However after the bell rings, she's approached by Mayne.
+      character: {fileID: 0}
+      disposition: 
+    - content: '"Hey, How was class?" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+    - content: Lily then told him about the stuff they covered.
+      character: {fileID: 0}
+      disposition: 
+    - content: '"Oh woah, could I maybe copy down some of your notes?"'
+      character: {fileID: 0}
+      disposition: 
+    multipleChoice:
+    - content: Yeah, go ahead
+      character: {fileID: 0}
+      disposition: 
+    - content: No, these are mine
+      character: {fileID: 0}
+      disposition: 
+    cutManagerLink: 2200000021000000
+  - state: 32 Follow Brenn's Example and Daydream instead
+    background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
+    WIP: 1
+    textData:
+    - content: Lily day dreams about random things. For example, if dogs don't sweat,
+        why do they have eyebrows? Since human eyebrows are meant to catch-
+      character: {fileID: 0}
+      disposition: 
+    - content: 'Before she knows it the bell has rang and it''s time for her break. '
+      character: {fileID: 0}
+      disposition: 
+    multipleChoice: []
+    cutManagerLink: 23000000
+  - state: 33 Yeah, go ahead
+    background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
+    WIP: 1
     textData: []
     multipleChoice: []
     cutManagerLink: 
-    numberOfOptions: 0
+  - state: 34 No, these are mine
+    background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
+    WIP: 1
+    textData: []
+    multipleChoice: []
+    cutManagerLink: 
+  - state: 35 Go to break time
+    background: {fileID: 21300000, guid: e4c23c8d7cb69704d925ad6642e5ee9a, type: 3}
+    WIP: 1
+    textData: []
+    multipleChoice: []
+    cutManagerLink: 
+  - state: Blank
+    background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
+    WIP: 1
+    textData: []
+    multipleChoice: []
+    cutManagerLink: 
   mainDisplay: {fileID: 1289699397}
   choiceOption:
   - {fileID: 6957266894155931127, guid: 49af49798301ae1469e6a2e41c615c86, type: 3}

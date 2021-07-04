@@ -34,6 +34,7 @@ public class NarrativeController : MonoBehaviour
     {
         UpdateHeader(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].character);
         ParseDialogue(_cutsceneIndex, _dialogueIndex);
+        
 
     }
 
@@ -42,6 +43,13 @@ public class NarrativeController : MonoBehaviour
         if (background.sprite != _cutscenes[_cutsceneIndex].background)
         {
             background.sprite = _cutscenes[_cutsceneIndex].background;
+        }
+        if (_dialogueIndex < _cutscenes[_cutsceneIndex].textData.Length)
+        {
+            if (dialogPrinter.mainTextBox.text == _cutscenes[_cutsceneIndex].textData[_dialogueIndex].content)
+            {
+                _dialogueIndex++;
+            }
         }
        
         PlayCutscene(_cutsceneIndex);
@@ -96,7 +104,19 @@ public class NarrativeController : MonoBehaviour
                     mainDisplay.SetActive(false);
                 }
             }
-            
+
+        }
+        else
+        {
+            if (Input.GetButtonDown("Fire1") && dialogPrinter.isRunning() && !_isChoosing)
+            {
+                //Skip to the end function for text printer.
+                dialogPrinter.StopPrinting();
+                dialogPrinter.StopAllCoroutines();
+                dialogPrinter.printableText = "";
+                dialogPrinter.mainTextBox.text = _cutscenes[_cutsceneIndex].textData[_dialogueIndex].content;
+                
+            }
         }
         
     }
@@ -105,7 +125,7 @@ public class NarrativeController : MonoBehaviour
     //Not that #0 element connects to the second option, #1 element connects to the first and #2 connects to the third option. This will be patched out later.
     private void SetUpOptions(TextData.data[] optionText, int[] locations)
     {
-        var options = Instantiate(choiceOption[_cutscenes[_cutsceneIndex].numberOfOptions - 2], transform.position, Quaternion.identity);
+        var options = Instantiate(choiceOption[_cutscenes[_cutsceneIndex].multipleChoice.Length - 2], transform.position, Quaternion.identity);
         options.transform.parent = transform;
         options.transform.localScale = new Vector3(100, 100, 1);
         GameObject[] choices = GameObject.FindGameObjectsWithTag("Choice");
@@ -123,7 +143,7 @@ public class NarrativeController : MonoBehaviour
         DispotionsParse();
         UpdateHeader(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].character);
         dialogPrinter.PrintText(_cutscenes[i].textData[y].content);
-        _dialogueIndex++;
+        
     }
 
     //This updates character dispositions if disposition is properly set up via the inspector, otherwise it ignores it.
