@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="827d344f-7157-40ec-956c-a6e5df82fcf5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CentralTowerDefense.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CentralTowerDefense.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="827d344f-7157-40ec-956c-a6e5df82fcf5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +38,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Dating Sim/Dialog/NarrativeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Dating Sim/Dialog/NarrativeController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Dating Sim/Dialog/NarrativeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ScreenInterlude.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Dating Sim/Dialog/NarrativeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/153C624F-4E72-438E-BF26-AAC81CAD6111/7c/29169f2c/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hazards/Kettle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Core/Variables/VariablesSaver.cs" root0="SKIP_HIGHLIGHTING" />
@@ -190,7 +188,7 @@
       <workItem from="1625209387353" duration="2475000" />
       <workItem from="1625232071003" duration="3136000" />
       <workItem from="1625260459694" duration="6389000" />
-      <workItem from="1625409572195" duration="2126000" />
+      <workItem from="1625409572195" duration="2252000" />
     </task>
     <servers />
   </component>
