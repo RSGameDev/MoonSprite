@@ -7,31 +7,35 @@ namespace Tower_Defense.Towers
 {
     public class PlayerTowerLevel : MonoBehaviour
     {
-        private Camera _cam;
+        public Camera cam;
         [SerializeField] private GameObject towerGO;
-        [SerializeField] Towers _tower;
+        public Towers tower;
 
         private Dictionary<Vector3, bool> _tileSelected = new Dictionary<Vector3, bool>();
 
         public Grid grid;
         private int priceIncreaser;
-
+        public bool showRange;
+        private TD_CoinCounter _counter;
+        private PlayerTowerLevel[] _playerTowerLevel;
+            
         private void Start()
         {
-            _cam = Camera.main;
+            cam = Camera.main;
         }
 
         private void OnMouseDown()
         {
-            if (_tower != null)
+            if (tower != null)
             {
                 CreateTower(ClickPosition());
+                AbleToDeployAgain();
             }
         }
 
         private Vector3 ClickPosition()
         {
-            var worldPosition = _cam.ScreenToWorldPoint(Input.mousePosition);
+            var worldPosition = cam.ScreenToWorldPoint(Input.mousePosition);
             var gridPosition = grid.WorldToCell(worldPosition);
             var snappedPosition = new Vector3(gridPosition.x + 0.5f, gridPosition.y + 0.5f, gridPosition.z);
             if (!_tileSelected.ContainsKey(snappedPosition))
@@ -43,7 +47,7 @@ namespace Tower_Defense.Towers
 
         private void CreateTower(Vector3 gridPosition)
         {
-            var counter = FindObjectOfType<TD_CoinCounter>();
+            _counter = FindObjectOfType<TD_CoinCounter>();
             
             if (_tileSelected.ContainsKey(gridPosition))
             {
@@ -51,22 +55,37 @@ namespace Tower_Defense.Towers
                 _tileSelected.TryGetValue(gridPosition, out value);
                 if (value == false)
                 {
-                    if (counter.coins >= _tower.priceRunTime)
+                    if (_counter.coins >= tower.priceRunTime)
                     {
-                        counter.coins -= _tower.priceRunTime;
-                        _tower.priceRunTime += 10 + priceIncreaser;
+                        _counter.coins -= tower.priceRunTime;
+                        tower.priceRunTime += 10 + priceIncreaser;
                         priceIncreaser += 5;
                         var newTower = Instantiate(towerGO, gridPosition, Quaternion.identity);
                         _tileSelected[gridPosition] = true;
-                        newTower.GetComponent<TowerDeploy>().tower = _tower;
+                        newTower.GetComponent<TowerDeploy>().tower = tower;
                     }
                 }
             }
         }
 
+        private void AbleToDeployAgain()
+        {
+            _playerTowerLevel = FindObjectsOfType<PlayerTowerLevel>();
+            if (_counter.coins < tower.priceRunTime)
+            {
+                print(showRange);
+                for (int i = 0; i < _playerTowerLevel.Length; i++)
+                {
+                    _playerTowerLevel[i].showRange = false;
+                }
+                print(showRange);
+            }
+        }
+
         public void SelectedTower(Towers towerSelected)
         {
-            _tower = towerSelected;
+            tower = towerSelected;
+            showRange = true;
         }
     }
 }
