@@ -20,6 +20,8 @@ namespace Managers
         public GameObject optionsScreenDisplay;
         public GameObject settings;
         public GameObject credits;
+        [SerializeField] private GameObject _gameOverScreen;
+        private bool _pauseToggle;
         private Scene _currentScene;
         public Object preGameScene;
         public Object firstLevel;
@@ -30,9 +32,8 @@ namespace Managers
 
         [SerializeField] private float _splashScreenDelay;
 
-        private static GameObject _gameOverScreen;
         private bool _isKeyToEnter;
-        private bool _referenceGameOverDisplay;
+        private bool _referenceInGameDisplays;
         private bool _isFirstTransitionCompleted;
 
         private void Awake()
@@ -66,7 +67,7 @@ namespace Managers
 
         private void Update()
         {
-            if (_currentScene.name != preGameScene.name && !_referenceGameOverDisplay)
+            if (_currentScene.name != preGameScene.name && !_referenceInGameDisplays)
             {
                 InitCurrentScene();
                 _gameOverScreen = GameObject.FindWithTag("Game Over Display");
@@ -77,19 +78,19 @@ namespace Managers
             {
                 HitAnyKeyDisplayTransition(_currentScene);
             }
-            
-            // L for Level/LevelChange/LevelSkip
-            if (Input.GetKeyDown(KeyCode.L))
-            {
-                _currentScene = SceneManager.GetActiveScene();
-                if (_currentScene.name == firstLevel.name && !_isFirstTransitionCompleted)
-                {
-                    _isFirstTransitionCompleted = true;
-                    LevelTransition();
-                }
-            }
-        }
 
+            // L for Level/LevelChange/LevelSkip - SCENE TRANSITION CODE
+            //if (Input.GetKeyDown(KeyCode.L))
+            //{
+            //    _currentScene = SceneManager.GetActiveScene();
+            //    if (_currentScene.name == firstLevel.name && !_isFirstTransitionCompleted)
+            //    {
+            //        _isFirstTransitionCompleted = true;
+            //        LevelTransition();
+            //    }
+            //}
+        }
+        
         public void LevelTransition()
         {
             switch (sceneTransitionCount)
@@ -108,7 +109,7 @@ namespace Managers
         public void InitCurrentScene()
         {
             _currentScene = SceneManager.GetActiveScene();
-            _referenceGameOverDisplay = true;
+            _referenceInGameDisplays = true;
         }
 
         public void GameOverScreen()
@@ -132,7 +133,7 @@ namespace Managers
                     _isKeyToEnter = false;
                     _gameOverScreen.SetActive(false);
                     SceneManager.LoadScene(_currentScene.name);
-                    _referenceGameOverDisplay = false;
+                    _referenceInGameDisplays = false;
                     Time.timeScale = 1f;
                 }
             }

@@ -29,10 +29,10 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
-        {
-            SceneControls.NextLevel();
-        }
+        //if (Input.GetButtonDown("Fire1"))
+        //{
+        //    SceneControls.NextLevel();
+        //}
     }
 
     public void ResetScene()
