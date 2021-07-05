@@ -9,6 +9,8 @@ TagManager:
   - Game Over Display
   - CleanUP
   - Choice
+  - Pause Display
+  - SceneController
   layers:
   - Default
   - TransparentFX
