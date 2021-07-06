@@ -15,3 +15,6 @@ MonoBehaviour:
   slime: 1
   characterName: ???
   slimeColour: {r: 0.23529412, g: 0.83137256, b: 0.21568628, a: 1}
+  characterArt:
+  - {fileID: 21300000, guid: dcf65ab6caff76242b7fcb5eb3ba86c9, type: 3}
+  - {fileID: 21300000, guid: cc736613334327c42946cc30f037bf83, type: 3}

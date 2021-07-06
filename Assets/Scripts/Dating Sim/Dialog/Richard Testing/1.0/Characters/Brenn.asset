@@ -15,3 +15,5 @@ MonoBehaviour:
   slime: 0
   characterName: Brenn
   slimeColour: {r: 0.19893196, g: 0.24505116, b: 0.8301887, a: 1}
+  characterArt:
+  - {fileID: 21300000, guid: e73950792cf89244891c734db9b11ea1, type: 3}

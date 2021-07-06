@@ -15,3 +15,5 @@ MonoBehaviour:
   slime: 1
   characterName: Zip
   slimeColour: {r: 0.8679245, g: 0.15884651, b: 0.15884651, a: 1}
+  characterArt:
+  - {fileID: 21300000, guid: 577426bafe888c544b08e4c8957831c9, type: 3}

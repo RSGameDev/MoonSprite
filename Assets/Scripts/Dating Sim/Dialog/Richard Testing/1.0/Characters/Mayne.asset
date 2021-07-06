@@ -15,3 +15,5 @@ MonoBehaviour:
   slime: 1
   characterName: Mayne
   slimeColour: {r: 0.23473033, g: 0.83137256, b: 0.21568625, a: 1}
+  characterArt:
+  - {fileID: 21300000, guid: cc736613334327c42946cc30f037bf83, type: 3}

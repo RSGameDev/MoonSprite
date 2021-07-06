@@ -14,6 +14,8 @@ public class NarrativeController : MonoBehaviour
     public GameObject slimeGameObject;
     public DialogPrinter dialogPrinter;
     public TextMeshProUGUI header;
+    public Image characterArt;
+    public Animator characterAnimator;
     [SerializeField] private Image background;
     private CharacterData cd;
 
@@ -140,6 +142,7 @@ public class NarrativeController : MonoBehaviour
     //This function parses the correct dialogue along with making sure the header and character dispositions are properly handled. 
     private void ParseDialogue(int i, int y)
     {
+        ParseArt();
         DispotionsParse();
         UpdateHeader(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].character);
         dialogPrinter.PrintText(_cutscenes[i].textData[y].content);
@@ -178,5 +181,19 @@ public class NarrativeController : MonoBehaviour
         ParseDialogue(_cutsceneIndex, _dialogueIndex);
     }
 
-    
+    public void ParseArt()
+    {
+        if (_cutscenes[_cutsceneIndex].textData[_dialogueIndex].showCharacter > 0)
+        {
+            characterArt.sprite = _cutscenes[_cutsceneIndex].textData[_dialogueIndex].character.characterArt[_cutscenes[_cutsceneIndex].textData[_dialogueIndex].showCharacter - 1];
+        }
+        if (_cutscenes[_cutsceneIndex].textData[_dialogueIndex].fadeIn)
+        {
+            characterAnimator.SetTrigger("FadeIn");
+        }
+        if (_cutscenes[_cutsceneIndex].textData[_dialogueIndex].fadeOut)
+        {
+            characterAnimator.SetTrigger("FadeOut");
+        }
+    }
 }
