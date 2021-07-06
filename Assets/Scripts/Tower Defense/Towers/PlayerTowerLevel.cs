@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 namespace Tower_Defense.Towers
 {
@@ -18,10 +19,15 @@ namespace Tower_Defense.Towers
         public bool showRange;
         private TD_CoinCounter _counter;
         private PlayerTowerLevel[] _playerTowerLevel;
-            
+        private bool canBuildOnTile;
+
+        private Vector3Int _lastTilePosition;
+        [SerializeField] private Color tileOriginalColour;
+
         private void Start()
         {
             cam = Camera.main;
+            _counter = FindObjectOfType<TD_CoinCounter>();
         }
 
         private void OnMouseDown()
@@ -33,22 +39,78 @@ namespace Tower_Defense.Towers
             }
         }
 
+        private void OnMouseOver()
+        {
+            // Last tile position goes back to normal colour
+            if (_lastTilePosition != null)
+            {
+                OriginalTileColour(tileOriginalColour, _lastTilePosition, GetComponent<Tilemap>());
+            }
+
+            var worldPosition = cam.ScreenToWorldPoint(Input.mousePosition);
+            var gridPosition = grid.WorldToCell(worldPosition);
+            AbleToBuildTileColour();
+            if (canBuildOnTile)
+            {
+                TileColour(Color.green, gridPosition, GetComponent<Tilemap>());
+
+                if (gameObject.layer == 9)
+                {
+                    TileColour(Color.red, gridPosition, GetComponent<Tilemap>());
+                }
+            }
+            else
+            {
+                OriginalTileColour(tileOriginalColour, _lastTilePosition, GetComponent<Tilemap>());
+            }
+
+            _lastTilePosition = gridPosition;
+        }
+
+        private void OnMouseExit()
+        {
+            OriginalTileColour(tileOriginalColour, _lastTilePosition, GetComponent<Tilemap>());
+        }
+
+        // When the player can afford a tower, this outputs true. To allow for tiles to change colour.
+        public void AbleToBuildTileColour()
+        {
+            if (tower == null)
+            {
+                return;
+            }
+            canBuildOnTile = _counter.coins >= tower.priceRunTime;
+        }
+
+        void OriginalTileColour(Color colour, Vector3Int position, Tilemap tilemap)
+        {
+            tilemap.SetTileFlags(position, TileFlags.None);
+            tilemap.SetColor(position, tileOriginalColour);
+        }
+
+        void TileColour(Color colour, Vector3Int position, Tilemap tilemap)
+        {
+            tilemap.SetTileFlags(position, TileFlags.None);
+            tilemap.SetColor(position, colour);
+        }
+
         private Vector3 ClickPosition()
         {
             var worldPosition = cam.ScreenToWorldPoint(Input.mousePosition);
+            print(worldPosition);
             var gridPosition = grid.WorldToCell(worldPosition);
+            print(gridPosition);
             var snappedPosition = new Vector3(gridPosition.x + 0.5f, gridPosition.y + 0.5f, gridPosition.z);
             if (!_tileSelected.ContainsKey(snappedPosition))
             {
                 _tileSelected.Add(snappedPosition, false);
             }
+
             return snappedPosition;
         }
 
         private void CreateTower(Vector3 gridPosition)
         {
-            _counter = FindObjectOfType<TD_CoinCounter>();
-            
             if (_tileSelected.ContainsKey(gridPosition))
             {
                 var value = false;
@@ -78,6 +140,7 @@ namespace Tower_Defense.Towers
                 {
                     _playerTowerLevel[i].showRange = false;
                 }
+
                 print(showRange);
             }
         }
