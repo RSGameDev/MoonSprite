@@ -97,9 +97,7 @@ namespace Tower_Defense.Towers
         private Vector3 ClickPosition()
         {
             var worldPosition = cam.ScreenToWorldPoint(Input.mousePosition);
-            print(worldPosition);
             var gridPosition = grid.WorldToCell(worldPosition);
-            print(gridPosition);
             var snappedPosition = new Vector3(gridPosition.x + 0.5f, gridPosition.y + 0.5f, gridPosition.z);
             if (!_tileSelected.ContainsKey(snappedPosition))
             {
@@ -135,13 +133,10 @@ namespace Tower_Defense.Towers
             _playerTowerLevel = FindObjectsOfType<PlayerTowerLevel>();
             if (_counter.coins < tower.priceRunTime)
             {
-                print(showRange);
                 for (int i = 0; i < _playerTowerLevel.Length; i++)
                 {
                     _playerTowerLevel[i].showRange = false;
                 }
-
-                print(showRange);
             }
         }
 
