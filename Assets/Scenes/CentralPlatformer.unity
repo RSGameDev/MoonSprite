@@ -1309,9 +1309,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   music:
   - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   - {fileID: 8300000, guid: 4cd60b126309ccd45aeb89e9fd400453, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -10904,11 +10904,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 620b92296da9ab44f80c56b96fc3383a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resume: {fileID: 2129385115}
-  audio: {fileID: 1941299571}
-  mainMenu: {fileID: 1640287294}
-  _pauseToggle: 0
-  _pauseScreen: {fileID: 0}
 --- !u!224 &5776637303934321382
 RectTransform:
   m_ObjectHideFlags: 0
