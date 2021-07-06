@@ -15,3 +15,5 @@ MonoBehaviour:
   slime: 1
   characterName: Mrs. Zpizzleplax
   slimeColour: {r: 0.6782184, g: 0.3965468, b: 0.745283, a: 1}
+  characterArt:
+  - {fileID: 21300000, guid: ceb705ccc61171c4e83bb5a7bc5404aa, type: 3}

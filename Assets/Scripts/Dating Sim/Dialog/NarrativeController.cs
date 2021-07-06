@@ -18,6 +18,7 @@ public class NarrativeController : MonoBehaviour
     public Animator characterAnimator;
     [SerializeField] private Image background;
     private CharacterData cd;
+    
 
     private int textDataSize;
     private int multipleChoiceSize;
@@ -185,7 +186,11 @@ public class NarrativeController : MonoBehaviour
     {
         if (_cutscenes[_cutsceneIndex].textData[_dialogueIndex].showCharacter > 0)
         {
-            characterArt.sprite = _cutscenes[_cutsceneIndex].textData[_dialogueIndex].character.characterArt[_cutscenes[_cutsceneIndex].textData[_dialogueIndex].showCharacter - 1];
+            if (_cutscenes[_cutsceneIndex].textData[_dialogueIndex].character!=null)
+            {
+                characterArt.sprite = _cutscenes[_cutsceneIndex].textData[_dialogueIndex].character.characterArt[_cutscenes[_cutsceneIndex].textData[_dialogueIndex].showCharacter - 1];
+            }
+           
         }
         if (_cutscenes[_cutsceneIndex].textData[_dialogueIndex].fadeIn)
         {

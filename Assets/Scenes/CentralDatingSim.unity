@@ -468,7 +468,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dcafdcc5dae140f4ab0702841c8858b7, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -532,7 +532,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1180222449
@@ -731,8 +731,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Default Box
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 77bf07c28cddd134686e2512eab17876, type: 2}
+  m_sharedMaterial: {fileID: -1899639255803483874, guid: 77bf07c28cddd134686e2512eab17876, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1089,7 +1089,7 @@ MonoBehaviour:
     - content: '"Whatever.." '
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 000000000000000001000000
-      showCharacter: 1
+      showCharacter: 5
       fadeIn: 0
       fadeOut: 0
     - content: Lily could have sworn she saw a small smirk run across the boys face
@@ -1306,7 +1306,7 @@ MonoBehaviour:
     - content: '"Ice cream, what''s your favourite? Strawberry, Chocolate, or Vanilla?"'
       character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
       disposition: 
-      showCharacter: 1
+      showCharacter: 5
       fadeIn: 0
       fadeOut: 0
     multipleChoice:
@@ -1337,7 +1337,7 @@ MonoBehaviour:
         is used by your planet''s plants as a pesticide, right?" '
       character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
       disposition: 00000000ffffffff00000000
-      showCharacter: 0
+      showCharacter: 6
       fadeIn: 0
       fadeOut: 0
     multipleChoice:
@@ -1367,7 +1367,7 @@ MonoBehaviour:
     - content: '"Really? I mean I guess that fits your idenity."'
       character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
       disposition: 
-      showCharacter: 0
+      showCharacter: 1
       fadeIn: 0
       fadeOut: 0
     - content: '"What do you mean?"'
@@ -1410,7 +1410,7 @@ MonoBehaviour:
     - content: ' "To be normal. I guess." '
       character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
       disposition: 
-      showCharacter: 0
+      showCharacter: 4
       fadeIn: 0
       fadeOut: 0
     - content: It's not long before the two of them make it to their homeroom.
@@ -1423,7 +1423,7 @@ MonoBehaviour:
         soon after that, I think." '
       character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
       disposition: 
-      showCharacter: 0
+      showCharacter: 1
       fadeIn: 0
       fadeOut: 0
     multipleChoice: []
@@ -1441,7 +1441,7 @@ MonoBehaviour:
     - content: '"Me too! I just love how silky smooth it is, and vaguely sweet."'
       character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
       disposition: 000000000100000000000000
-      showCharacter: 0
+      showCharacter: 5
       fadeIn: 0
       fadeOut: 0
     multipleChoice:
@@ -1503,7 +1503,7 @@ MonoBehaviour:
     - content: '"It''s so bitter, and spicy!"'
       character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
       disposition: 
-      showCharacter: 0
+      showCharacter: 5
       fadeIn: 0
       fadeOut: 0
     - content: Chocolate isn't spicy!
@@ -1522,7 +1522,7 @@ MonoBehaviour:
         after class"'
       character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
       disposition: 
-      showCharacter: 0
+      showCharacter: 1
       fadeIn: 0
       fadeOut: 0
     multipleChoice: []
@@ -1534,7 +1534,7 @@ MonoBehaviour:
     - content: '"Oh.. Ok then" '
       character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
       disposition: 00000000ffffffff00000000
-      showCharacter: 0
+      showCharacter: 4
       fadeIn: 0
       fadeOut: 0
     - content: 'With a small pout the two of them make it to class. '
@@ -1604,7 +1604,7 @@ MonoBehaviour:
     - content: '"Oh Gosh! Sorry. I''ll get a move on"'
       character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
       disposition: 
-      showCharacter: 0
+      showCharacter: 6
       fadeIn: 0
       fadeOut: 0
     - content: It didn't take long after that for the two of them to make it to class.
@@ -1617,7 +1617,7 @@ MonoBehaviour:
         you after class I think. Maybe, It''s up to you."'
       character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
       disposition: 
-      showCharacter: 0
+      showCharacter: 1
       fadeIn: 0
       fadeOut: 0
     multipleChoice: []
@@ -1665,7 +1665,7 @@ MonoBehaviour:
       fadeIn: 0
       fadeOut: 0
     - content: '"I''m Lily"'
-      character: {fileID: 0}
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
       disposition: 
       showCharacter: 0
       fadeIn: 0
@@ -1707,13 +1707,13 @@ MonoBehaviour:
     background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
     WIP: 0
     textData:
-    - content: '"...no..'
+    - content: '"...no.."'
       character: {fileID: 11400000, guid: c577a278cd062d44890983331b724603, type: 2}
       disposition: 
       showCharacter: 0
       fadeIn: 0
       fadeOut: 0
-    - content: ' "ok..?" '
+    - content: ' "um.. ok..?" '
       character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
       disposition: 
       showCharacter: 0
@@ -1812,9 +1812,9 @@ MonoBehaviour:
       fadeIn: 0
       fadeOut: 0
     - content: '"T- thanks."'
-      character: {fileID: 0}
+      character: {fileID: 11400000, guid: c577a278cd062d44890983331b724603, type: 2}
       disposition: 
-      showCharacter: 0
+      showCharacter: 3
       fadeIn: 0
       fadeOut: 0
     multipleChoice:
@@ -1850,7 +1850,7 @@ MonoBehaviour:
     - content: ' "...i guess." '
       character: {fileID: 11400000, guid: c577a278cd062d44890983331b724603, type: 2}
       disposition: ffffffff0000000000000000
-      showCharacter: 0
+      showCharacter: 4
       fadeIn: 0
       fadeOut: 0
     - content: 'Brenn doesn''t seem interested in talking after that. '
@@ -1868,7 +1868,7 @@ MonoBehaviour:
     - content: '"..That''d be nice." '
       character: {fileID: 11400000, guid: c577a278cd062d44890983331b724603, type: 2}
       disposition: 010000000000000000000000
-      showCharacter: 0
+      showCharacter: 3
       fadeIn: 0
       fadeOut: 0
     - content: '"..class is about to.. um. start.."'
@@ -1883,15 +1883,15 @@ MonoBehaviour:
     background: {fileID: 21300000, guid: 0792575cfc19bcf4d8734d1ddd17934f, type: 3}
     WIP: 0
     textData:
-    - content: Brenn frowns a little.
-      character: {fileID: 0}
-      disposition: 010000000000000000000000
-      showCharacter: 0
-      fadeIn: 0
-      fadeOut: 0
     - content: '"...i guess." '
       character: {fileID: 11400000, guid: c577a278cd062d44890983331b724603, type: 2}
       disposition: 
+      showCharacter: 2
+      fadeIn: 0
+      fadeOut: 0
+    - content: Brenn frowns a little.
+      character: {fileID: 0}
+      disposition: 010000000000000000000000
       showCharacter: 0
       fadeIn: 0
       fadeOut: 0
@@ -1914,14 +1914,14 @@ MonoBehaviour:
       disposition: 
       showCharacter: 0
       fadeIn: 0
-      fadeOut: 1
+      fadeOut: 0
     - content: '"Morning everyone! Today as you hopefully all saw we have a new student.
         Tily. She''s a human, that means she comes from the primitive planet of Earth.
         -"'
       character: {fileID: 11400000, guid: 0b08e866bea2343428272f0aae46be6e, type: 2}
       disposition: 
-      showCharacter: 0
-      fadeIn: 0
+      showCharacter: 1
+      fadeIn: 1
       fadeOut: 0
     multipleChoice:
     - content: Interupt her and correct her about your name
@@ -2150,7 +2150,7 @@ MonoBehaviour:
       disposition: 
       showCharacter: 0
       fadeIn: 0
-      fadeOut: 0
+      fadeOut: 1
     - content: Zip seems a little judgy, thinking she's bit of a nerd for taking
         notes.
       character: {fileID: 0}
@@ -2179,7 +2179,7 @@ MonoBehaviour:
     - content: '"Oh woah, could I maybe copy down some of your notes?"'
       character: {fileID: 0}
       disposition: 
-      showCharacter: 0
+      showCharacter: 6
       fadeIn: 0
       fadeOut: 0
     multipleChoice:
@@ -2206,7 +2206,7 @@ MonoBehaviour:
       disposition: 
       showCharacter: 0
       fadeIn: 0
-      fadeOut: 0
+      fadeOut: 1
     - content: 'Before she knows it the bell has rang and it''s time for her break. '
       character: {fileID: 0}
       disposition: 
@@ -2224,7 +2224,7 @@ MonoBehaviour:
         out his tongue.
       character: {fileID: 0}
       disposition: 
-      showCharacter: 0
+      showCharacter: 5
       fadeIn: 0
       fadeOut: 0
     - content: ' "Well I''ll let you get to it then." '
@@ -2242,7 +2242,7 @@ MonoBehaviour:
     - content: '"Oh. Right.. sorry" '
       character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
       disposition: 
-      showCharacter: 0
+      showCharacter: 4
       fadeIn: 0
       fadeOut: 0
     - content: He frowns a little.
@@ -2361,7 +2361,7 @@ MonoBehaviour:
       showCharacter: 0
       fadeIn: 0
       fadeOut: 0
-    cutManagerLink: 000000002400000000000000
+    cutManagerLink: 3d0000002400000062000000
   - state: 36 Go to Zip's Locker
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 0
@@ -2432,7 +2432,7 @@ MonoBehaviour:
         I don''t like teachers, or people who try to ask me stupid questions." '
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 
-      showCharacter: 0
+      showCharacter: 4
       fadeIn: 0
       fadeOut: 0
     - content: Mayne approaches the locker
@@ -2456,7 +2456,7 @@ MonoBehaviour:
     - content: '"Finally, someone with a little bit more grit."'
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 000000000000000001000000
-      showCharacter: 0
+      showCharacter: 5
       fadeIn: 0
       fadeOut: 0
     - content: Zip haphazardly pops some stuff into his locker, and takes out what
@@ -2495,7 +2495,7 @@ MonoBehaviour:
     - content: '"I am NOT cute!!" '
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 000000000000000001000000
-      showCharacter: 0
+      showCharacter: 6
       fadeIn: 0
       fadeOut: 0
     - content: Zip seems as equally flustered as he does frustrated.
@@ -2507,7 +2507,7 @@ MonoBehaviour:
     - content: '"If you insist of putting your nose where it doesn''t belong. ."'
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 
-      showCharacter: 0
+      showCharacter: 2
       fadeIn: 0
       fadeOut: 0
     - content: ' "The dean told me that as punishment I''m to wear a obfuscater collar-"'
@@ -2562,7 +2562,7 @@ MonoBehaviour:
     - content: '"Huh, and here I thought you were cool new girl." '
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 
-      showCharacter: 0
+      showCharacter: 4
       fadeIn: 0
       fadeOut: 0
     - content: 'Narrator: Mayne approaches the locker'
@@ -2586,13 +2586,13 @@ MonoBehaviour:
     - content: '"I said I''d give it back later"'
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 
-      showCharacter: 1
+      showCharacter: 4
       fadeIn: 0
       fadeOut: 0
     - content: '"You''ve said that fifteen times already though." '
       character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
       disposition: 
-      showCharacter: 1
+      showCharacter: 4
       fadeIn: 0
       fadeOut: 0
     - content: Zip scoffs a bit.
@@ -2604,31 +2604,31 @@ MonoBehaviour:
     - content: '"So? I''m still planning to give it back. It''s not like-" '
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 
-      showCharacter: 1
+      showCharacter: 4
       fadeIn: 0
       fadeOut: 0
     - content: '"You''ve lost it.. haven''t you?" '
       character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
       disposition: 
-      showCharacter: 1
+      showCharacter: 5
       fadeIn: 0
       fadeOut: 0
     - content: '"No! I''ve not lost it. I''m just still using it." '
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 
-      showCharacter: 1
+      showCharacter: 6
       fadeIn: 0
       fadeOut: 0
     - content: '"It''s taken you this long to read a book about human art..?" '
       character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
       disposition: 
-      showCharacter: 1
+      showCharacter: 5
       fadeIn: 0
       fadeOut: 0
     - content: '"Art takes time."'
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 
-      showCharacter: 1
+      showCharacter: 4
       fadeIn: 0
       fadeOut: 0
     - content: '"What''s your take on this Lily?" '
@@ -2671,40 +2671,40 @@ MonoBehaviour:
         reading it on the roof." '
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 
-      showCharacter: 1
+      showCharacter: 4
       fadeIn: 0
       fadeOut: 0
     - content: '"I left for a moment to go to the bathroom and when I came back it
         was gone." '
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 
-      showCharacter: 1
+      showCharacter: 2
       fadeIn: 0
       fadeOut: 0
     - content: '"...I would have preferred the truth. Human stuff is a bit hard to
         find." '
       character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
       disposition: 
-      showCharacter: 1
+      showCharacter: 4
       fadeIn: 0
       fadeOut: 0
     - content: '"I know.. You don''t need to tell me. I feel bad enough about it."'
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 
-      showCharacter: 1
+      showCharacter: 4
       fadeIn: 0
       fadeOut: 0
     - content: '"Thank you Lily for helping us resolve this." '
       character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
       disposition: 
-      showCharacter: 1
+      showCharacter: 5
       fadeIn: 0
       fadeOut: 0
     - content: '"I need a little bit to have a conversation with Mayne. I''ll talk
         to you later then."'
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 
-      showCharacter: 1
+      showCharacter: 2
       fadeIn: 0
       fadeOut: 0
     - content: Lily Heads back to the lockers
@@ -2722,7 +2722,7 @@ MonoBehaviour:
     - content: '"Fine, fine. But you better have my book next week" '
       character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
       disposition: 000000000000000001000000
-      showCharacter: 1
+      showCharacter: 5
       fadeIn: 0
       fadeOut: 0
     - content: Manyne walks away, Zip looks back at Lily a little nervously.
@@ -2735,14 +2735,14 @@ MonoBehaviour:
         don''t tell him. but.. thanks for taking my side." '
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 
-      showCharacter: 1
+      showCharacter: 2
       fadeIn: 1
       fadeOut: 0
     - content: '"I need a little moment to pack some stuff, I''ll talk to you in
         a bit."'
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 
-      showCharacter: 0
+      showCharacter: 1
       fadeIn: 0
       fadeOut: 0
     - content: Lily heads back to hang around the lockers once again.
@@ -2766,13 +2766,13 @@ MonoBehaviour:
     - content: '"I''ll get you the book tommorrow, ok dude?" '
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 
-      showCharacter: 1
+      showCharacter: 4
       fadeIn: 0
       fadeOut: 0
     - content: '"... fine." '
       character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
       disposition: 
-      showCharacter: 1
+      showCharacter: 4
       fadeIn: 0
       fadeOut: 0
     - content: Mayne leaves a little upset.
@@ -2784,7 +2784,7 @@ MonoBehaviour:
     - content: '"Look, I think I need a little bit of space for now." '
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 
-      showCharacter: 1
+      showCharacter: 4
       fadeIn: 1
       fadeOut: 0
     - content: Lily goes back to hanging around the lockers
@@ -2809,7 +2809,7 @@ MonoBehaviour:
     - content: '"Keep an eye out" '
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 
-      showCharacter: 0
+      showCharacter: 1
       fadeIn: 0
       fadeOut: 1
     - content: ' Lily turns to face the way they came and keeps watch for a bit. '
@@ -2847,7 +2847,7 @@ MonoBehaviour:
     - content: ' "Heh.. thanks. How about you have a go?" '
       character: {fileID: 0}
       disposition: 
-      showCharacter: 0
+      showCharacter: 5
       fadeIn: 0
       fadeOut: 0
     multipleChoice:
@@ -2872,7 +2872,7 @@ MonoBehaviour:
         treat her that way." '
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 0000000000000000ffffffff
-      showCharacter: 0
+      showCharacter: 4
       fadeIn: 0
       fadeOut: 0
     multipleChoice:
@@ -2897,7 +2897,7 @@ MonoBehaviour:
         But thanks. This was cool." '
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 000000000000000001000000
-      showCharacter: 0
+      showCharacter: 5
       fadeIn: 0
       fadeOut: 0
     multipleChoice: []
@@ -2940,7 +2940,7 @@ MonoBehaviour:
         like expendable scouts."'
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 
-      showCharacter: 0
+      showCharacter: 4
       fadeIn: 0
       fadeOut: 0
     - content: '"Fuck me if that''s the sort of mentality that sort of enviroment
@@ -2984,7 +2984,7 @@ MonoBehaviour:
     - content: '"ppft.. lame.." '
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 
-      showCharacter: 0
+      showCharacter: 3
       fadeIn: 1
       fadeOut: 0
     - content: Despite what he's saying, he can't help by smile a tiny bit.
@@ -3022,7 +3022,7 @@ MonoBehaviour:
     - content: '"Cool." '
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 
-      showCharacter: 0
+      showCharacter: 5
       fadeIn: 1
       fadeOut: 0
     - content: '"We should do this sometime again." '
@@ -3053,7 +3053,7 @@ MonoBehaviour:
     - content: '"I see you have drawn the queen of Earth."'
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 000000000000000001000000
-      showCharacter: 0
+      showCharacter: 1
       fadeIn: 1
       fadeOut: 0
     - content: ' "Uhh.. Sure" '
@@ -3074,6 +3074,12 @@ MonoBehaviour:
     background: {fileID: -146066905628872698, guid: f61507b9b396ccf418e194122a8f9539, type: 3}
     WIP: 1
     textData:
+    - content: '"..."'
+      character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
+      disposition: 
+      showCharacter: 6
+      fadeIn: 0
+      fadeOut: 0
     - content: He gets taken a little aback.
       character: {fileID: 0}
       disposition: 000000000000000002000000
@@ -3083,7 +3089,7 @@ MonoBehaviour:
     - content: '"That''s.. - cool." '
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 
-      showCharacter: 0
+      showCharacter: 3
       fadeIn: 0
       fadeOut: 0
     - content: He tries to play it cool, but accidentally leans on the wet paint,
@@ -3096,7 +3102,7 @@ MonoBehaviour:
     - content: '"Fuck. Uh. We better get out here, and I should probably go wash."'
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 
-      showCharacter: 0
+      showCharacter: 2
       fadeIn: 0
       fadeOut: 0
     multipleChoice: []
@@ -3109,7 +3115,7 @@ MonoBehaviour:
         do something about the unfair world we''re in. Rise up and.. do.. ''stuff''"'
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 
-      showCharacter: 0
+      showCharacter: 4
       fadeIn: 0
       fadeOut: 0
     multipleChoice:
@@ -3152,7 +3158,7 @@ MonoBehaviour:
     - content: '"Shut up. You know what I mean." '
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 000000000000000001000000
-      showCharacter: 0
+      showCharacter: 3
       fadeIn: 0
       fadeOut: 0
     - content: He chuckles and blushes.
@@ -3183,7 +3189,7 @@ MonoBehaviour:
     - content: '"I make art that speaks from the heart. I try to express myself." '
       character: {fileID: 11400000, guid: 0ce90aa97b21229468b09f09ff05c0cb, type: 2}
       disposition: 0000000000000000ffffffff
-      showCharacter: 0
+      showCharacter: 4
       fadeIn: 0
       fadeOut: 0
     - content: He seems a little tense
@@ -3213,19 +3219,19 @@ MonoBehaviour:
     - content: ' "..I hope you mean that." '
       character: {fileID: 0}
       disposition: 
-      showCharacter: 0
+      showCharacter: 4
       fadeIn: 0
       fadeOut: 0
     - content: ' "I''d like to get to know you a little bit more." '
       character: {fileID: 0}
       disposition: 000000000000000003000000
-      showCharacter: 0
+      showCharacter: 3
       fadeIn: 0
       fadeOut: 0
     - content: '"But.. we better get out of here before anyone catches us." '
       character: {fileID: 0}
       disposition: 
-      showCharacter: 0
+      showCharacter: 2
       fadeIn: 0
       fadeOut: 0
     multipleChoice: []
@@ -3237,7 +3243,7 @@ MonoBehaviour:
     - content: '".... Here I thought you were actually cool." '
       character: {fileID: 0}
       disposition: 0000000000000000feffffff
-      showCharacter: 0
+      showCharacter: 2
       fadeIn: 0
       fadeOut: 0
     - content: 'With that he packs up his bag and starts to leave. '
@@ -3270,227 +3276,1355 @@ MonoBehaviour:
     cutManagerLink: 
   - state: 61 Mayne locker
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
-    WIP: 1
-    textData: []
-    multipleChoice: []
-    cutManagerLink: 
+    WIP: 0
+    textData:
+    - content: Mayne's locker appears to have a bunch of stickers on the inside.
+        Along with several human knickknacks, and an area-51 poster.
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Hey Lily. What''s up?" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 1
+      fadeIn: 1
+      fadeOut: 0
+    multipleChoice:
+    - content: Hey Mayne, Why do some of you look like cute boys?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: Is the Area-51 stuff.. real?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: What are your thoughts on prom?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    cutManagerLink: 5e0000004b0000003e000000
   - state: 62 What are your thoughts on prom?
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
-    WIP: 1
-    textData: []
-    multipleChoice: []
-    cutManagerLink: 
+    WIP: 0
+    textData:
+    - content: Mayne chuckles a little.
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Why~ You want to ask me out? Very daring given we barely know each
+        other.~"'
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 5
+      fadeIn: 0
+      fadeOut: 0
+    multipleChoice:
+    - content: Yeah, I do
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: No, I don't
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    cutManagerLink: 3f00000040000000
   - state: 63 Yes I want to
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
-    WIP: 1
-    textData: []
-    multipleChoice: []
-    cutManagerLink: 
+    WIP: 0
+    textData:
+    - content: '"!!"'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 000000000100000000000000
+      showCharacter: 6
+      fadeIn: 0
+      fadeOut: 0
+    - content: Mayne is taken by suprise for a second.
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Oh. I- uh. I don''t know what to say, I thought you were just joking
+        there. Sorry, but I need some more time to decide on anything like that." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 2
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Anyway, since you asked"'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"I like prom, I''ve only had a couple of dates on it, so most of
+        the time I spend being thrown out the airlock." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 1
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Still fun though." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 5
+      fadeIn: 0
+      fadeOut: 0
+    multipleChoice:
+    - content: Who have you asked out?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: Any tips?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    cutManagerLink: 4200000041000000
   - state: 64 No I don't
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
-    WIP: 1
-    textData: []
-    multipleChoice: []
-    cutManagerLink: 
+    WIP: 0
+    textData:
+    - content: Mayne chuckles
+      character: {fileID: 0}
+      disposition: 000000000100000000000000
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Hehe. I was just kidding anyways." '
+      character: {fileID: 11400000, guid: ed1fe02798e1ac245ab06e97d8f6c46d, type: 2}
+      disposition: 
+      showCharacter: 1
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"I like prom, I''ve only had a couple of dates on it, so most of
+        the time I spend being thrown out the airlock." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Still fun though."  '
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 5
+      fadeIn: 0
+      fadeOut: 0
+    multipleChoice:
+    - content: Who have you asked out?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: Any tips?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    cutManagerLink: 4200000041000000
   - state: 65 Any tips?
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
+    textData:
+    - content: '"Hmm.. typically you need to make your mind up about who you''re
+        courting." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 1
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"You shouldn''t try to force it though. Some people don''t like to
+        be continuously talked to." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Don''t make fun of Zip''s art. He''s a bit sensitive about that." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"I can''t think about anything else, I''ll have to pack my stuff,
+        so I''ll talk to you later."'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
     multipleChoice: []
-    cutManagerLink: 
+    cutManagerLink: 3c000000
   - state: 66 Who have you asked out?
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
-    multipleChoice: []
-    cutManagerLink: 
+    textData:
+    - content: '"I''ve gone out with Zip before. He''s not so bad once you get past
+        his rude exterior.. and his pretentious middle layer.. and then you dig a
+        little more."'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 3
+      fadeIn: 0
+      fadeOut: 0
+    - content: Mayne says this with a cheeky smirk on his face.
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: ' "What do you like in a guy, or girl?"'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 5
+      fadeIn: 0
+      fadeOut: 0
+    multipleChoice:
+    - content: I like brains
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: I live brawn
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: I like a little bit of both
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    cutManagerLink: 440000004300000046000000
   - state: 67 I like brains
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
-    multipleChoice: []
-    cutManagerLink: 
+    textData:
+    - content: '"You should get to know Brenn a little more then. He''s knows lots
+        of things."'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 1
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"I can give you his number if you want" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Sure" '
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"It''s the number i"'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 5
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"i?" '
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Yeah, the imaginary number i" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"You.. don''t have phones do you?" '
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Nope!" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 1
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Anything else on your mind?"'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    multipleChoice:
+    - content: Is the area 51 stuff real?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: I'll see you around.
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    cutManagerLink: 5e0000003c000000
   - state: 68 I  like brawn
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
-    multipleChoice: []
-    cutManagerLink: 
+    textData:
+    - content: '"Zip is suprisingly strong. Though you seem too sweet for that kind
+        of guy. He''s a bit sour." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 2
+      fadeIn: 0
+      fadeOut: 0
+    - content: ' "I''ll.. uh, keep that in mind." '
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Anything else on your mind?"'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 1
+      fadeIn: 0
+      fadeOut: 0
+    multipleChoice:
+    - content: Is the area-51 stuff real?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: I'll see you around.
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    cutManagerLink: 5e0000003c000000
   - state: '69 I like style '
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
+    textData:
+    - content: 'You''ve stumbled into something you weren''t supposed to. '
+      character: {fileID: 11400000, guid: 8b1371ccd546a0448b7aa3cd9c2872c3, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: Nice
+      character: {fileID: 11400000, guid: 8b1371ccd546a0448b7aa3cd9c2872c3, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
     multipleChoice: []
-    cutManagerLink: 
+    cutManagerLink: 00000000
   - state: 70 I'm into a little bit of everything
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
-    multipleChoice: []
-    cutManagerLink: 
+    textData:
+    - content: '"heh, cool! I''m into that sort of thing too" '
+      character: {fileID: 0}
+      disposition: 000000000100000000000000
+      showCharacter: 5
+      fadeIn: 0
+      fadeOut: 0
+    - content: ' Mayne admires Lily for a little bit then snaps out of it.'
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Sorry! Uh, anything else on your mind?" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 3
+      fadeIn: 0
+      fadeOut: 0
+    multipleChoice:
+    - content: Is the area-51 stuff rea?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: I'll see you later green boi.
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    cutManagerLink: 5e0000003c000000
   - state: 71 So.. how come you're all clones?
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
-    multipleChoice: []
-    cutManagerLink: 
+    textData:
+    - content: Mayne looks a little uncomfortable.
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Well, um.. I don''t really think it''s.. acceptable? to talk about
+        it in public."'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 00000000ffffffff00000000
+      showCharacter: 4
+      fadeIn: 0
+      fadeOut: 0
+    - content: ' "Is there anything else you want to talk about?"'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    multipleChoice:
+    - content: Is the area 51 stuff real?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: What are your thoughts on prom?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: 'I''ll.. um.. see you around. '
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    cutManagerLink: 3e0000005e0000003c000000
   - state: 72 I still think you look cute
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
-    multipleChoice: []
-    cutManagerLink: 
+    textData:
+    - content: Mayne gets a little flustered.
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: ' "Hehe, thanks. You''re cute too."'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 000000000200000000000000
+      showCharacter: 3
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"So does that mean we have to move into the same apartment?" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 6
+      fadeIn: 0
+      fadeOut: 0
+    - content: ' "?!?" '
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Well, we''re friends now.. i think? And according to what I''ve
+        seen on human tv, friends live in two apartments and get up to highjinks
+        while invisible people laugh at them." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 1
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Oh.. That''s not exactly it." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    multipleChoice:
+    - content: Explain how friendship works.
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: Explain how it's a show.
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    cutManagerLink: 490000004a000000
   - state: 73 Explain how friendship works
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
-    multipleChoice: []
-    cutManagerLink: 
+    textData:
+    - content: After about five minutes Mayne starts to catch on. Getting a little
+        embarrased about the mix up.
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Sorry about that" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 2
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"There''s no need to apologize." '
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    multipleChoice:
+    - content: I'll see you around!
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: Is the area 51 stuff real?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: Prom. Got any thoughts?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    cutManagerLink: 5e0000003c0000003e000000
   - state: 74 Explain how that's a show
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
-    multipleChoice: []
-    cutManagerLink: 
+    textData:
+    - content: Lily explains to Mayne how that's a show and how those are actors.
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Ah, that''s how they manage to pay for such a big apartment, they''re
+        all actors and they use their actor money to rent it." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 5
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"No, that''s a set. Like a fake place. Or at least I think it''s
+        a set. Either way they don''t rent it." '
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    multipleChoice:
+    - content: Is the area 51 stuff legit?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: What are your thoughts about prom?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: 'I''ll see you around. '
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    cutManagerLink: 3e0000005e0000003c000000
   - state: 75 Hey Mayne, Why do some of you look like cute boys?
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
-    multipleChoice: []
-    cutManagerLink: 
+    textData:
+    - content: Mayne chuckles a bit.
+      character: {fileID: 0}
+      disposition: 000000000100000000000000
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"The dean was concerned about you feeling wierd about going to school
+        with a bunch of aliens. So he opened up a program to let some us of wear
+        obfuscator collars. Makes us look human."'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 5
+      fadeIn: 0
+      fadeOut: 0
+    multipleChoice:
+    - content: Why'd you choose to join?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: So you look like a regular green alien normally?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: What happens if I wear it?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    cutManagerLink: 4c0000004d0000004e000000
   - state: 76 So you look like a regular green alien normally?
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
-    multipleChoice: []
-    cutManagerLink: 
+    textData:
+    - content: '"Yeah. Honestly I look exactly the same as all my other clones."'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 1
+      fadeIn: 0
+      fadeOut: 0
+    multipleChoice:
+    - content: I still think you look cute
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: So.. how come you're all clones?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    cutManagerLink: 4800000047000000
   - state: 77 Why'd you choose to join?
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
-    multipleChoice: []
-    cutManagerLink: 
+    textData:
+    - content: '"Oh. Uhh.. Well, I guess I wanted to try something new." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 5
+      fadeIn: 0
+      fadeOut: 0
+    multipleChoice:
+    - content: So you look like a regular green alien normally?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: What happens if I wear it?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: That's dumb
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    cutManagerLink: 4e0000004c00000050000000
   - state: 78 What happens if I wear it?
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
-    multipleChoice: []
-    cutManagerLink: 
+    textData:
+    - content: '"YOU EXPLODE!!"'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 6
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Really?!"'
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Hehe, no. I don''t know? I can''t take it off either, the dean has
+        the only key."'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 5
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Is it comfortable to wear it for an entire day?" '
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"You get used to it. I''ve worn it a couple of times." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    multipleChoice:
+    - content: How come?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: What about when you go home?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    cutManagerLink: 510000004f000000
   - state: 79 What about when you go home?
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
-    multipleChoice: []
-    cutManagerLink: 
+    textData:
+    - content: '"Well us green boys stay in suspension pods in the basement. Blues
+        get to go back to their place and reds have their own set up." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 4
+      fadeIn: 0
+      fadeOut: 0
+    - content: Mayne shrugs a little.
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    multipleChoice:
+    - content: What are your thoughts on prom?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: Is the area 51 stuff real?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: I'll see you around green boi.
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    cutManagerLink: 5e0000003e0000003c000000
   - state: 80 That's dumb
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
+    textData:
+    - content: '"Hey!! That''s a little rude."'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 00000000feffffff00000000
+      showCharacter: 4
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"I''ll see you later. Maybe you should get a better attitude by then." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 1
     multipleChoice: []
-    cutManagerLink: 
+    cutManagerLink: 3c000000
   - state: 81 How come?
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
-    multipleChoice: []
-    cutManagerLink: 
+    textData:
+    - content: '"Well, I''ve been to Earth a couple of times. Sometimes we have to
+        blend in so we''re given the collars to wear. What''s your favourite thing
+        about Earth?"'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 1
+      fadeIn: 0
+      fadeOut: 0
+    multipleChoice:
+    - content: I like food
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: I like animals
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: I don't actually like earth
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    cutManagerLink: 520000005300000054000000
   - state: 82 I like the animals
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
+    textData:
+    - content: '"Oh. I guess they''re nice." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 5
+      fadeIn: 0
+      fadeOut: 0
+    - content: Mayne smiles a little and rubs his head.
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Anything wrong with liking the animals of Earth?"'
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"No..? I just haven''t looked into them all that much and I didn''t
+        have much to talk about. Sorry. I didn''t mean to come across as rude." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 00000000ffffffff00000000
+      showCharacter: 2
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Could I have a minute to pack my stuff and then we could maybe catch
+        up?" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 1
+      fadeIn: 0
+      fadeOut: 0
     multipleChoice: []
-    cutManagerLink: 
+    cutManagerLink: 3c000000
   - state: 83 I like the food
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
-    multipleChoice: []
-    cutManagerLink: 
+    textData:
+    - content: '"Yeah, now we''re talking! I love the food on Earth!" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 6
+      fadeIn: 0
+      fadeOut: 0
+    - content: ' "I''m hoping maybe someday I can eat some!" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 5
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"You''ve never had any? How can you have a favourite ice cream if
+        you haven''t had any?" '
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"I''ve.. read about them." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 2
+      fadeIn: 0
+      fadeOut: 0
+    multipleChoice:
+    - content: You could be a chef
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: What have you read about them?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: 'I could get you some tommorrow! '
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    cutManagerLink: 5d0000005c0000005b000000
   - state: 84 I don't actually like Earth
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
-    multipleChoice: []
-    cutManagerLink: 
+    textData:
+    - content: '"Oh.. Uh. Sorry." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 4
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"I guess that makes sense. Since you''re going to a school in space
+        rather than Earth" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 1
+      fadeIn: 0
+      fadeOut: 0
+    multipleChoice:
+    - content: Yeah, I was too much for them to handle
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: It wasn't my choice. My dad decided it for me
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: I'd rather not talk about it. Ok?
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    cutManagerLink: 560000005500000057000000
   - state: 85 Yeah, I was too much for them to handle
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
+    textData:
+    - content: '"Hehe. You''re sounding a bit like Zip now."'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Thanks for coming and talking to me. I''ve gotta get set up for
+        the next lesson, so talk in a minute or two?" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
     multipleChoice: []
-    cutManagerLink: 
+    cutManagerLink: 3c000000
   - state: 86 It wasn't my choice. My dad decided it for me
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
-    multipleChoice: []
-    cutManagerLink: 
+    textData:
+    - content: '"Ouch.. yeah. I kind of know that pain. My ''fathers'' decided a
+        bunch of stuff for me. I think it''s for my own good.. buuut.. i don''t know."'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 000000000100000000000000
+      showCharacter: 4
+      fadeIn: 0
+      fadeOut: 0
+    multipleChoice:
+    - content: I guess my dad knows what's best for me
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: I wanted to have my own say in it
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    cutManagerLink: 5800000059000000
   - state: 87 I'd rather not talk about it. Ok?
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
+    textData:
+    - content: '"Oh.. Uh.. sorry."'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 4
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"I''ll need a minute to pack my stuff, wanna catch up in a bit?" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 1
     multipleChoice: []
-    cutManagerLink: 
+    cutManagerLink: 3c000000
   - state: 88 I guess my dad knows what's best for me
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
+    textData:
+    - content: '"Yeah.."'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 4
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Anyway, I''ve gotta get set up for the next lesson. So I''ll see
+        you in a minute or too. Ok?" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 1
+      fadeIn: 0
+      fadeOut: 0
     multipleChoice: []
-    cutManagerLink: 
+    cutManagerLink: 3c000000
   - state: 89 I wanted to have my own say in it
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
+    textData:
+    - content: '"Yeah. I know what you''re talking about."'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Hey.. thanks for coming over and opening up to me"'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 000000000200000000000000
+      showCharacter: 5
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"I''ll talk to you in a bit, I just have to stuff my bag for the
+        next lesson"'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
     multipleChoice: []
-    cutManagerLink: 
+    cutManagerLink: 3c000000
   - state: 90 I'd rather not talk about it. Ok?
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
+    textData:
+    - content: '"Oh.. Uh.. sorry."'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 00000000feffffff00000000
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"I''ll need a minute to pack my stuff, wanna catch up in a bit?"'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
     multipleChoice: []
-    cutManagerLink: 
+    cutManagerLink: 3c000000
   - state: 91 I could get you some tommorrow
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
+    textData:
+    - content: Mayne seems to be really happy and excited at the prospect
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Really? You''d do that for me?" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 000000000400000000000000
+      showCharacter: 6
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Of course"'
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: Mayne giggles and blushes a little.
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Thanks that''d mean a lot." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 5
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"oh. Sorry to cut this a little short, but I''ve got to pack my bag
+        real quick, mind if we talk in a minute or two?" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 1
+      fadeIn: 1
+      fadeOut: 0
     multipleChoice: []
-    cutManagerLink: 
+    cutManagerLink: 3c000000
   - state: 92 You could be a chef
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
+    textData:
+    - content: ' "What do you mean?" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 1
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"A.. chef? Like someone who makes food for other people?"'
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Wait, wait!! That''s a thing? You don''t get your food from matter
+        compositors?" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 6
+      fadeIn: 0
+      fadeOut: 0
+    - content: ' "..yes? no? I don''t really know what that is."'
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Like a machince that slorps out food."'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Oh, uh. I mean we have some vending machines, but most good food
+        that I know comes from a kitchen. Where someone has prepared it." '
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: ' "Oh woah. Cool." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 000000000100000000000000
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
     multipleChoice: []
-    cutManagerLink: 
+    cutManagerLink: 3c000000
   - state: 93 What have you read about them?
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
+    textData:
+    - content: '"Well, a bunch of stuff.. like mashed potatoes are only morally acceptable
+        when they''re warm. Or how you''re somehow able to eat the concept of revenge
+        on your planet. Or even like.. how some of you decide to eat really bad food" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 1
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Uhh.. sure." '
+      character: {fileID: 11400000, guid: 3836394cf5d888f419270abbbd6b7ee6, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"That was a fun conversation, but I have to start getting ready for
+        my next class. Talk to you in a minute or two yeah?" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 000000000100000000000000
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
     multipleChoice: []
-    cutManagerLink: 
+    cutManagerLink: 3c000000
   - state: 94 Is the Area-51 stuff.. real?
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
-    multipleChoice: []
-    cutManagerLink: 
+    textData:
+    - content: '"Oh. That?" '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 5
+      fadeIn: 0
+      fadeOut: 0
+    - content: Mayne points at his poster.
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Not really, it''s kind of an inside joke amongst the greens."'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 1
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"... you.. shouldn''t joke about stuff like that." '
+      character: {fileID: 11400000, guid: c577a278cd062d44890983331b724603, type: 2}
+      disposition: 
+      showCharacter: 4
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"Oh, hey Brenn. It''s not at anyone''s expense."'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 4
+      fadeIn: 0
+      fadeOut: 0
+    multipleChoice:
+    - content: Brenn is right, it's a little wierd
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: Mayne is right, it's just a joke
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: I don't think it's funny, but it's still a joke
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    cutManagerLink: 600000005f00000061000000
   - state: 95 Brenn is right, it's a little wierd
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
+    textData:
+    - content: '"...ugh, fine. I''ll take it down. Sheesh." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 02000000feffffff00000000
+      showCharacter: 4
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"..."'
+      character: {fileID: 11400000, guid: c577a278cd062d44890983331b724603, type: 2}
+      disposition: 
+      showCharacter: 5
+      fadeIn: 1
+      fadeOut: 0
+    - content: Brenn quietly smiles and looks at Lily with approval. Then slowly
+        walks off.
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"I''ll see you later, I''ve got to re-ogranize my locker now."'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 4
+      fadeIn: 1
+      fadeOut: 0
     multipleChoice: []
-    cutManagerLink: 
+    cutManagerLink: 3c000000
   - state: 96 Mayne is right, it's just a joke
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
+    textData:
+    - content: '"Yeah, plus it''s my locker." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 5
+      fadeIn: 0
+      fadeOut: 0
+    - content: Brenn sighs.
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"...ok"'
+      character: {fileID: 11400000, guid: c577a278cd062d44890983331b724603, type: 2}
+      disposition: 
+      showCharacter: 4
+      fadeIn: 0
+      fadeOut: 0
+    - content: Brenn proceeds to walk away quietly.
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 1
+    - content: ' "I kind of feel bad about that.. I guess I could replace my poster.
+        Give me a bit, I want to find something better to put up." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 4
+      fadeIn: 1
+      fadeOut: 0
     multipleChoice: []
-    cutManagerLink: 
+    cutManagerLink: 3c000000
   - state: 97 I don't think it's funny, but it's still a joke
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
-    textData: []
+    textData:
+    - content: '"hmmf.. fine. I guess I''ll take it down." '
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 4
+      fadeIn: 0
+      fadeOut: 0
+    - content: '"...."'
+      character: {fileID: 11400000, guid: c577a278cd062d44890983331b724603, type: 2}
+      disposition: 
+      showCharacter: 1
+      fadeIn: 0
+      fadeOut: 0
+    - content: Brenn looks at little with a little bit of disaproval, and then walks
+        away.
+      character: {fileID: 0}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 1
+    - content: '"I don''t know what''s gotten into him.."'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 4
+      fadeIn: 1
+      fadeOut: 0
+    - content: ' "Anyway, I''ll have to look through my locker to find a better sticker
+        or poster to replace it. Go on ahead without me for a bit"'
+      character: {fileID: 11400000, guid: 45c7e8a3e367c804c8ef4ee0cdfb59a9, type: 2}
+      disposition: 
+      showCharacter: 0
+      fadeIn: 0
+      fadeOut: 0
     multipleChoice: []
-    cutManagerLink: 
-  - state: Blank
+    cutManagerLink: 3c000000
+  - state: 98 Brenn's Locker
     background: {fileID: 21300000, guid: 6f79437e69029b043ba254fe267ecf95, type: 3}
     WIP: 1
     textData: []
@@ -3762,15 +4896,15 @@ RectTransform:
   m_GameObject: {fileID: 1987461914}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.0007557, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1927452215}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 351.37, y: -92}
-  m_SizeDelta: {x: 602.75, y: 811.2}
+  m_AnchoredPosition: {x: 11, y: 0.000030518}
+  m_SizeDelta: {x: 743.3, y: 986.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1987461916
 Animator:
@@ -3811,7 +4945,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 577426bafe888c544b08e4c8957831c9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3cb1c1aa67096804990eb3472d48a51a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
