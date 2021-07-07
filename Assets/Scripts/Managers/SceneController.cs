@@ -5,7 +5,6 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using Object = UnityEngine.Object;
 
 namespace Managers
 {
@@ -23,11 +22,11 @@ namespace Managers
         [SerializeField] private GameObject _gameOverScreen;
         private bool _pauseToggle;
         private Scene _currentScene;
-        public Object preGameScene;
-        public Object firstLevel;
-        public Object secondLevel;
-        public Object firstCutScene;
-        public Object secondCutScene;
+        public string preGameScene;
+        public string firstLevel;
+        public string secondLevel;
+        public string firstCutScene;
+        public string secondCutScene;
         public int sceneTransitionCount = 0;
 
         [SerializeField] private float _splashScreenDelay;
@@ -67,7 +66,7 @@ namespace Managers
 
         private void Update()
         {
-            if (_currentScene.name != preGameScene.name && !_referenceInGameDisplays)
+            if (_currentScene.name != preGameScene && !_referenceInGameDisplays)
             {
                 InitCurrentScene();
                 _gameOverScreen = GameObject.FindWithTag("Game Over Display");
@@ -122,7 +121,7 @@ namespace Managers
         {
             if (Input.anyKeyDown)
             {
-                if (scene.name == preGameScene.name)
+                if (scene.name == preGameScene)
                 {
                     _isKeyToEnter = false;
                     titleScreenText.enabled = false;
@@ -139,9 +138,9 @@ namespace Managers
             }
         }
 
-        public void LoadLevel(Object scene)
+        public void LoadLevel(string scene)
         {
-            SceneManager.LoadScene(scene.name);
+            SceneManager.LoadScene(scene);
         }
 
         public void MenuScreenDisplay(GameObject gameObject)
