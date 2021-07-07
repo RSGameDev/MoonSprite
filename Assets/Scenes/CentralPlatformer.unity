@@ -9537,6 +9537,63 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1001 &2818202107482327438
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2818202107491779185, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818202107491779185, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.7931395
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818202107491779185, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.2402973
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818202107491779185, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -25.13602
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818202107491779185, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818202107491779185, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818202107491779185, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818202107491779185, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818202107491779185, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818202107491779185, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818202107491779185, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818202107491779187, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_Name
+      value: DIRTY SCENE MOVER
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
 --- !u!222 &2839508675997646360
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9742,6 +9799,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _pauseScreen: {fileID: 5156260511120604709}
   playerHealth: {fileID: 3768575081780990173}
+  playerHealthText: {fileID: 0}
 --- !u!114 &3768575081573876858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10366,4 +10424,4 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
