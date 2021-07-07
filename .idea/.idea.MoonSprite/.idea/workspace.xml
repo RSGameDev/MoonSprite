@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="827d344f-7157-40ec-956c-a6e5df82fcf5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CentralPlatformer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CentralPlatformer.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CentralTowerDefense.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CentralTowerDefense.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HUD/HUD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HUD/HUD.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower Defense/TowerDefenseManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tower Defense/TowerDefenseManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/PlayerTowerLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/PlayerTowerLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +199,7 @@
       <workItem from="1625518055346" duration="5649000" />
       <workItem from="1625573968069" duration="8737000" />
       <workItem from="1625589729996" duration="4061000" />
-      <workItem from="1625608843851" duration="4217000" />
+      <workItem from="1625608843851" duration="4624000" />
     </task>
     <servers />
   </component>
