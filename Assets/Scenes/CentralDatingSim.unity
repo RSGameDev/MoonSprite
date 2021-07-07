@@ -123,6 +123,63 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &319506775
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2818202107491779185, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818202107491779185, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.7931395
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818202107491779185, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.2402973
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818202107491779185, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -25.13602
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818202107491779185, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818202107491779185, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818202107491779185, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818202107491779185, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818202107491779185, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818202107491779185, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818202107491779185, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818202107491779187, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_Name
+      value: DIRTY SCENE MOVER
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
 --- !u!1 &453278445
 GameObject:
   m_ObjectHideFlags: 0

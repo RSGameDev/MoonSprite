@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CentralTowerDefense.unity
     guid: edf987867f3a2164f911d3d97f14ee90
+  - enabled: 1
+    path: Assets/Scenes/CentralDatingSim.unity
+    guid: 44525f0fd944f774d879d17d35e1b40b
   m_configObjects: {}
