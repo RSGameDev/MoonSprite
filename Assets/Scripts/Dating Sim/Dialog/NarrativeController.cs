@@ -18,7 +18,9 @@ public class NarrativeController : MonoBehaviour
     public Animator characterAnimator;
     [SerializeField] private Image background;
     private CharacterData cd;
-    
+
+    public ParticleSystem[] ps;
+
 
     private int textDataSize;
     private int multipleChoiceSize;
@@ -32,12 +34,14 @@ public class NarrativeController : MonoBehaviour
     private int _progression = 0;
     private bool _isChoosing;
     public int _brennDisposition, _mayneDisposition,_zipDisposition;
+    public int threshold;
 
+    public int brennProposal, mayneProposal, zipProposal, brennSucess, mayneSucess, zipSucess, brennFail, mayneFail, zipFail;
     private void Start()
     {
         UpdateHeader(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].character);
         ParseDialogue(_cutsceneIndex, _dialogueIndex);
-        
+        UpdateChances();
 
     }
 
@@ -56,6 +60,7 @@ public class NarrativeController : MonoBehaviour
         }
        
         PlayCutscene(_cutsceneIndex);
+        UpdateChances();
     }
 
     //This funciton is responsible for going through and making sure the header and character being presented is accurate. If the same character speaks twice there's no need to re-set the header.
@@ -163,11 +168,25 @@ public class NarrativeController : MonoBehaviour
     {
         if (_cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition.Length ==3)
         {
+
             if (_cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[0] != 0 || _cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[1] != 0 || _cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[2] != 0)
             {
                 _brennDisposition += _cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[0];
                 _mayneDisposition += _cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[1];
                 _zipDisposition += _cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[2];
+            }
+
+            if (_cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[0] > 0)
+            {
+                ps[0].Emit(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[0]);
+            }
+            if (_cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[1] > 0)
+            {
+                ps[1].Emit(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[1]);
+            }
+            if (_cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[2] > 0)
+            {
+                ps[2].Emit(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[2]);
             }
         }
        
@@ -202,13 +221,51 @@ public class NarrativeController : MonoBehaviour
         }
         if (_cutscenes[_cutsceneIndex].textData[_dialogueIndex].fadeIn)
         {
-            characterAnimator.SetTrigger("FadeIn");
+            characterAnimator.ResetTrigger("FadeIn");
+            if (characterArt.color.a == 0)
+            {
+                characterAnimator.SetTrigger("FadeIn");
+            }
+            
            
         }
         if (_cutscenes[_cutsceneIndex].textData[_dialogueIndex].fadeOut)
         {
-            characterAnimator.SetTrigger("FadeOut");
-            
+            characterAnimator.ResetTrigger("FadeOut");
+            if (characterArt.color.a == 1)
+            {
+                characterAnimator.SetTrigger("FadeOut");
+            }
+        }
+    }
+
+    public void UpdateChances()
+    {
+        if (_brennDisposition>threshold)
+        {
+            _cutscenes[brennProposal].cutManagerLink[0] = brennSucess;
+        }
+        else
+        {
+            _cutscenes[brennProposal].cutManagerLink[0] = brennFail;
+        }
+
+        if (_mayneDisposition > threshold)
+        {
+            _cutscenes[mayneProposal].cutManagerLink[0] = mayneSucess;
+        }
+        else
+        {
+            _cutscenes[mayneProposal].cutManagerLink[0] = mayneFail;
+        }
+
+        if (_zipDisposition > threshold)
+        {
+            _cutscenes[zipProposal].cutManagerLink[0] = zipSucess;
+        }
+        else
+        {
+            _cutscenes[zipProposal].cutManagerLink[0] = zipFail;
         }
     }
 }
