@@ -87,6 +87,13 @@ public class DialogPrinter : MonoBehaviour
 
         Debug.Log("END");
     }
+    
+    public void Skip(string text)
+    {
+        printableText = text;
+        StopPrinting();
+        mainTextBox.text = printableText;
+    }
 
     private void Start()
     {

@@ -11,6 +11,8 @@ public class TextData : ScriptableObject
         public string content;
         public CharacterData character;
         public int[] disposition;
-
+        public int showCharacter;
+        public bool fadeIn;
+        public bool fadeOut;
     }
 }
