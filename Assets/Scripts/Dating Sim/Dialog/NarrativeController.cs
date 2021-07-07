@@ -98,7 +98,15 @@ public class NarrativeController : MonoBehaviour
             {
                 if (_cutscenes[_cutsceneIndex].cutManagerLink.Length < 2)
                 {
-                    SetCutScene(_cutscenes[_cutsceneIndex].cutManagerLink[0]);
+                    if (_cutscenes[_cutsceneIndex].cutManagerLink[0] != 777)
+                    {
+                        SetCutScene(_cutscenes[_cutsceneIndex].cutManagerLink[0]);
+                    }
+                    else
+                    {
+                        Application.Quit();
+                    }
+                   
                 }
                 else
                 {
@@ -195,10 +203,12 @@ public class NarrativeController : MonoBehaviour
         if (_cutscenes[_cutsceneIndex].textData[_dialogueIndex].fadeIn)
         {
             characterAnimator.SetTrigger("FadeIn");
+           
         }
         if (_cutscenes[_cutsceneIndex].textData[_dialogueIndex].fadeOut)
         {
             characterAnimator.SetTrigger("FadeOut");
+            
         }
     }
 }
