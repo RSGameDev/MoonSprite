@@ -23,9 +23,11 @@ namespace Tower_Defense.UI
             }
             GetComponent<SpriteRenderer>().color = Color.yellow;
 
+            // assigns tower to all playertowerlevel scripts in the scene.
             for (int i = 0; i < _playerTowerLevel.Length; i++)
             {
                 _playerTowerLevel[i].SelectedTower(tower);
+                _playerTowerLevel[i].AbleToBuildTileColour();
             }
         }
     }

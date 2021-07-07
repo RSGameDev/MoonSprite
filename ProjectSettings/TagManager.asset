@@ -9,6 +9,8 @@ TagManager:
   - Game Over Display
   - CleanUP
   - Choice
+  - Pause Display
+  - SceneController
   layers:
   - Default
   - TransparentFX
@@ -19,7 +21,7 @@ TagManager:
   - Player
   - Ground
   - Enemy
-  - 
+  - TowerDefense Cannot Build
   - 
   - 
   - 

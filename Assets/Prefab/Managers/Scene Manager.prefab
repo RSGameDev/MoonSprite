@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 664173826147819815}
   m_Layer: 0
   m_Name: Scene Manager
-  m_TagString: Untagged
+  m_TagString: SceneController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43,11 +43,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3a468228db4aa34f989dd6de5e7d22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  platformerCore: {fileID: 0}
   splashScreenDisplay: {fileID: 0}
   titleScreenDisplay: {fileID: 0}
-  text: {fileID: 0}
+  titleScreenText: {fileID: 0}
   mainMenuScreen: {fileID: 0}
   optionsScreenDisplay: {fileID: 0}
   settings: {fileID: 0}
   credits: {fileID: 0}
+  _gameOverScreen: {fileID: 0}
+  _pauseScreen: {fileID: 0}
+  preGameScene: {fileID: 0}
+  firstLevel: {fileID: 0}
+  secondLevel: {fileID: 0}
+  firstCutScene: {fileID: 0}
+  secondCutScene: {fileID: 0}
+  sceneTransitionCount: 0
   _splashScreenDelay: 1

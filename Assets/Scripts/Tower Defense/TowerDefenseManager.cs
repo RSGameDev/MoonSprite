@@ -1,15 +1,29 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using PlayerNS;
 using UnityEngine;
 
 public class TowerDefenseManager : MonoBehaviour
 {
-    public int health = 4;
+    [SerializeField] private HUD.HUD _hud;
+    public int health;
+
+    private void Awake()
+    {
+        Health.health = health;
+    }
+
+    private void Start()
+    {
+        Health.health = 10;
+    }
+
     public void DamagePlayer(int amount)
     {
-        health += amount;
+        Health.health += amount;
         Debug.Log("Player Health : " + health);
-        if(health <= 0)
+        if(Health.health <= 0)
         {
             GameOver();
         }
