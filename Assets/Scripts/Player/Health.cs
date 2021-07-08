@@ -9,6 +9,7 @@ namespace PlayerNS
         public static int health = 3;
         public Animator anim;
         public AudioSource sound;
+        public float iTime;
 
         public void Update()
         {
@@ -24,6 +25,11 @@ namespace PlayerNS
                 t -= Time.deltaTime;
                 anim.SetFloat("ShakeTime", t);
             }
+
+            if (iTime>=0)
+            {
+                iTime -= Time.deltaTime;
+            }
         }
 
         void PlayerDeath()
@@ -34,9 +40,14 @@ namespace PlayerNS
         
         public void Hurt()
         {
-            health--;
-            anim.SetFloat("ShakeTime", 0.3f);
-            sound.Play();
+            if (iTime<=0)
+            {
+                health--;
+                anim.SetFloat("ShakeTime", 0.3f);
+                sound.Play();
+                iTime = .8f;
+            }
+            
         }
     }
 }
