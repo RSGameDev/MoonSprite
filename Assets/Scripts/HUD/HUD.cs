@@ -38,9 +38,7 @@ namespace HUD
 
         // Update is called once per frame
         private void Update()
-        {
-
-           
+        {                      
 
             playerHealthText.SetText(Health.health.ToString());
             
