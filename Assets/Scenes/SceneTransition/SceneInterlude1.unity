@@ -258,14 +258,14 @@ MonoBehaviour:
   m_text: Now she has to get to the 'anti-shrink-ray' ray before her breakfast gets
     cold.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 77bf07c28cddd134686e2512eab17876, type: 2}
+  m_sharedMaterial: {fileID: -1899639255803483874, guid: 77bf07c28cddd134686e2512eab17876, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 16777215
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -392,14 +392,14 @@ MonoBehaviour:
       m_Calls: []
   m_text: "One of the dad's inventions, \na shrink ray when off and shot her."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 77bf07c28cddd134686e2512eab17876, type: 2}
+  m_sharedMaterial: {fileID: -1899639255803483874, guid: 77bf07c28cddd134686e2512eab17876, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 16777215
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -583,8 +583,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: ZAP!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 77bf07c28cddd134686e2512eab17876, type: 2}
+  m_sharedMaterial: {fileID: -1899639255803483874, guid: 77bf07c28cddd134686e2512eab17876, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -717,8 +717,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: when
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 77bf07c28cddd134686e2512eab17876, type: 2}
+  m_sharedMaterial: {fileID: -1899639255803483874, guid: 77bf07c28cddd134686e2512eab17876, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -853,14 +853,14 @@ MonoBehaviour:
 
     and was heading down stairs'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 77bf07c28cddd134686e2512eab17876, type: 2}
+  m_sharedMaterial: {fileID: -1899639255803483874, guid: 77bf07c28cddd134686e2512eab17876, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 16777215
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -987,8 +987,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Suddenly
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 77bf07c28cddd134686e2512eab17876, type: 2}
+  m_sharedMaterial: {fileID: -1899639255803483874, guid: 77bf07c28cddd134686e2512eab17876, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

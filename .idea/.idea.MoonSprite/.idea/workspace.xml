@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="827d344f-7157-40ec-956c-a6e5df82fcf5" name="Default Changelist" comment="" />
+    <list default="true" id="827d344f-7157-40ec-956c-a6e5df82fcf5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/SceneTransition/main to platformer/CameraMovement.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/SceneTransition/main to platformer/CameraMovement.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/SceneTransition/main to platformer/TextMovement.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/SceneTransition/main to platformer/TextMovement.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/sagesans-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Font/sagesans-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneTransition/SceneInterlude1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneTransition/SceneInterlude1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,13 +39,14 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../Unity Editors/5.6.1f/Editor/2021.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.render-pipelines.universal/Editor/2D/ShadowCaster2DEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TowerMouse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.5.4/Editor/Window/WindowConstants.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.5.4/Editor/TimelineUtility.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ScreenInterlude.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/TowerDeploy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hazards/Knife.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Dirty_FeedToPrinter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Inspection/Unity/LayerMaskInspector.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.5.4/Editor/Window/WindowConstants.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScreenInterlude.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/153C624F-4E72-438E-BF26-AAC81CAD6111/7c/29169f2c/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hazards/Kettle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Core/Variables/VariablesSaver.cs" root0="SKIP_HIGHLIGHTING" />
@@ -94,8 +102,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Tower Defense/TowerDefenseManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/SceneController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/PlayerTowerLevel.cs" />
       <option value="$PROJECT_DIR$/Assets/DIRTY FOLDER/DIRT_SceneMover.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/PlayerTowerLevel.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tJED1HKqpdcuElUf7PqDD2T6WE" />
@@ -209,7 +217,7 @@
       <workItem from="1625608843851" duration="4217000" />
       <workItem from="1625703006637" duration="1661000" />
       <workItem from="1625706852356" duration="264000" />
-      <workItem from="1625772114111" duration="680000" />
+      <workItem from="1625772114111" duration="1533000" />
     </task>
     <servers />
   </component>
