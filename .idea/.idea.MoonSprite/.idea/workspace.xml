@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="827d344f-7157-40ec-956c-a6e5df82fcf5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/SceneTransition/main to platformer/CameraMovement.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/SceneTransition/main to platformer/CameraMovement.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/SceneTransition/main to platformer/TextMovement.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/SceneTransition/main to platformer/TextMovement.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Font/sagesans-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Font/sagesans-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneTransition/SceneInterlude1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneTransition/SceneInterlude1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/SceneTransition/platformer to tower defense/text movement2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/SceneTransition/platformer to tower defense/text movement2.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/SceneTransition/tower to dating sim/textmove3.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/SceneTransition/tower to dating sim/textmove3.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneTransition/SceneInterlude2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneTransition/SceneInterlude2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneTransition/SceneInterlude3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneTransition/SceneInterlude3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScreenInterlude.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScreenInterlude.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +87,6 @@
       <option value="$PROJECT_DIR$/Assets/Click.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/TileInfo.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/Richard Testing/NarrativeController.cs" />
-      <option value="$PROJECT_DIR$/Assets/ScreenInterlude.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/DialogPrinter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dating Sim/CutSceneManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dating Sim/Dialog/NarrativeController.cs" />
@@ -104,6 +104,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/SceneController.cs" />
       <option value="$PROJECT_DIR$/Assets/DIRTY FOLDER/DIRT_SceneMover.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/PlayerTowerLevel.cs" />
+      <option value="$PROJECT_DIR$/Assets/ScreenInterlude.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tJED1HKqpdcuElUf7PqDD2T6WE" />
