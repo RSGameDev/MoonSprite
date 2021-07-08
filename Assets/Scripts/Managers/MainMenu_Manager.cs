@@ -47,5 +47,10 @@ public class MainMenu_Manager : MonoBehaviour
         //Debug.Log(val);
     }
 
+    public void OpenLink(string link)
+    {
+        Application.OpenURL(link);
+    }
+
     
 }

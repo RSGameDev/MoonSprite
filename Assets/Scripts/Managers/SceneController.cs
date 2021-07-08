@@ -64,7 +64,7 @@ namespace Managers
                 splashScreenDisplay.SetActive(false);
             }
             
-            titleScreenDisplay.SetActive(true);
+            //titleScreenDisplay.SetActive(true);
             _isKeyToEnter = true;
         }
 
