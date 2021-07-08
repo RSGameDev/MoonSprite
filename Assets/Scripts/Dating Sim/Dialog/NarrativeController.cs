@@ -205,6 +205,20 @@ public class NarrativeController : MonoBehaviour
             {
                 ps[2].Emit(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[2]);
             }
+
+            if (_cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[0] < 0)
+            {
+                ps[3].Emit(Mathf.Abs(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[0]));
+            }
+            if (_cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[1] < 0)
+            {
+                ps[4].Emit(Mathf.Abs(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[1]));
+            }
+            if (_cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[2] < 0)
+            {
+                
+                ps[5].Emit(Mathf.Abs(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].disposition[2]));
+            }
         }
        
     }

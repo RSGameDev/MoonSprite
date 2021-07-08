@@ -29,7 +29,7 @@ public class DatingSimMusicManager : MonoBehaviour
                     _audio[i].startingVolume -= rate * Time.deltaTime;
                 }
             }
-            if ((_audio[i] == _audio[musicIndex]) && (_audio[i].startingVolume<=0.14f))
+            if ((_audio[i] == _audio[musicIndex]) && (_audio[i].startingVolume<=0.12f))
             {
 
                 _audio[i].startingVolume += rate * Time.deltaTime;
