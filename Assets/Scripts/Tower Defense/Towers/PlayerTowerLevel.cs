@@ -49,9 +49,11 @@ namespace Tower_Defense.Towers
 
             var worldPosition = cam.ScreenToWorldPoint(Input.mousePosition);
             var gridPosition = grid.WorldToCell(worldPosition);
+            print("gridposition" + gridPosition);
             AbleToBuildTileColour();
             if (canBuildOnTile)
             {
+                print("green");
                 TileColour(Color.green, gridPosition, GetComponent<Tilemap>());
 
                 if (gameObject.layer == 9)
@@ -92,6 +94,7 @@ namespace Tower_Defense.Towers
         {
             tilemap.SetTileFlags(position, TileFlags.None);
             tilemap.SetColor(position, colour);
+            print("tile colour " + position);
         }
 
         private Vector3 ClickPosition()
