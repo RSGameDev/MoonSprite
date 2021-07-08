@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="827d344f-7157-40ec-956c-a6e5df82fcf5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/TowerDefence/Tower.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/TowerDefence/Tower.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/CentralTowerDefense.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CentralTowerDefense.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/PlayerTowerLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/PlayerTowerLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -4514,7 +4514,6 @@ GameObject:
   - component: {fileID: 771545407}
   - component: {fileID: 771545410}
   - component: {fileID: 771545409}
-  - component: {fileID: 771545408}
   m_Layer: 2
   m_Name: HealthCounter
   m_TagString: Untagged
@@ -4541,19 +4540,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.44, y: 0.0028}
   m_SizeDelta: {x: 55.4232, y: 30.4625}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &771545408
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 771545406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37bf8066c27ddcd4e9fc7de3970fffea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coins: 0
 --- !u!114 &771545409
 MonoBehaviour:
   m_ObjectHideFlags: 0
