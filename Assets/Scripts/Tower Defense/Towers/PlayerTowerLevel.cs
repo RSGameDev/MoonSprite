@@ -17,7 +17,7 @@ namespace Tower_Defense.Towers
         public Grid grid;
         private int priceIncreaser;
         public bool showRange;
-        public TD_CoinCounter _counter;
+        private TD_CoinCounter _counter;
         private PlayerTowerLevel[] _playerTowerLevel;
         private bool canBuildOnTile;
 

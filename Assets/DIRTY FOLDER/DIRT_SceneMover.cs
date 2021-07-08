@@ -15,7 +15,7 @@ public class DIRT_SceneMover : MonoBehaviour
         //}
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            if (SceneManager.GetActiveScene().buildIndex < 4)
+            if (SceneManager.GetActiveScene().buildIndex < 8)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
