@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f936c152fdc83e4c88ec0ca06f3b3bb, type: 3}
+  m_Name: Brenn
+  m_EditorClassIdentifier: 
+  slime: 0
+  characterName: Brenn
+  slimeColour: {r: 0.19893196, g: 0.24505116, b: 0.8301887, a: 1}
+  characterArt:
+  - {fileID: 21300000, guid: 75a07ac1a85757647b9edbfaf528c079, type: 3}
+  - {fileID: 21300000, guid: d029c655bfec40b40b3408a5e4a0bb2f, type: 3}
+  - {fileID: 21300000, guid: 728ba4d1bf258c547b4614af0a590099, type: 3}
+  - {fileID: 21300000, guid: c2c371fc7544b764eb779451155cddc8, type: 3}
+  - {fileID: 21300000, guid: 54276bb4dfbee6e4c802868684a70f42, type: 3}
+  - {fileID: 21300000, guid: 1220c9b37f689d942bf014b17673ee7d, type: 3}

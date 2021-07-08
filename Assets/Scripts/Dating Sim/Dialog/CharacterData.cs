@@ -8,4 +8,5 @@ public class CharacterData : ScriptableObject
     public bool slime;
     public string characterName;
     public Color slimeColour;
+    public Sprite[] characterArt;
 }

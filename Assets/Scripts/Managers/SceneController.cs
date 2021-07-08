@@ -5,7 +5,6 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using Object = UnityEngine.Object;
 
 namespace Managers
 {
@@ -20,14 +19,14 @@ namespace Managers
         public GameObject optionsScreenDisplay;
         public GameObject settings;
         public GameObject credits;
-        [SerializeField] private GameObject _gameOverScreen;
+        
         private bool _pauseToggle;
         private Scene _currentScene;
-        public Object preGameScene;
-        public Object firstLevel;
-        public Object secondLevel;
-        public Object firstCutScene;
-        public Object secondCutScene;
+        public string preGameScene;
+        public string firstLevel;
+        public string secondLevel;
+        public string firstCutScene;
+        public string secondCutScene;
         public int sceneTransitionCount = 0;
 
         [SerializeField] private float _splashScreenDelay;
@@ -60,18 +59,23 @@ namespace Managers
         private IEnumerator SplashScreenDelay()
         {
             yield return new WaitForSeconds(_splashScreenDelay);
-            splashScreenDisplay.SetActive(false);
-            titleScreenDisplay.SetActive(true);
+            if (splashScreenDisplay !=null)
+            {
+                splashScreenDisplay.SetActive(false);
+            }
+            
+            //titleScreenDisplay.SetActive(true);
             _isKeyToEnter = true;
         }
 
         private void Update()
         {
-            if (_currentScene.name != preGameScene.name && !_referenceInGameDisplays)
+            if (_currentScene.name != preGameScene && !_referenceInGameDisplays)
             {
+                
                 InitCurrentScene();
-                _gameOverScreen = GameObject.FindWithTag("Game Over Display");
-                _gameOverScreen.SetActive(false);
+               
+               
             }
 
             if (_isKeyToEnter)
@@ -112,17 +116,13 @@ namespace Managers
             _referenceInGameDisplays = true;
         }
 
-        public void GameOverScreen()
-        {
-            _isKeyToEnter = true;
-            _gameOverScreen.SetActive(true);
-        }
+        
 
         private void HitAnyKeyDisplayTransition(Scene scene)
         {
             if (Input.anyKeyDown)
             {
-                if (scene.name == preGameScene.name)
+                if (scene.name == preGameScene)
                 {
                     _isKeyToEnter = false;
                     titleScreenText.enabled = false;
@@ -131,7 +131,7 @@ namespace Managers
                 else
                 {
                     _isKeyToEnter = false;
-                    _gameOverScreen.SetActive(false);
+                    
                     SceneManager.LoadScene(_currentScene.name);
                     _referenceInGameDisplays = false;
                     Time.timeScale = 1f;
@@ -139,9 +139,9 @@ namespace Managers
             }
         }
 
-        public void LoadLevel(Object scene)
+        public void LoadLevel(string scene)
         {
-            SceneManager.LoadScene(scene.name);
+            SceneManager.LoadScene(scene);
         }
 
         public void MenuScreenDisplay(GameObject gameObject)
