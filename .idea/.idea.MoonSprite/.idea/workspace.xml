@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="827d344f-7157-40ec-956c-a6e5df82fcf5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DIRTY FOLDER/DIRT_SceneMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DIRTY FOLDER/DIRT_SceneMover.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneTransition/SceneInterlude1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneTransition/SceneInterlude1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneTransition/SceneInterlude2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneTransition/SceneInterlude2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneTransition/SceneInterlude3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneTransition/SceneInterlude3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="827d344f-7157-40ec-956c-a6e5df82fcf5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,6 +209,7 @@
       <workItem from="1625608843851" duration="4217000" />
       <workItem from="1625703006637" duration="1661000" />
       <workItem from="1625706852356" duration="264000" />
+      <workItem from="1625772114111" duration="680000" />
     </task>
     <servers />
   </component>
