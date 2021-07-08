@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Kettle
   m_EditorClassIdentifier: 
   towerName: Kettle
-  towerImage: {fileID: 21300000, guid: aa200a040bcd20e4c8f0a90a14babcc7, type: 3}
+  towerImage: {fileID: 21300000, guid: eaaee00981385d343a5be3b1a9dbcfb3, type: 3}
   projectileImage: {fileID: 21300000, guid: 1849048720141f34faa1e243ae1d9565, type: 3}
   health: 0
   damage: 0
@@ -21,4 +21,4 @@ MonoBehaviour:
   fireRate: 0.05
   price: 5
   projectile: {fileID: 3236496338011103702, guid: bed1fae205e66df478216c2c5a08b9bf, type: 3}
-  priceRunTime: 30
+  priceRunTime: 75

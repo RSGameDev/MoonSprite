@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using PipLib.Stage;
 
 public class WaveManager : MonoBehaviour
 {
@@ -33,6 +34,7 @@ public class WaveManager : MonoBehaviour
     {
         if (waveIndex >= Waves.Count) // Are there any waves left
         {
+            SceneControls.NextLevel();
             return; // GAME FINISHED
         }
 

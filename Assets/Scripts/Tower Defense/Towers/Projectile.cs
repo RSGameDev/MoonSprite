@@ -52,7 +52,13 @@ namespace Tower_Defense.Towers
             transform.eulerAngles = new Vector3(0, 0, Util.PointToward(enemy, this.gameObject));
             
         }
-    
+
+        public void AssignTarget(Transform enemy)
+        {
+            transform.eulerAngles = new Vector3(0, 0, Util.PointToward(enemy, this.gameObject.transform));
+
+        }
+
         public void AssignProjectile(Sprite projectile)
         {
             projectileImage = projectile; 

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: tower rapid fire
   m_EditorClassIdentifier: 
   towerName: rapid fire
-  towerImage: {fileID: 21300000, guid: 39f3a00c6a6c66f4dbd20d21c4eab387, type: 3}
+  towerImage: {fileID: 21300000, guid: 88174ecc2e516e94081a31ef9d9337e2, type: 3}
   projectileImage: {fileID: 21300000, guid: 2b6f583473356e54f87045180ba09d17, type: 3}
   health: 10
   damage: 25
@@ -21,4 +21,4 @@ MonoBehaviour:
   fireRate: 0.9
   price: 20
   projectile: {fileID: 111604899939266598, guid: 387befed8c107fc49b91fd377aa3a18b, type: 3}
-  priceRunTime: 20
+  priceRunTime: 275

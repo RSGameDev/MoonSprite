@@ -29,8 +29,22 @@ public class ScreenInterlude : MonoBehaviour
         
         if (_timer >= 15)
         {
-            var scene = SceneController._instance.secondLevel;
-            SceneController._instance.LoadLevel(scene);
+            if (currentScene.name == "SceneInterlude1")
+            {
+                var scene = SceneController._instance.firstLevel;
+                SceneController._instance.LoadLevel(scene);
+            }
+            if (currentScene.name == "SceneInterlude2")
+            {
+                var scene = SceneController._instance.secondLevel;
+                SceneController._instance.LoadLevel(scene);
+            }
+            if (currentScene.name == "SceneInterlude3")
+            {
+                var scene = SceneController._instance.thirdLevel;
+                SceneController._instance.LoadLevel(scene);
+            }
+
         }
     }
 }

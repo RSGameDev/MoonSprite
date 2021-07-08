@@ -45,6 +45,40 @@ namespace PipLib
 
         }
 
+        public static float PointToward(Transform target, Transform pointer)
+        {
+            float xdis;
+            float ydis;
+            float dh;
+            float result = 0;
+
+            if (target != null || pointer != null) //This checks if the pointer or the target exist, in order to avoid errors. Allowing the addition or removal of objects.
+            {
+                //First it takes the total x and y distance between the two of them. Essentially forming a triangle.
+                xdis = target.position.x - pointer.position.x;
+                ydis = target.position.y - pointer.position.y;
+                //Then using the square of the Hypotenuse, we'reable to find a line between the two of them.
+                dh = Mathf.Sqrt(xdis * xdis + ydis * ydis);
+
+                //The result is then the Cosine rule is used to get the angle that's required. 
+                result = (Mathf.Acos(ydis / dh) * (180 / Mathf.PI));
+                if (xdis > 0) //This works for most numbers, however, if the x distance is on the left side, it will give us a negative number.
+                {
+                    result = -result; //The easiest and simplest solution is to invert the result.
+                }
+
+
+
+                return result;
+            }
+            else
+            { //If either object does not exist. The Z rotation is left as is. 
+                result = pointer.localRotation.z;
+                return result;
+            }
+
+        }
+
         //Quick refrence to where the mouse is in the world on screen with a z value of 10. 
         //This is primarly for working in Unity2D.
         public static Vector3 MousePos()

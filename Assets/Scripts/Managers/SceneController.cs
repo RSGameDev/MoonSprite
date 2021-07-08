@@ -25,6 +25,7 @@ namespace Managers
         public string preGameScene;
         public string firstLevel;
         public string secondLevel;
+        public string thirdLevel;
         public string firstCutScene;
         public string secondCutScene;
         public int sceneTransitionCount = 0;
