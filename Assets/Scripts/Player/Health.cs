@@ -1,5 +1,6 @@
 using Managers;
 using UnityEngine;
+using HUD;
 
 namespace PlayerNS
 {
@@ -28,7 +29,7 @@ namespace PlayerNS
         void PlayerDeath()
         {
             Time.timeScale = 0f;
-            SceneController._instance.GameOverScreen();
+            FindObjectOfType<HUD.HUD>().GameOverScreen();
         }
         
         public void Hurt()
