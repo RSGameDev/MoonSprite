@@ -81,11 +81,11 @@ public class DialogPrinter : MonoBehaviour
             yield return new WaitForSeconds(delay);
 
             charIndex++;
-            print("running");
+            //print("running");
         }
 
 
-        Debug.Log("END");
+        //Debug.Log("END");
     }
     
     public void Skip(string text)
@@ -97,7 +97,7 @@ public class DialogPrinter : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log("START");
+        //Debug.Log("START");
         charIndex = 0;
         mainTextBox.text = "";
         Print();

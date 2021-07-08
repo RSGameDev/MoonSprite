@@ -8,7 +8,8 @@ using UnityEngine.UI;
 public class NarrativeController : MonoBehaviour
 {
     public CutSceneManager.Cutscene[] _cutscenes;
-    
+
+    public Animator cameraAnim;
     public GameObject mainDisplay;
     public GameObject[] choiceOption;
     public GameObject slimeGameObject;
@@ -60,6 +61,7 @@ public class NarrativeController : MonoBehaviour
        
         PlayCutscene(_cutsceneIndex);
         UpdateChances();
+        
     }
 
     //This funciton is responsible for going through and making sure the header and character being presented is accurate. If the same character speaks twice there's no need to re-set the header.
@@ -159,7 +161,23 @@ public class NarrativeController : MonoBehaviour
         DispotionsParse();
         UpdateHeader(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].character);
         dialogPrinter.PrintText(_cutscenes[i].textData[y].content);
-        
+        if (_cutscenes[_cutsceneIndex].textData[_dialogueIndex].music > 0)
+        {
+            ParseMusic(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].music);
+        }
+        if (_cutscenes[_cutsceneIndex].textData[_dialogueIndex].music == -1)
+        {
+            ParseMusic(0);
+        }
+        if (_cutscenes[_cutsceneIndex].textData[_dialogueIndex].sound>0)
+        {
+            FindObjectOfType<DatingSimSoundBoard>().PlaySound(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].sound);
+        }
+        if (_cutscenes[_cutsceneIndex].textData[_dialogueIndex].shaketime > 0)
+        {
+            ParseShake(_cutscenes[_cutsceneIndex].textData[_dialogueIndex].shaketime);
+        }
+
     }
 
     //This updates character dispositions if disposition is properly set up via the inspector, otherwise it ignores it.
@@ -266,5 +284,16 @@ public class NarrativeController : MonoBehaviour
         {
             _cutscenes[zipProposal].cutManagerLink[0] = zipFail;
         }
+    }
+
+    public void ParseMusic(int track)
+    {
+        FindObjectOfType<DatingSimMusicManager>().Change(track);
+        
+    }
+
+    public void ParseShake(float time)
+    {
+        cameraAnim.SetFloat("ShakeTime", time);
     }
 }
