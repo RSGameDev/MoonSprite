@@ -367,8 +367,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 84, y: -346}
-  m_SizeDelta: {x: 533.14, y: 89.778}
+  m_AnchoredPosition: {x: 86.876, y: -349.15}
+  m_SizeDelta: {x: 1000.803, y: 272.977}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &221504929
 MonoBehaviour:
@@ -418,10 +418,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -502,8 +502,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -21.388, y: 454}
-  m_SizeDelta: {x: 448.612, y: 89.778}
+  m_AnchoredPosition: {x: 46.266, y: -351}
+  m_SizeDelta: {x: 1374.121, y: 172.733}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &840031796
 MonoBehaviour:
@@ -552,12 +552,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 84.2
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 150
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -636,8 +636,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -480, y: 454}
-  m_SizeDelta: {x: 448.612, y: 89.778}
+  m_AnchoredPosition: {x: -263, y: -250.94}
+  m_SizeDelta: {x: 301.051, y: 138.17}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &909634124
 MonoBehaviour:
@@ -686,12 +686,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 105.2
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 150
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -770,8 +770,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -415.02524, y: -567.0855}
-  m_SizeDelta: {x: 171.992, y: 54.169}
+  m_AnchoredPosition: {x: -448, y: -364.91}
+  m_SizeDelta: {x: 759.589, y: 144.03}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1276477924
 MonoBehaviour:
@@ -820,7 +820,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 63.5
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -904,8 +904,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -480, y: 454}
-  m_SizeDelta: {x: 448.612, y: 89.778}
+  m_AnchoredPosition: {x: 284, y: -250.94}
+  m_SizeDelta: {x: 439.309, y: 138.168}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1395954458
 MonoBehaviour:
@@ -954,12 +954,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 105.8
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 150
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -1290,7 +1290,7 @@ Animator:
   m_GameObject: {fileID: 2110121366}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 98432448d13d8b847805708f5840e978, type: 2}
+  m_Controller: {fileID: 9100000, guid: c061aa63a91b6664fa8875158ec7310d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1422,7 +1422,7 @@ Animator:
   m_GameObject: {fileID: 3786214617802296089}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fe2351cbc4d08094f92a15df9c931579, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1b06be594647f074eb3e2718c2a0ecc5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
