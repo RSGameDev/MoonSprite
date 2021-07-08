@@ -116,7 +116,7 @@ namespace Tower_Defense.Towers
             {
                 var value = false;
                 _tileSelected.TryGetValue(gridPosition, out value);
-                if (value == false)
+                if (value == false && gameObject.layer != 9)
                 {
                     if (_counter.coins >= tower.priceRunTime)
                     {
