@@ -15,12 +15,13 @@ public class GlobalAudio : MonoBehaviour
     //Instead of changing the volume directly, we're taking a starting volume and modifying it according to the global volume.
     //This allows control over audio, while not sacrificing volume depth within the scene
     //Aka, music can be quiet and jump can be at full volume, but if global volume is set to .4f they both scale accordingly.
-    private float startingVolume;
+    [HideInInspector]
+    public float startingVolume;
     void Start()
     {
         audioComponent = GetComponent<AudioSource>();
         startingVolume = audioComponent.volume;
-        Debug.Log("Volume is: " + volume);
+        //Debug.Log("Volume is: " + volume);
     }
 
    
