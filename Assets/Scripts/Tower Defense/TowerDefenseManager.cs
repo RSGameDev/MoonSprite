@@ -8,6 +8,7 @@ public class TowerDefenseManager : MonoBehaviour
 {
     [SerializeField] private HUD.HUD _hud;
     public int health;
+    public GameObject GameOverScreen;
 
     private void Awake()
     {
@@ -31,6 +32,9 @@ public class TowerDefenseManager : MonoBehaviour
 
     public void GameOver()
     {
+        
+        GameOverScreen.SetActive(true);
+        Time.timeScale = 0;
         Debug.Log("GAME OVER");
     }
 }

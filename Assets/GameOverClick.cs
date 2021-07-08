@@ -6,11 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class GameOverClick : MonoBehaviour
 {
-   
+    public void Start()
+    {
+        gameObject.SetActive(false);
+    }
     public void ResetPressed()
     {
         Time.timeScale = 1f;
-        GameManager.instance.ResetScene();
+        SceneControls.Restart();
     }
     public void MainMenuPressed()
     {
