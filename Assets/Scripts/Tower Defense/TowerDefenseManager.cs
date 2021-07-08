@@ -9,9 +9,11 @@ public class TowerDefenseManager : MonoBehaviour
     [SerializeField] private HUD.HUD _hud;
     public int health;
     public GameObject GameOverScreen;
+    private GameObject player;
 
     private void Awake()
     {
+        player = GameObject.FindWithTag("Player");
         Health.health = health;
     }
 
@@ -23,6 +25,7 @@ public class TowerDefenseManager : MonoBehaviour
     public void DamagePlayer(int amount)
     {
         Health.health += amount;
+        player.GetComponent<AudioSource>().Play();
         Debug.Log("Player Health : " + health);
         if(Health.health <= 0)
         {

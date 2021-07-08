@@ -17,6 +17,8 @@ namespace Tower_Defense.Towers
         public Enemy[] enemies;
         public GameObject closetEnemy;
 
+        public AudioSource[] audioSources;
+        
         private float t;
     
     
@@ -33,6 +35,7 @@ namespace Tower_Defense.Towers
 
         private void Update()
         {
+            print(tower.towerName);
             if (t<tower.fireRate)
             {
                 t += Time.deltaTime;
@@ -62,6 +65,19 @@ namespace Tower_Defense.Towers
                 {
                     t = 0;
                     var newBullet = Instantiate(bullets, transform.position, quaternion.identity);
+                    if (tower.towerName == "rapid fire")
+                    {
+                        audioSources[0].Play();
+                    }
+
+                    if (tower.towerName == "Kettle")
+                    {
+                        if (!audioSources[1].isPlaying)
+                        {
+                            audioSources[1].Play();
+                        }
+                        
+                    }
                     newBullet.GetComponent<Projectile>().AssignTarget(closetEnemy);
                     newBullet.GetComponent<Projectile>().AssignProjectile(projectileImage);
                     newBullet.GetComponent<Projectile>().damage = damage;
