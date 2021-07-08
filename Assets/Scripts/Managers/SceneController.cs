@@ -59,7 +59,11 @@ namespace Managers
         private IEnumerator SplashScreenDelay()
         {
             yield return new WaitForSeconds(_splashScreenDelay);
-            splashScreenDisplay.SetActive(false);
+            if (splashScreenDisplay !=null)
+            {
+                splashScreenDisplay.SetActive(false);
+            }
+            
             titleScreenDisplay.SetActive(true);
             _isKeyToEnter = true;
         }
