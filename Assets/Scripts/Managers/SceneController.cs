@@ -19,7 +19,7 @@ namespace Managers
         public GameObject optionsScreenDisplay;
         public GameObject settings;
         public GameObject credits;
-        [SerializeField] private GameObject _gameOverScreen;
+        
         private bool _pauseToggle;
         private Scene _currentScene;
         public string preGameScene;
@@ -59,7 +59,11 @@ namespace Managers
         private IEnumerator SplashScreenDelay()
         {
             yield return new WaitForSeconds(_splashScreenDelay);
-            splashScreenDisplay.SetActive(false);
+            if (splashScreenDisplay !=null)
+            {
+                splashScreenDisplay.SetActive(false);
+            }
+            
             titleScreenDisplay.SetActive(true);
             _isKeyToEnter = true;
         }
@@ -68,9 +72,10 @@ namespace Managers
         {
             if (_currentScene.name != preGameScene && !_referenceInGameDisplays)
             {
+                
                 InitCurrentScene();
-                _gameOverScreen = GameObject.FindWithTag("Game Over Display");
-                _gameOverScreen.SetActive(false);
+               
+               
             }
 
             if (_isKeyToEnter)
@@ -111,11 +116,7 @@ namespace Managers
             _referenceInGameDisplays = true;
         }
 
-        public void GameOverScreen()
-        {
-            _isKeyToEnter = true;
-            _gameOverScreen.SetActive(true);
-        }
+        
 
         private void HitAnyKeyDisplayTransition(Scene scene)
         {
@@ -130,7 +131,7 @@ namespace Managers
                 else
                 {
                     _isKeyToEnter = false;
-                    _gameOverScreen.SetActive(false);
+                    
                     SceneManager.LoadScene(_currentScene.name);
                     _referenceInGameDisplays = false;
                     Time.timeScale = 1f;

@@ -19,6 +19,8 @@ public class GlobalAudio : MonoBehaviour
     void Start()
     {
         audioComponent = GetComponent<AudioSource>();
+        startingVolume = audioComponent.volume;
+        Debug.Log("Volume is: " + volume);
     }
 
    

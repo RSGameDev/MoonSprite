@@ -7,6 +7,7 @@ namespace HUD
     public class HUD : MonoBehaviour
     {
         [SerializeField] private GameObject _pauseScreen;
+        [SerializeField] private GameObject _gameOverScreen;
         public GameObject playerHealth;
         public TextMeshProUGUI playerHealthText;
         private bool _pauseToggle;
@@ -20,11 +21,23 @@ namespace HUD
         private void Start()
         {
             playerHealthText.SetText(Health.health.ToString());
+            _gameOverScreen = GameObject.FindWithTag("Game Over Display");
+            _gameOverScreen.SetActive(false);
+        }
+
+
+        public void GameOverScreen()
+        {
+            
+            _gameOverScreen.SetActive(true);
         }
 
         // Update is called once per frame
         private void Update()
         {
+
+           
+
             playerHealthText.SetText(Health.health.ToString());
             
             if (Input.GetKeyDown(KeyCode.Escape))
