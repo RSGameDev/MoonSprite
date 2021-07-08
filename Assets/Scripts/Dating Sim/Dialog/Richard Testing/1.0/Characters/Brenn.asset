@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f936c152fdc83e4c88ec0ca06f3b3bb, type: 3}
   m_Name: Brenn
   m_EditorClassIdentifier: 
-  slime: 0
+  slime: 1
   characterName: Brenn
   slimeColour: {r: 0.19893196, g: 0.24505116, b: 0.8301887, a: 1}
   characterArt:

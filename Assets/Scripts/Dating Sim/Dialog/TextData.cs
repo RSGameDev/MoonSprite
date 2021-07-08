@@ -14,5 +14,8 @@ public class TextData : ScriptableObject
         public int showCharacter;
         public bool fadeIn;
         public bool fadeOut;
+        public int music;
+        public int sound;
+        public float shaketime;
     }
 }
