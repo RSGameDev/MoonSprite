@@ -20,7 +20,6 @@ public class Player : MonoBehaviour
 
     [Header ("Enviroment Check Properties")]
     [SerializeField] private float footOffset = 0.5f;
-    [SerializeField] private float headClearance = 0.5f;
     [SerializeField] private float groundDistance = 0.2f;
     [SerializeField] private LayerMask groundLayer;
 

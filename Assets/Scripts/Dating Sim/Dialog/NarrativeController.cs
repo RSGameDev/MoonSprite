@@ -27,11 +27,10 @@ public class NarrativeController : MonoBehaviour
 
     private bool _slime;
     private int _cutsceneIndex = 0;
-    private int _characterDataIndex = 0;
     private int _dialogueIndex = 0;
-    private int _multipleChoiceIndex = 0;
 
-    private int _progression = 0;
+
+
     private bool _isChoosing;
     public int _brennDisposition, _mayneDisposition,_zipDisposition;
     public int threshold;

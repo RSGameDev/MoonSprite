@@ -17,7 +17,7 @@ namespace Tower_Defense.Towers
         public Grid grid;
         private int priceIncreaser;
         public bool showRange;
-        private TD_CoinCounter _counter;
+        public TD_CoinCounter _counter;
         private PlayerTowerLevel[] _playerTowerLevel;
         private bool canBuildOnTile;
 
@@ -49,7 +49,7 @@ namespace Tower_Defense.Towers
 
             var worldPosition = cam.ScreenToWorldPoint(Input.mousePosition);
             var gridPosition = grid.WorldToCell(worldPosition);
-            print("gridposition" + gridPosition);
+            //print("gridposition" + gridPosition);
             AbleToBuildTileColour();
             if (canBuildOnTile)
             {
@@ -94,7 +94,7 @@ namespace Tower_Defense.Towers
         {
             tilemap.SetTileFlags(position, TileFlags.None);
             tilemap.SetColor(position, colour);
-            print("tile colour " + position);
+            //print("tile colour " + position);
         }
 
         private Vector3 ClickPosition()
@@ -121,6 +121,7 @@ namespace Tower_Defense.Towers
                     if (_counter.coins >= tower.priceRunTime)
                     {
                         _counter.coins -= tower.priceRunTime;
+                        Debug.Log(_counter.coins);
                         tower.priceRunTime += 10 + priceIncreaser;
                         priceIncreaser += 5;
                         var newTower = Instantiate(towerGO, gridPosition, Quaternion.identity);
