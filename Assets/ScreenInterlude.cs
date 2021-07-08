@@ -19,6 +19,12 @@ public class ScreenInterlude : MonoBehaviour
     {
         _timer += Time.deltaTime;
 
+        if (currentScene.name == "SceneInterlude1" && _timer >= 18)
+        {
+            var scene = SceneController._instance.firstLevel;
+            SceneController._instance.LoadLevel(scene);
+        }
+
         if (currentScene.name == "SceneInterlude2")
         {
             if (_timer >= 7)
@@ -27,24 +33,16 @@ public class ScreenInterlude : MonoBehaviour
             }
         }
         
-        if (_timer >= 15)
+        if (currentScene.name == "SceneInterlude2" && _timer >= 17)
         {
-            if (currentScene.name == "SceneInterlude1")
-            {
-                var scene = SceneController._instance.firstLevel;
-                SceneController._instance.LoadLevel(scene);
-            }
-            if (currentScene.name == "SceneInterlude2")
-            {
-                var scene = SceneController._instance.secondLevel;
-                SceneController._instance.LoadLevel(scene);
-            }
-            if (currentScene.name == "SceneInterlude3")
-            {
-                var scene = SceneController._instance.thirdLevel;
-                SceneController._instance.LoadLevel(scene);
-            }
+            var scene = SceneController._instance.secondLevel;
+            SceneController._instance.LoadLevel(scene);
+        }
 
+        if (currentScene.name == "SceneInterlude3" && _timer >= 17)
+        {
+            var scene = SceneController._instance.thirdLevel;
+            SceneController._instance.LoadLevel(scene);
         }
     }
 }
