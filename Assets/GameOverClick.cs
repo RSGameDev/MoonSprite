@@ -2,21 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using PipLib.Stage;
+using UnityEngine.SceneManagement;
 
 public class GameOverClick : MonoBehaviour
 {
    
-    
-
-    
-    void Update()
+    public void ResetPressed()
     {
-        if (Input.anyKeyDown)
-        {
-
-            Time.timeScale = 1f;
-            GameManager.instance.ResetScene();
-
-        }
+        Time.timeScale = 1f;
+        GameManager.instance.ResetScene();
     }
+    public void MainMenuPressed()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(0);
+    }
+
+    
+    //void Update()
+    //{
+    //    if (Input.anyKeyDown)
+    //    {
+
+    //        Time.timeScale = 1f;
+    //        GameManager.instance.ResetScene();
+
+    //    }
+    //}
 }
