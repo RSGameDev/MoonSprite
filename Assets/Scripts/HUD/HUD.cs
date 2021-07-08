@@ -5,7 +5,10 @@ using UnityEngine;
 namespace HUD
 {
     public class HUD : MonoBehaviour
-    {
+    { 
+        /// <summary>
+        /// whjdjbjkhsbfcjkhsdbcvjhbcsdcsdcjb
+        /// </summary>
         [SerializeField] private GameObject _pauseScreen;
         public GameObject playerHealth;
         public TextMeshProUGUI playerHealthText;

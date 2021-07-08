@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="827d344f-7157-40ec-956c-a6e5df82fcf5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/TowerDefence/Tower.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/TowerDefence/Tower.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CentralTowerDefense.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CentralTowerDefense.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/PlayerTowerLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/PlayerTowerLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HUD/HUD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HUD/HUD.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,11 +92,11 @@
       <option value="$PROJECT_DIR$/Assets/PauseScreen.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Tower Defense/UI/TowerButton.cs" />
       <option value="$PROJECT_DIR$/Assets/tilecolourtest.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/HUD/HUD.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Tower Defense/TowerDefenseManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/SceneController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/PlayerTowerLevel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/HUD/HUD.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tJED1HKqpdcuElUf7PqDD2T6WE" />
