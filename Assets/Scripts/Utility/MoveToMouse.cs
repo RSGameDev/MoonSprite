@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 
 public class MoveToMouse : MonoBehaviour
@@ -9,6 +10,9 @@ public class MoveToMouse : MonoBehaviour
     public float range;
     public float pickRange;
     private Rigidbody2D rb;
+
+    public GameObject coinSfx;
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -25,10 +29,10 @@ public class MoveToMouse : MonoBehaviour
             if (Vector2.Distance(transform.position, mouse.position) < pickRange)
             {
                 FindObjectOfType<TD_CoinCounter>().coins += 10;
+                Instantiate(coinSfx);
                 Destroy(this.gameObject);
             }
         }
-        
     }
 
     private void OnBecameInvisible()

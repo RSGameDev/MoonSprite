@@ -230,3 +230,4 @@ MonoBehaviour:
   strength: 3
   range: 5
   pickRange: 0.5
+  coinSfx: {fileID: 4842241059331153212, guid: 5e7551f037f210749a8a492f432eedc2, type: 3}
