@@ -29,6 +29,9 @@ public class PlayerMovement : MonoBehaviour
     private float coyoteTime;
     private bool isJumping;
 
+    private bool isJumpHeld;
+    private bool hasJumped;
+
     //AudioSource Management;
     public AudioSource[] audioSources;
 
@@ -76,13 +79,21 @@ public class PlayerMovement : MonoBehaviour
             speed = speedMin;
         }
 
+        
 
         //Jumping
         isGrounded = Physics2D.OverlapCircle(feet.position, checkRadius, groundLayer);
         input = Input.GetAxis("Vertical");
-        if (input>0.2f&&(isGrounded || coyoteTime > Time.time) && !isJumping)
+
+        if (input <= 0.2f && !Input.GetButton("Jump"))
+        {
+            hasJumped = false;
+        }
+
+        if ((input>0.2f || Input.GetButton("Jump")) &&(isGrounded || coyoteTime > Time.time) && !isJumping && !hasJumped)
         {
             isJumping = true;
+            hasJumped = true;
             audioSources[1].Play();
             GetComponent<CharacterAnimUpdater>().Jump();
             rb.velocity = new Vector2(rb.velocity.x, jump);
@@ -103,7 +114,8 @@ public class PlayerMovement : MonoBehaviour
             readyToLand = false;
             isJumping = false;
             
-        }
+        }       
+       
     }
 
     void Flip()
