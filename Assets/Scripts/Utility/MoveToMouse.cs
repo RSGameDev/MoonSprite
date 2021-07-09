@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 
 public class MoveToMouse : MonoBehaviour
@@ -28,6 +29,7 @@ public class MoveToMouse : MonoBehaviour
             if (Vector2.Distance(transform.position, mouse.position) < pickRange)
             {
                 FindObjectOfType<TD_CoinCounter>().coins += 10;
+                Instantiate(coinSfx);
                 Destroy(this.gameObject);
             }
         }
