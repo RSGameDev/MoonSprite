@@ -390,7 +390,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "One of the dad's inventions, \na shrink ray when off and shot her."
+  m_text: "One of her dad's inventions, \na shrink ray when off and shot her."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 77bf07c28cddd134686e2512eab17876, type: 2}
   m_sharedMaterial: {fileID: -1899639255803483874, guid: 77bf07c28cddd134686e2512eab17876, type: 2}

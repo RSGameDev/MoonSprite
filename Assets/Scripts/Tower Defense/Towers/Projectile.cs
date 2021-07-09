@@ -5,7 +5,7 @@ namespace Tower_Defense.Towers
 {
     public class Projectile : MonoBehaviour
     {
-        private float speed = 10.0f;
+        public float speed = 10.0f;
         private Vector2 enemyPos;
         private Rigidbody2D rb;
         [HideInInspector]
