@@ -25,6 +25,10 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask groundLayer;
     private bool readyToLand;
 
+    public float coyoteDuration = 1f;
+    private float coyoteTime;
+    private bool isJumping;
+
     //AudioSource Management;
     public AudioSource[] audioSources;
 
@@ -76,8 +80,9 @@ public class PlayerMovement : MonoBehaviour
         //Jumping
         isGrounded = Physics2D.OverlapCircle(feet.position, checkRadius, groundLayer);
         input = Input.GetAxis("Vertical");
-        if (input>0.2f&&isGrounded)
+        if (input>0.2f&&(isGrounded || coyoteTime > Time.time) && !isJumping)
         {
+            isJumping = true;
             audioSources[1].Play();
             GetComponent<CharacterAnimUpdater>().Jump();
             rb.velocity = new Vector2(rb.velocity.x, jump);
@@ -87,10 +92,17 @@ public class PlayerMovement : MonoBehaviour
         {
             readyToLand = true;
         }
+        else
+        {
+            coyoteTime = Time.time + coyoteDuration;
+        }
+     
         if (readyToLand && isGrounded)
         {
             audioSources[2].Play();
             readyToLand = false;
+            isJumping = false;
+            
         }
     }
 
