@@ -89,8 +89,6 @@ namespace Tower_Defense.Towers
                     t = 0;
                     GetComponentInChildren<ParticleSystem>().Emit(1);
                     Debug.Log("pew");
-                    
-                    
                 }
             }
             
