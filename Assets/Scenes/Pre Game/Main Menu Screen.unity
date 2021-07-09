@@ -8258,7 +8258,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3786214617802296093
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8402,6 +8402,10 @@ PrefabInstance:
       propertyPath: titleScreenText
       value: 
       objectReference: {fileID: 1212258936}
+    - target: {fileID: 664173826147819815, guid: bc2d7353e7effa340abe42b0b0a0e85e, type: 3}
+      propertyPath: _splashScreenDelay
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 664173826147819815, guid: bc2d7353e7effa340abe42b0b0a0e85e, type: 3}
       propertyPath: titleScreenDisplay
       value: 
