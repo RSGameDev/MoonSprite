@@ -4026,6 +4026,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1110043831 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2469964055219493819, guid: fd733ea41c02a15489bf4f0a5aaa55ce, type: 3}
+  m_PrefabInstance: {fileID: 5886080465772961720}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1146753021
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4098,6 +4103,10 @@ PrefabInstance:
       propertyPath: sound
       value: 
       objectReference: {fileID: 156235580}
+    - target: {fileID: 4669827003945481411, guid: 06a5616184bf6284496d7716d8594cba, type: 3}
+      propertyPath: coyoteDuration
+      value: 0.23
+      objectReference: {fileID: 0}
     - target: {fileID: 4669827003945481411, guid: 06a5616184bf6284496d7716d8594cba, type: 3}
       propertyPath: audioSources.Array.size
       value: 5
@@ -14580,7 +14589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _pauseScreen: {fileID: 5156260511120604709}
-  _gameOverScreen: {fileID: 0}
+  _gameOverScreen: {fileID: 1110043831}
   playerHealth: {fileID: 3768575081780990173}
   playerHealthText: {fileID: 0}
 --- !u!114 &3768575081573876858
