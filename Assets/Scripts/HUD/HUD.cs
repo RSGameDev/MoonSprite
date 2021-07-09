@@ -1,5 +1,7 @@
+using Managers;
 using PlayerNS;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace HUD
@@ -68,6 +70,11 @@ namespace HUD
         void ResumeButton()
         {
             PauseToggle();
+        }
+
+        public void MainMenu()
+        {
+            SceneController._instance.LoadLevel("Main Menu Screen");
         }
     }
 }

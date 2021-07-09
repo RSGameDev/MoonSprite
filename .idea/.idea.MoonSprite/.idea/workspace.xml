@@ -6,10 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="827d344f-7157-40ec-956c-a6e5df82fcf5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MoonSprite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/TowerDefence/Coin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/TowerDefence/Coin.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/TowerDefence/Tower.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/TowerDefence/Tower.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CentralPlatformer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CentralPlatformer.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/CentralTowerDefense.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CentralTowerDefense.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utility/MoveToMouse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utility/MoveToMouse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Pre Game/Main Menu Screen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Pre Game/Main Menu Screen.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneTransition/SceneInterlude1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneTransition/SceneInterlude1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneTransition/SceneInterlude2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneTransition/SceneInterlude2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HUD/HUD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HUD/HUD.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,28 +41,28 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../Unity Editors/5.6.1f/Editor/2021.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.render-pipelines.universal/Editor/2D/ShadowCaster2DEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TowerMouse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.5.4/Editor/TimelineUtility.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Utility/MoveToMouse.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Utility/MoveToMouse.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/TowerDeploy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Utility/MoveToMouse.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hazards/Knife.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Utility/MoveToMouse.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Dirty_FeedToPrinter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Inspection/Unity/LayerMaskInspector.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.5.4/Editor/Window/WindowConstants.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Utility/MoveToMouse.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ScreenInterlude.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Utility/MoveToMouse.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/destroyUtil.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Utility/MoveToMouse.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Core/Variables/VariablesSaver.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.5.4/Editor/TimelineUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Utility/MoveToMouse.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Utility/MoveToMouse.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Utility/MoveToMouse.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hazards/Knife.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Utility/MoveToMouse.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.5.4/Editor/Window/WindowConstants.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScreenInterlude.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Utility/MoveToMouse.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Utility/MoveToMouse.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/Game Dev/Tranzfuser 2021/MoonSprite/Assets/Scripts/Utility/MoveToMouse.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/153C624F-4E72-438E-BF26-AAC81CAD6111/7c/29169f2c/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hazards/Kettle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Core/Variables/VariablesSaver.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -105,7 +107,6 @@
       <option value="$PROJECT_DIR$/Assets/PauseScreen.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Tower Defense/UI/TowerButton.cs" />
       <option value="$PROJECT_DIR$/Assets/tilecolourtest.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/HUD/HUD.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/SceneController.cs" />
       <option value="$PROJECT_DIR$/Assets/DIRTY FOLDER/DIRT_SceneMover.cs" />
@@ -115,6 +116,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Tower Defense/Towers/TowerDeploy.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Utility/MoveToMouse.cs" />
       <option value="$PROJECT_DIR$/Assets/destroyUtil.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/HUD/HUD.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tJED1HKqpdcuElUf7PqDD2T6WE" />
