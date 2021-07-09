@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using PipLib.Stage;
 
 public class NarrativeController : MonoBehaviour
 {
@@ -104,6 +105,15 @@ public class NarrativeController : MonoBehaviour
             {
                 if (_cutscenes[_cutsceneIndex].cutManagerLink.Length < 2)
                 {
+                    if (_cutscenes[_cutsceneIndex].cutManagerLink[0] == 555)
+                    {
+                        SceneControls.NextLevel();
+                    }
+                    else
+                    {
+                        Application.Quit();
+                    }
+
                     if (_cutscenes[_cutsceneIndex].cutManagerLink[0] != 777)
                     {
                         SetCutScene(_cutscenes[_cutsceneIndex].cutManagerLink[0]);
