@@ -40841,7 +40841,7 @@ MonoBehaviour:
       showCharacter: 0
       fadeIn: 0
       fadeOut: 1
-      music: 2
+      music: -1
       sound: 0
       shaketime: 0
     multipleChoice: []
