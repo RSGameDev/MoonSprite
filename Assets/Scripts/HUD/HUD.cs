@@ -22,6 +22,7 @@ namespace HUD
         {
             playerHealthText.SetText(Health.health.ToString());
             _gameOverScreen = GameObject.FindWithTag("Game Over Display");
+            
             if (_gameOverScreen != null)
             {
                 _gameOverScreen.SetActive(false);

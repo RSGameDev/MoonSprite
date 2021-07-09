@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8246,7 +8246,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3786214617802296093
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8390,6 +8390,10 @@ PrefabInstance:
       propertyPath: titleScreenText
       value: 
       objectReference: {fileID: 1212258936}
+    - target: {fileID: 664173826147819815, guid: bc2d7353e7effa340abe42b0b0a0e85e, type: 3}
+      propertyPath: _splashScreenDelay
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 664173826147819815, guid: bc2d7353e7effa340abe42b0b0a0e85e, type: 3}
       propertyPath: titleScreenDisplay
       value: 

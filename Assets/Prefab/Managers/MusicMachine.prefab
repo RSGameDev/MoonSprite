@@ -52,6 +52,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
 --- !u!82 &1525064829329433422
 AudioSource:
   m_ObjectHideFlags: 0
