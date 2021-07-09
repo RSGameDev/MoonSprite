@@ -92,7 +92,7 @@ namespace Tower_Defense.Towers
                 }
             }
             
-            if (Vector2.Distance(transform.position, closetEnemy.transform.position) > tower.range)
+            if (closetEnemy == null || Vector2.Distance(transform.position, closetEnemy.transform.position) > tower.range)
             {
                 audioSources[1].Stop();
             }
