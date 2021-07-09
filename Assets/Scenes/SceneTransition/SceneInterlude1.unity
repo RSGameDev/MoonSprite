@@ -265,7 +265,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -399,7 +399,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -474,6 +474,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2818202107491779184, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2818202107491779185, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -521,6 +525,10 @@ PrefabInstance:
     - target: {fileID: 2818202107491779187, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
       propertyPath: m_Name
       value: DIRTY SCENE MOVER
+      objectReference: {fileID: 0}
+    - target: {fileID: 2818202107491779187, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
@@ -860,7 +868,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3

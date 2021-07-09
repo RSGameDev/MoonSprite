@@ -109,18 +109,16 @@ public class NarrativeController : MonoBehaviour
                     {
                         SceneControls.NextLevel();
                     }
-                    else
+                    
+
+                    if (_cutscenes[_cutsceneIndex].cutManagerLink[0] == 777)
                     {
                         Application.Quit();
                     }
-
-                    if (_cutscenes[_cutsceneIndex].cutManagerLink[0] != 777)
+                    else
                     {
                         SetCutScene(_cutscenes[_cutsceneIndex].cutManagerLink[0]);
-                    }
-                    else
-                    {
-                        Application.Quit();
+                       
                     }
                    
                 }

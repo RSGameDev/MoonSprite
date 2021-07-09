@@ -1149,6 +1149,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DIRTY SCENE MOVER
       objectReference: {fileID: 0}
+    - target: {fileID: 2818202107491779187, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d045738f0dc43b4f92aeef71bc1a08f, type: 3}
 --- !u!1 &553793356
@@ -4162,15 +4166,23 @@ PrefabInstance:
     - target: {fileID: 1525064829329433421, guid: bf3e12896d92c8545b48f6008d5920d3, type: 3}
       propertyPath: music.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: 3430049097cb9c24587f1604b90810cc, type: 3}
     - target: {fileID: 1525064829329433421, guid: bf3e12896d92c8545b48f6008d5920d3, type: 3}
       propertyPath: music.Array.data[2]
       value: 
       objectReference: {fileID: 8300000, guid: 4cd60b126309ccd45aeb89e9fd400453, type: 3}
     - target: {fileID: 1525064829329433421, guid: bf3e12896d92c8545b48f6008d5920d3, type: 3}
+      propertyPath: music.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 3430049097cb9c24587f1604b90810cc, type: 3}
+    - target: {fileID: 1525064829329433421, guid: bf3e12896d92c8545b48f6008d5920d3, type: 3}
       propertyPath: music.Array.data[4]
       value: 
       objectReference: {fileID: 8300000, guid: 3f70de80589f12e4da477ff7e1c2adb7, type: 3}
+    - target: {fileID: 1525064829329433421, guid: bf3e12896d92c8545b48f6008d5920d3, type: 3}
+      propertyPath: music.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: 3430049097cb9c24587f1604b90810cc, type: 3}
     - target: {fileID: 1525064829329433422, guid: bf3e12896d92c8545b48f6008d5920d3, type: 3}
       propertyPath: Loop
       value: 1
