@@ -8391,6 +8391,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1212258936}
     - target: {fileID: 664173826147819815, guid: bc2d7353e7effa340abe42b0b0a0e85e, type: 3}
+      propertyPath: _splashScreenDelay
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 664173826147819815, guid: bc2d7353e7effa340abe42b0b0a0e85e, type: 3}
       propertyPath: titleScreenDisplay
       value: 
       objectReference: {fileID: 854885034}
