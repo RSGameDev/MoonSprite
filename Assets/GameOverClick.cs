@@ -13,7 +13,7 @@ public class GameOverClick : MonoBehaviour
     public void ResetPressed()
     {
         Time.timeScale = 1f;
-        SceneControls.Restart();
+        FindObjectOfType<GameManager>().ResetScene();
     }
     public void MainMenuPressed()
     {
