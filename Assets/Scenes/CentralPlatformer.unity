@@ -4105,7 +4105,7 @@ PrefabInstance:
       objectReference: {fileID: 156235580}
     - target: {fileID: 4669827003945481411, guid: 06a5616184bf6284496d7716d8594cba, type: 3}
       propertyPath: coyoteDuration
-      value: 0.1
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 4669827003945481411, guid: 06a5616184bf6284496d7716d8594cba, type: 3}
       propertyPath: audioSources.Array.size
