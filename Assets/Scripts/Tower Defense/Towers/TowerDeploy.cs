@@ -76,7 +76,6 @@ namespace Tower_Defense.Towers
                         {
                             audioSources[1].Play();
                         }
-                        
                     }
                     newBullet.GetComponent<Projectile>().AssignTarget(closetEnemy);
                     newBullet.GetComponent<Projectile>().AssignProjectile(projectileImage);
@@ -95,6 +94,10 @@ namespace Tower_Defense.Towers
                 }
             }
             
+            if (Vector2.Distance(transform.position, closetEnemy.transform.position) > tower.range)
+            {
+                audioSources[1].Stop();
+            }
         }
     }
 }

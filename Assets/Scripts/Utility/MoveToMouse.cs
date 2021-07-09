@@ -9,6 +9,9 @@ public class MoveToMouse : MonoBehaviour
     public float range;
     public float pickRange;
     private Rigidbody2D rb;
+
+    private bool _isPlayingSfx;
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -24,12 +27,27 @@ public class MoveToMouse : MonoBehaviour
             rb.AddForce((mouse.position - transform.position) * strength);
             if (Vector2.Distance(transform.position, mouse.position) < pickRange)
             {
+                if (!_isPlayingSfx)
+                {
+                    print("playing");
+                    _isPlayingSfx = true;
+                    GetComponentInChildren<AudioSource>().Play();
+                }
+                print(_isPlayingSfx);
                 FindObjectOfType<TD_CoinCounter>().coins += 10;
-                Destroy(this.gameObject);
+                GetComponent<SpriteRenderer>().enabled = false;
+                //StartCoroutine(DestroyCoin());
+                
             }
         }
-        
     }
+
+    IEnumerator DestroyCoin()
+    {
+        yield return new WaitForSeconds(1.670f);
+        Destroy(this.gameObject);
+    }
+    
 
     private void OnBecameInvisible()
     {
